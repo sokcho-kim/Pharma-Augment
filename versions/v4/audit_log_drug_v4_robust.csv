@@ -1,0 +1,689 @@
+﻿row_id,row_idx,main_name,brand_count,questions_generated,attempt_count,elapsed_ms,provider,model,success
+row_3,3,[일반원칙] 경구용 서방형제제,0,7,3,25829,openai,gpt-4o-mini,True
+row_2,2,[일반원칙] 경구용 만성 B형간염치료제,0,7,3,43551,openai,gpt-4o-mini,True
+row_5,5,[일반원칙] 경구용 항혈전제,0,7,3,48229,openai,gpt-4o-mini,True
+row_0,0,[일반원칙] 간장용제,0,7,3,60270,openai,gpt-4o-mini,True
+row_1,1,[일반원칙] 경구용 뇌대사개선제,0,7,3,64065,openai,gpt-4o-mini,True
+row_4,4,[일반원칙] 경구용 항뇌전증약,0,7,3,67081,openai,gpt-4o-mini,True
+row_7,7,[일반원칙] 고지혈증치료제,0,7,3,23946,openai,gpt-4o-mini,True
+row_12,12,[일반원칙] 기관지천식 치료용흡입제,0,7,3,31234,openai,gpt-4o-mini,True
+row_9,9,[일반원칙] 골다공증치료제,0,7,3,39843,openai,gpt-4o-mini,True
+row_8,8,[일반원칙] 고혈압약제,0,7,3,70611,openai,gpt-4o-mini,True
+row_14,14,[일반원칙] 뇌대사제제 및 뇌순환계용약 주사제,0,7,3,26960,openai,gpt-4o-mini,True
+row_6,6,[일반원칙] 고가의약품 급여관리에 관한 기준,0,7,3,126254,openai,gpt-4o-mini,True
+row_15,15,[일반원칙] 당뇨병용제,0,7,3,37444,openai,gpt-4o-mini,True
+row_16,16,[일반원칙] 동일성분 의약품 중복처방 관리에 관한 기준,0,7,3,41343,openai,gpt-4o-mini,True
+row_10,10,[일반원칙] 국민건강보험 요양급여의 기준에 관한 규칙 제5조제4항에 의하여 중증환자 중 암환자에게 처방·투여하는 약제로서 건강보험심사평가원장이 정하여 공고하는 약제의 범위 및 비용부담,0,7,3,104806,openai,gpt-4o-mini,True
+row_11,11,[일반원칙] 국소지혈제,0,7,3,103777,openai,gpt-4o-mini,True
+row_13,13,[일반원칙] 내용액제,0,7,3,74858,openai,gpt-4o-mini,True
+row_22,22,[일반원칙] 비용효과적인 함량 의약품 사용,0,7,3,39726,openai,gpt-4o-mini,True
+row_23,23,[일반원칙] 비타민제,0,7,3,15832,openai,gpt-4o-mini,True
+row_18,18,[일반원칙] 메르스 코로나바이러스,0,7,3,76891,openai,gpt-4o-mini,True
+row_25,25,[일반원칙] 암질환이 아닌 환자에서의 조혈모세포이식 전처치요법,0,7,3,23421,openai,gpt-4o-mini,True
+row_21,21,[일반원칙] 비결핵항산균,0,7,3,97740,openai,gpt-4o-mini,True
+row_17,17,[일반원칙] 마약성 진통제,0,7,3,118474,openai,gpt-4o-mini,True
+row_19,19,"[일반원칙] 병용금기 성분, 특정연령대 금기 성분 및 임부금기 성분",0,7,3,113887,openai,gpt-4o-mini,True
+row_20,20,[일반원칙] 보조생식술에 사용되는 호르몬 약제,0,7,3,114085,openai,gpt-4o-mini,True
+row_28,28,[일반원칙] 진해거담제,0,7,3,27839,openai,gpt-4o-mini,True
+row_24,24,[일반원칙] 안연고,0,7,3,87256,openai,gpt-4o-mini,True
+row_29,29,[일반원칙] 폐경 후 호르몬요법 인정기준,0,7,3,53840,openai,gpt-4o-mini,True
+row_31,31,[일반원칙] 폐동맥고혈압 약제,0,7,3,42137,openai,gpt-4o-mini,True
+row_32,32,[일반원칙] 필수경구약제,0,7,3,33955,openai,gpt-4o-mini,True
+row_30,30,[일반원칙] 폐경기증후군에 투여하는 약제,0,7,3,68789,openai,gpt-4o-mini,True
+row_33,33,[일반원칙] 항생제,0,7,3,26795,openai,gpt-4o-mini,True
+row_26,26,[일반원칙] 요오드 조영제,0,7,3,113222,openai,gpt-4o-mini,True
+row_27,27,[일반원칙] 주사제의 자가주사 및 장기처방,0,7,3,104669,openai,gpt-4o-mini,True
+row_36,36,[일반원칙] 항파킨슨 약제,0,7,3,25505,openai,gpt-4o-mini,True
+row_34,34,[일반원칙] 항생제 및 항원충제,0,7,3,39357,openai,gpt-4o-mini,True
+row_38,38,[일반원칙] 허가 또는 신고범위 초과 약제 비급여 사용승인에 관한 기준 및 절차,0,7,3,26537,openai,gpt-4o-mini,True
+row_35,35,[일반원칙] 항진균제,0,7,3,54055,openai,gpt-4o-mini,True
+row_41,41,Etomidate 주사제,1,10,3,31187,openai,gpt-4o-mini,True
+row_37,37,[일반원칙] 향정신성약물,0,7,3,71623,openai,gpt-4o-mini,True
+row_42,42,Ketamine HCl 주사제,1,10,3,48426,openai,gpt-4o-mini,True
+row_43,43,Propofol 주사제,1,10,3,45684,openai,gpt-4o-mini,True
+row_44,44,Midazolam 주사제,1,10,3,46656,openai,gpt-4o-mini,True
+row_40,40,[일반원칙] Probiotics,0,7,3,95315,openai,gpt-4o-mini,True
+row_46,46,Carbamazepine 경구제,1,10,3,32924,openai,gpt-4o-mini,True
+row_39,39,[일반원칙] 흡입마취에 사용되는 약제,0,7,3,104532,openai,gpt-4o-mini,True
+row_47,47,Clonazepam 경구제,1,10,3,42740,openai,gpt-4o-mini,True
+row_51,51,Primidone 경구제,1,10,3,17613,openai,gpt-4o-mini,True
+row_45,45,Cannabidiol,1,10,3,61028,openai,gpt-4o-mini,True
+row_48,48,Gabapentin 경구제,1,10,3,41793,openai,gpt-4o-mini,True
+row_49,49,Lamotrigine 경구제,1,10,3,45262,openai,gpt-4o-mini,True
+row_53,53,Sodium valproate 주사제,1,10,3,71253,openai,gpt-4o-mini,True
+row_54,54,Stiripentol 경구제,1,10,3,79095,openai,gpt-4o-mini,True
+row_56,56,자오가·우슬·방풍·두충 ·구척·흑두 건조엑스,1,10,3,60333,openai,gpt-4o-mini,True
+row_55,55,Tetrabenazine 경구제,1,10,3,80719,openai,gpt-4o-mini,True
+row_52,52,Rufinamide 경구제,1,10,3,88871,openai,gpt-4o-mini,True
+row_50,50,Levetiracetam 주사제,1,10,3,104576,openai,gpt-4o-mini,True
+row_57,57,편두통 치료제,0,7,3,38097,openai,gpt-4o-mini,True
+row_59,59,Celecoxib 경구제,1,10,3,44346,openai,gpt-4o-mini,True
+row_62,62,Methotrexate 프리필드시린지 주사제,1,10,3,44015,openai,gpt-4o-mini,True
+row_61,61,Loxoprofen sodium 60mg 경구제,1,10,3,74658,openai,gpt-4o-mini,True
+row_58,58,Celecoxib + 당귀·목과·방풍·속단· 오가피·우슬·위령선·육계·진교·천궁·천마·홍화 25% ethanol soft ext.,1,10,3,81688,openai,gpt-4o-mini,True
+row_60,60,Etoricoxib 경구제,1,10,3,77079,openai,gpt-4o-mini,True
+row_63,63,Polmacoxib 경구제,1,10,3,60394,openai,gpt-4o-mini,True
+row_68,68,Aripiprazole 주사제,1,10,3,20257,openai,gpt-4o-mini,True
+row_64,64,Propacetamol HCl 주사제,1,10,3,76193,openai,gpt-4o-mini,True
+row_67,67,Agomelatine 경구제,1,10,3,46802,openai,gpt-4o-mini,True
+row_70,70,Bupropion 100mg 경구제,1,10,3,41087,openai,gpt-4o-mini,True
+row_65,65,Methylphenidate HCl 서방형 경구제,1,10,3,96054,openai,gpt-4o-mini,True
+row_69,69,Blonanserin 경구제,1,10,3,68577,openai,gpt-4o-mini,True
+row_66,66,Methylphenidate HCl 일반형 경구제,1,10,3,84423,openai,gpt-4o-mini,True
+row_71,71,Bupropion HCl 150mg 경구제,1,10,3,58641,openai,gpt-4o-mini,True
+row_74,74,Duloxetine 경구제,1,10,3,43163,openai,gpt-4o-mini,True
+row_72,72,Clozapine 경구제,1,10,3,79916,openai,gpt-4o-mini,True
+row_76,76,Levomepromazine maleate 경구제,1,10,3,42635,openai,gpt-4o-mini,True
+row_73,73,Desvenlafaxine 경구제,1,10,3,78811,openai,gpt-4o-mini,True
+row_78,78,Paliperidone palmitate 주사제,1,10,3,32441,openai,gpt-4o-mini,True
+row_77,77,Lorazepam 주사제,1,10,3,41747,openai,gpt-4o-mini,True
+row_75,75,Fluvoxamine maleate,1,10,3,70348,openai,gpt-4o-mini,True
+row_79,79,Quetiapine fumarate 경구제,1,10,3,46004,openai,gpt-4o-mini,True
+row_83,83,Tandospirone 경구제,1,10,3,42128,openai,gpt-4o-mini,True
+row_81,81,Sertraline HCl,1,10,3,56278,openai,gpt-4o-mini,True
+row_82,82,Sulpiride 경구제,1,10,3,76636,openai,gpt-4o-mini,True
+row_85,85,Vortioxetine hydrobromide 경구제,1,10,3,49049,openai,gpt-4o-mini,True
+row_84,84,Venlafaxine HCl 서방경구제,1,10,3,76697,openai,gpt-4o-mini,True
+row_80,80,Risperidone 주사제,1,10,3,104757,openai,gpt-4o-mini,True
+row_87,87,Amantadine 경구제,1,10,3,35042,openai,gpt-4o-mini,True
+row_86,86,Alemtuzumab 주사제,1,10,3,67860,openai,gpt-4o-mini,True
+row_90,90,Cladribine 경구제,1,10,3,37175,openai,gpt-4o-mini,True
+row_89,89,Atomoxetine HCl 경구제,1,10,3,44754,openai,gpt-4o-mini,True
+row_92,92,Dimethyl fumarate 경구제,1,10,3,60678,openai,gpt-4o-mini,True
+row_91,91,Clonidine hydrochloride 경구제,1,10,3,65637,openai,gpt-4o-mini,True
+row_88,88,Amantadine 주사제,1,10,3,79407,openai,gpt-4o-mini,True
+row_95,95,Fremanezumab 주사제,1,10,3,44019,openai,gpt-4o-mini,True
+row_96,96,Galantamine 경구제,1,10,3,40622,openai,gpt-4o-mini,True
+row_93,93,Donepezil 경구제,1,10,3,90537,openai,gpt-4o-mini,True
+row_99,99,Memantine 경구제,1,10,3,37237,openai,gpt-4o-mini,True
+row_94,94,Fingolimod HCl 경구제,1,10,3,88439,openai,gpt-4o-mini,True
+row_101,101,Nusinersen sodium 주사제,1,10,3,39040,openai,gpt-4o-mini,True
+row_97,97,Galcanezumab 주사제,2,10,3,86560,openai,gpt-4o-mini,True
+row_103,103,Pregabalin 서방형 경구제,1,10,3,39076,openai,gpt-4o-mini,True
+row_100,100,Modafinil 200mg 경구제,1,10,3,57787,openai,gpt-4o-mini,True
+row_98,98,Glatiramer acetate 주사제,2,10,3,107865,openai,gpt-4o-mini,True
+row_106,106,Rivastigmine 제제,1,10,3,25535,openai,gpt-4o-mini,True
+row_108,108,Teriflunomide 경구제,1,10,3,25106,openai,gpt-4o-mini,True
+row_107,107,Satralizumab 주사제,1,10,3,39924,openai,gpt-4o-mini,True
+row_102,102,Pitolisant hydrochloride 경구제,1,10,3,86966,openai,gpt-4o-mini,True
+row_109,109,Levobupivacaine HCl 25mg 주사제,1,10,3,21984,openai,gpt-4o-mini,True
+row_105,105,Risdiplam 경구제,1,10,3,69865,openai,gpt-4o-mini,True
+row_104,104,Pregabalin 일반형 경구제,1,10,3,73951,openai,gpt-4o-mini,True
+row_113,113,Eperisone hydrochloride 경구제,1,10,3,36763,openai,gpt-4o-mini,True
+row_112,112,baclofen 주사제,2,10,3,42700,openai,gpt-4o-mini,True
+row_114,114,Bethanechol chloride 경구제,1,10,3,25079,openai,gpt-4o-mini,True
+row_115,115,Glycopyrrolate 주사제,1,10,3,31939,openai,gpt-4o-mini,True
+row_117,117,Hyoscine butylbromide 주사제,1,10,3,29265,openai,gpt-4o-mini,True
+row_118,118,Tafamidis meglumine 경구제,1,10,3,35764,openai,gpt-4o-mini,True
+row_111,111,Atracurium besylate 주사제,1,10,3,83353,openai,gpt-4o-mini,True
+row_110,110,Lidocaine HCl 주사제,1,10,3,94949,openai,gpt-4o-mini,True
+row_119,119,Bilberry fruit dried ext. 경구제,1,10,3,40433,openai,gpt-4o-mini,True
+row_120,120,Cyclosporin 0.05% 외용제,1,10,3,29245,openai,gpt-4o-mini,True
+row_121,121,Cyclosporin 0.1% 외용제,1,10,3,36440,openai,gpt-4o-mini,True
+row_116,116,Oxybutynin 경구제,1,10,3,86935,openai,gpt-4o-mini,True
+row_123,123,Natamycin 외용제,1,10,3,34869,openai,gpt-4o-mini,True
+row_122,122,Dexamethasone 700㎍ 이식제,1,10,3,56443,openai,gpt-4o-mini,True
+row_124,124,Omidenepag isopropyl 외용제,1,10,3,50133,openai,gpt-4o-mini,True
+row_125,125,Rebamipide 0.1g/5ml 외용제,1,10,3,57740,openai,gpt-4o-mini,True
+row_127,127,Tafluprost 외용제,1,10,3,40575,openai,gpt-4o-mini,True
+row_130,130,Verteporfin 주사제,1,10,3,39887,openai,gpt-4o-mini,True
+row_126,126,Sodium hyaluronate 18mg/10ml 외용제,1,10,3,78379,openai,gpt-4o-mini,True
+row_128,128,Tosufloxacin tosylate 외용제,1,10,3,81151,openai,gpt-4o-mini,True
+row_131,131,Voretigene neparvovec 주사제,1,10,3,48239,openai,gpt-4o-mini,True
+row_129,129,Triamcinolone acetonide 주사제,1,10,3,77087,openai,gpt-4o-mini,True
+row_133,133,Fluticasone furoate 외용제,1,10,3,32004,openai,gpt-4o-mini,True
+row_134,134,Micronized ciclesonide 외용제,1,10,3,26019,openai,gpt-4o-mini,True
+row_138,138,Rupatadine 경구제,1,10,3,17025,openai,gpt-4o-mini,True
+row_135,135,olopatadine + mometasone furoate 외용제,1,10,3,26295,openai,gpt-4o-mini,True
+row_132,132,Ciprofloxacin HCl + Dexamethasone 외용제,1,10,3,71605,openai,gpt-4o-mini,True
+row_137,137,Piprinhydrinate 제제,1,10,3,39189,openai,gpt-4o-mini,True
+row_136,136,Desloratadine 경구제,1,10,3,54667,openai,gpt-4o-mini,True
+row_139,139,Abrocitinib 경구제,1,10,3,42692,openai,gpt-4o-mini,True
+row_141,141,Basiliximab 주사제,1,10,3,54314,openai,gpt-4o-mini,True
+row_142,142,Belimumab 주사제,1,10,3,56280,openai,gpt-4o-mini,True
+row_145,145,Deucravacitinib 경구제,1,10,3,31948,openai,gpt-4o-mini,True
+row_140,140,Baricitinib 경구제,1,10,3,69447,openai,gpt-4o-mini,True
+row_143,143,Cyclosporine 경구제,1,10,3,55706,openai,gpt-4o-mini,True
+row_144,144,Cyclosporine 주사제,1,10,3,49739,openai,gpt-4o-mini,True
+row_148,148,Everolimus 경구제,1,10,3,41234,openai,gpt-4o-mini,True
+row_150,150,Golimumab 주사제,1,10,3,30796,openai,gpt-4o-mini,True
+row_146,146,Dimethyl fumarate 경구제,1,10,3,57643,openai,gpt-4o-mini,True
+row_151,151,Guselkumab 주사제,1,10,3,44449,openai,gpt-4o-mini,True
+row_149,149,Filgotinib 경구제,1,10,3,56314,openai,gpt-4o-mini,True
+row_153,153,Leflunomide 경구제,1,10,3,25176,openai,gpt-4o-mini,True
+row_147,147,Dupilumab 주사제,1,10,3,72214,openai,gpt-4o-mini,True
+row_154,154,Mycophenolate mofetil 경구제,1,10,3,28477,openai,gpt-4o-mini,True
+row_156,156,Ozanimod 경구제,1,10,3,23204,openai,gpt-4o-mini,True
+row_152,152,Ixekizumab 주사제,1,10,3,55364,openai,gpt-4o-mini,True
+row_155,155,Mycophenolate sodium 경구제,1,10,3,47537,openai,gpt-4o-mini,True
+row_158,158,Risankizumab 주사제,1,10,3,39856,openai,gpt-4o-mini,True
+row_157,157,Rabbit anti-human thymocyte immunoglobulin 주사제,1,10,3,45227,openai,gpt-4o-mini,True
+row_159,159,Secukinumab 주사제,1,10,3,42234,openai,gpt-4o-mini,True
+row_161,161,Tacrolimus 제제,2,10,3,43296,openai,gpt-4o-mini,True
+row_162,162,Tocilizumab 주사제,1,10,3,32241,openai,gpt-4o-mini,True
+row_163,163,Tofacitinib 경구제,1,10,3,30431,openai,gpt-4o-mini,True
+row_160,160,Sirolimus 경구제,1,10,3,58210,openai,gpt-4o-mini,True
+row_164,164,Tralokinumab 주사제,1,10,3,52851,openai,gpt-4o-mini,True
+row_165,165,Upadacitinib 경구제,1,10,3,48954,openai,gpt-4o-mini,True
+row_168,168,Leukotriene 조절제 Montelukast 경구제,1,10,3,33068,openai,gpt-4o-mini,True
+row_169,169,Omalizumab 주사제,1,10,3,36400,openai,gpt-4o-mini,True
+row_167,167,Epinastine 경구제,1,10,3,60730,openai,gpt-4o-mini,True
+row_166,166,Ustekinumab 주사제,1,10,3,63790,openai,gpt-4o-mini,True
+row_174,174,Dronedarone 경구제,1,10,3,26210,openai,gpt-4o-mini,True
+row_171,171,Caffeine and sodium benzoate 주사제,1,10,3,72205,openai,gpt-4o-mini,True
+row_170,170,Pemirolast potassium 시럽제,1,10,3,83406,openai,gpt-4o-mini,True
+row_173,173,Arotinolol HCl 경구제,1,10,3,79751,openai,gpt-4o-mini,True
+row_172,172,Ubidecarenone 경구제,1,10,3,86886,openai,gpt-4o-mini,True
+row_175,175,Esmolol HCl 주사제,1,10,3,78435,openai,gpt-4o-mini,True
+row_177,177,Propranolol HCl 경구제,1,10,3,47636,openai,gpt-4o-mini,True
+row_176,176,Pilsicainide HCl 경구제,1,10,3,66895,openai,gpt-4o-mini,True
+row_178,178,Ambrisentan 경구제,1,10,3,75381,openai,gpt-4o-mini,True
+row_181,181,Doxazosin 경구제,1,10,3,51636,openai,gpt-4o-mini,True
+row_179,179,Azilsartan medoxomil potassium 경구제,1,10,3,75041,openai,gpt-4o-mini,True
+row_184,184,Macitentan 경구제,1,10,3,16918,openai,gpt-4o-mini,True
+row_180,180,Bosentan hydrate 경구제,1,10,3,90684,openai,gpt-4o-mini,True
+row_182,182,Fimasartan potassium 경구제,1,10,3,77208,openai,gpt-4o-mini,True
+row_183,183,Iloprost 흡입액,1,10,3,83258,openai,gpt-4o-mini,True
+row_188,188,"Treprostinil 1mg/mL, 2.5mg/mL, 5mg/mL 주사제",1,10,3,43765,openai,gpt-4o-mini,True
+row_190,190,Efonidipine 경구제,1,10,3,18274,openai,gpt-4o-mini,True
+row_185,185,Phenoxybenzamine 경구제,1,10,3,70051,openai,gpt-4o-mini,True
+row_189,189,Zofenopril calcium 경구제,1,10,3,41244,openai,gpt-4o-mini,True
+row_186,186,Selexipag 경구제,1,10,3,72855,openai,gpt-4o-mini,True
+row_187,187,Sildenafil 경구제,1,10,3,90815,openai,gpt-4o-mini,True
+row_192,192,Nifedipine 경구제,1,10,3,45015,openai,gpt-4o-mini,True
+row_194,194,Nitroglycerin 주사제,1,10,3,38575,openai,gpt-4o-mini,True
+row_191,191,Nicorandil 주사제,1,10,3,56785,openai,gpt-4o-mini,True
+row_195,195,Trimetazidine 경구제,1,10,3,43598,openai,gpt-4o-mini,True
+row_196,196,Verapamil HCl 주사제,1,10,3,35717,openai,gpt-4o-mini,True
+row_193,193,Nimodipine 경구제,1,10,3,74311,openai,gpt-4o-mini,True
+row_200,200,Evolocumab 주사제,1,10,3,35940,openai,gpt-4o-mini,True
+row_198,198,Clopidogrel 경구제,1,10,3,43732,openai,gpt-4o-mini,True
+row_202,202,Ezetimibe+Atorvastatin 복합경구제,1,10,3,15408,openai,gpt-4o-mini,True
+row_197,197,Alirocumab 주사제,1,10,3,59173,openai,gpt-4o-mini,True
+row_201,201,Ezetimibe 경구제,1,10,3,35057,openai,gpt-4o-mini,True
+row_204,204,Lovastatin 경구제,1,10,3,31543,openai,gpt-4o-mini,True
+row_206,206,Omega-3-acid ethyl esters 90 + atorvastatin 복합경구제,1,10,3,34934,openai,gpt-4o-mini,True
+row_203,203,Ezetimibe+Fenofibrate 복합경구제,1,10,3,47593,openai,gpt-4o-mini,True
+row_199,199,Clopidogrel + Aspirin 복합경구제,1,10,3,87575,openai,gpt-4o-mini,True
+row_208,208,고혈압치료제 + 고지혈증치료제 복합경구제,0,7,3,24219,openai,gpt-4o-mini,True
+row_209,209,Abciximab 주사제,1,10,3,29811,openai,gpt-4o-mini,True
+row_210,210,Adenosine 주사제,1,10,3,44883,openai,gpt-4o-mini,True
+row_207,207,Omega-3-acid ethyl esters 90 + Rosuvastatin 복합경구제,1,10,3,78624,openai,gpt-4o-mini,True
+row_205,205,Omega-3-acid ethyl esters 90 경구제,1,10,3,98657,openai,gpt-4o-mini,True
+row_213,213,Alteplase 주사제,1,10,3,28207,openai,gpt-4o-mini,True
+row_212,212,Alprostadil a-cyclodextrin 주사제,1,10,3,62555,openai,gpt-4o-mini,True
+row_216,216,Aspirin 25mg + Dipyridamole 200mg 경구제,1,10,3,32469,openai,gpt-4o-mini,True
+row_211,211,Alprostadil 주사제,1,10,3,91009,openai,gpt-4o-mini,True
+row_218,218,Citicoline 주사제,1,10,3,24331,openai,gpt-4o-mini,True
+row_214,214,Argatroban 주사제,1,10,3,62126,openai,gpt-4o-mini,True
+row_215,215,Aspirin 경구제,1,10,3,67501,openai,gpt-4o-mini,True
+row_217,217,Citicoline 경구제,1,10,3,66779,openai,gpt-4o-mini,True
+row_220,220,Ferric citrate 경구제,1,10,3,33605,openai,gpt-4o-mini,True
+row_219,219,Dobesilate calcium 경구제,1,10,3,43957,openai,gpt-4o-mini,True
+row_221,221,Finerenone 경구제,1,10,3,39373,openai,gpt-4o-mini,True
+row_223,223,Icatibant 주사제,1,10,3,25040,openai,gpt-4o-mini,True
+row_224,224,Ivabradine 경구제,1,10,3,36672,openai,gpt-4o-mini,True
+row_222,222,Ginkgo biloba extract 경구제,1,10,3,62482,openai,gpt-4o-mini,True
+row_228,228,L-Carnitine,2,10,3,31270,openai,gpt-4o-mini,True
+row_225,225,Kallidinogenase 경구제,1,10,3,57425,openai,gpt-4o-mini,True
+row_227,227,Limaprost a-cyclodextrin 경구제,1,10,3,53869,openai,gpt-4o-mini,True
+row_229,229,Milrinone 주사제,1,10,3,30185,openai,gpt-4o-mini,True
+row_226,226,Lanthanum carbonate 경구제,1,10,3,64978,openai,gpt-4o-mini,True
+row_230,230,"Nicergoline 5mg, 10mg 경구제",1,10,3,40426,openai,gpt-4o-mini,True
+row_234,234,Sodium ozagrel 주사제,1,10,3,35192,openai,gpt-4o-mini,True
+row_235,235,Sucroferric oxyhydroxide 경구제,1,10,3,38629,openai,gpt-4o-mini,True
+row_232,232,Sacubitril·Valsartan 경구제,1,10,3,53518,openai,gpt-4o-mini,True
+row_233,233,"Sevelamer HCl 400mg, 800mg 경구제",1,10,3,57671,openai,gpt-4o-mini,True
+row_231,231,Pentoxifylline 경구제,1,10,3,77854,openai,gpt-4o-mini,True
+row_236,236,Tenecteplase 주사제,1,10,3,42509,openai,gpt-4o-mini,True
+row_237,237,Tirofiban HCl,1,10,3,31254,openai,gpt-4o-mini,True
+row_240,240,vitis vinifera ext. 경구제,1,10,3,41499,openai,gpt-4o-mini,True
+row_241,241,Fluticasone propionate + Formoterol 흡입제,1,10,3,42247,openai,gpt-4o-mini,True
+row_239,239,Vericiguat 경구제,1,10,3,53030,openai,gpt-4o-mini,True
+row_245,245,Acetylcysteine 흡입액,1,10,3,17844,openai,gpt-4o-mini,True
+row_238,238,Tolvaptan 경구제,1,10,3,79329,openai,gpt-4o-mini,True
+row_242,242,Vilanterol trifenatate + Fluticasone furoate 흡입제,1,10,3,64317,openai,gpt-4o-mini,True
+row_246,246,Ambroxol HCl 주사제,1,10,3,26665,openai,gpt-4o-mini,True
+row_243,243,Caffeine citrate 주사제,1,10,3,69108,openai,gpt-4o-mini,True
+row_244,244,Acetylcysteine 주사제,1,10,3,49862,openai,gpt-4o-mini,True
+row_251,251,Ivy leaf 30% ethanol dried ext. 시럽제,1,10,3,18294,openai,gpt-4o-mini,True
+row_249,249,Fluticasone furoate 흡입제,1,10,3,33162,openai,gpt-4o-mini,True
+row_247,247,Beclomethasone dipropionate + Formoterol 흡입제,2,10,3,56669,openai,gpt-4o-mini,True
+row_252,252,Salbutamol 경구제,1,10,3,34190,openai,gpt-4o-mini,True
+row_248,248,Ciclesonide 외용제,1,10,3,65152,openai,gpt-4o-mini,True
+row_257,257,Benralizumab 주사제,1,10,3,16546,openai,gpt-4o-mini,True
+row_255,255,만성폐쇄성폐질환 흡입용 치료제,0,7,3,37622,openai,gpt-4o-mini,True
+row_256,256,Beclometasone dipropionate + Formoterol fumarate + Glycopyrronium bromide흡입제,3,10,3,34914,openai,gpt-4o-mini,True
+row_250,250,Formoterol fumarate +,1,10,3,99148,openai,gpt-4o-mini,True
+row_253,253,Salbutamol sulfate 흡입액,1,10,3,83714,openai,gpt-4o-mini,True
+row_260,260,Lung surfactant,1,10,3,45722,openai,gpt-4o-mini,True
+row_261,261,mepolizumab 주사제,1,10,3,39417,openai,gpt-4o-mini,True
+row_258,258,Indacaterol acetate+ Glycopyrronium bromide+ Mometasone furoate 흡입제,3,10,3,71507,openai,gpt-4o-mini,True
+row_259,259,Indacaterol acetate +Mometasone furoate 흡입제,2,10,3,77863,openai,gpt-4o-mini,True
+row_254,254,Salmeterol xinafoate + Fluticasone propionate 흡입제,1,10,3,147340,openai,gpt-4o-mini,True
+row_262,262,Pirfenidone 경구제,1,10,3,86881,openai,gpt-4o-mini,True
+row_264,264,Roflumilast 경구제,1,10,3,62961,openai,gpt-4o-mini,True
+row_263,263,Reslizumab 주사제,1,10,3,82358,openai,gpt-4o-mini,True
+row_265,265,Salmeterol xinafoate micronized + budesonide 흡입제,2,10,3,69290,openai,gpt-4o-mini,True
+row_266,266,Sivelestat sodium hydrate 주사제,1,10,3,68751,openai,gpt-4o-mini,True
+row_268,268,Vilanterol trifenatate + Fluticasone furoate + Umeclidinium 흡입제,1,10,3,39995,openai,gpt-4o-mini,True
+row_271,271,프로톤 펌프 억제 경구제 Omeprazole,1,10,3,40580,openai,gpt-4o-mini,True
+row_270,270,Doxycycline hyclate 20mg 경구제,1,10,3,43211,openai,gpt-4o-mini,True
+row_267,267,Tiotropium 흡입제,1,10,3,82244,openai,gpt-4o-mini,True
+row_269,269,가글 용제,1,10,3,81365,openai,gpt-4o-mini,True
+row_275,275,Fexuprazan 경구제,1,10,3,27008,openai,gpt-4o-mini,True
+row_274,274,Bismuth 경구제,1,10,3,41085,openai,gpt-4o-mini,True
+row_272,272,프로톤 펌프 억제 주사제 Pantoprazole sodium,1,10,3,70078,openai,gpt-4o-mini,True
+row_273,273,Artemisia asiatica 95% ethanol ext. 경구제,1,10,3,81755,openai,gpt-4o-mini,True
+row_279,279,Lafutidine 경구제,1,10,3,35614,openai,gpt-4o-mini,True
+row_276,276,H2 수용체 길항 주사제,1,10,3,79613,openai,gpt-4o-mini,True
+row_280,280,Polaprezinc 경구제,1,10,3,44883,openai,gpt-4o-mini,True
+row_277,277,Ilaprazole 경구제,1,10,3,64030,openai,gpt-4o-mini,True
+row_278,278,Irsogladine maleate 경구제,1,10,3,81134,openai,gpt-4o-mini,True
+row_284,284,Sulglycotide 경구제,1,10,3,36969,openai,gpt-4o-mini,True
+row_281,281,Roxatidine acetate HCl 경구제,1,10,3,95477,openai,gpt-4o-mini,True
+row_285,285,Tegoprazan 경구제,1,10,3,69642,openai,gpt-4o-mini,True
+row_283,283,Sodium alginate 경구제,1,10,3,79804,openai,gpt-4o-mini,True
+row_282,282,S-pantoprazole 경구제,1,10,3,95083,openai,gpt-4o-mini,True
+row_287,287,Pyridoxine Hydrochloride + Doxylamine Succinate 복합경구제,1,10,3,62863,openai,gpt-4o-mini,True
+row_289,289,"Sodium docusate, D-sorbitol 복합 제제",1,10,3,34776,openai,gpt-4o-mini,True
+row_288,288,Prucalopride succinate 경구제,1,10,3,48766,openai,gpt-4o-mini,True
+row_291,291,Calcium polycarbophil 경구제,1,10,3,44733,openai,gpt-4o-mini,True
+row_286,286,항구토제,0,7,3,111836,openai,gpt-4o-mini,True
+row_294,294,Mesalazine 제제,1,10,3,38298,openai,gpt-4o-mini,True
+row_293,293,E.Coli strain Nissle 1917 동결건조물 14mg 경구제,1,10,3,52303,openai,gpt-4o-mini,True
+row_290,290,Beclomethasone dipropionate 경구제,1,10,3,94352,openai,gpt-4o-mini,True
+row_292,292,Dexpanthenol 주사제,1,10,3,82231,openai,gpt-4o-mini,True
+row_296,296,"Ramosetron HCl 2.5㎍, 5㎍ 경구제",1,10,3,55516,openai,gpt-4o-mini,True
+row_295,295,Migalastat 경구제,1,10,3,70589,openai,gpt-4o-mini,True
+row_297,297,Somatostatin acetate 주사제,1,10,3,60562,openai,gpt-4o-mini,True
+row_300,300,Somatrogon 주사제,1,10,3,54288,openai,gpt-4o-mini,True
+row_298,298,Desmopressin acetate 경구제,1,10,3,81330,openai,gpt-4o-mini,True
+row_301,301,Somatropin 서방형 주사제,1,10,3,82460,openai,gpt-4o-mini,True
+row_299,299,Desmopressin acetate 주사제,1,10,3,108021,openai,gpt-4o-mini,True
+row_303,303,Terlipressin acetate 주사제,1,10,3,66624,openai,gpt-4o-mini,True
+row_302,302,Somatropin 주사제,1,10,3,84038,openai,gpt-4o-mini,True
+row_304,304,Vasopressin 20U 주사제,1,10,3,54708,openai,gpt-4o-mini,True
+row_305,305,Teriparatide acetate 주사제,1,10,3,103511,openai,gpt-4o-mini,True
+row_307,307,Thyrotropin 주사제,1,10,3,66780,openai,gpt-4o-mini,True
+row_310,310,Budesonide,1,10,3,54061,openai,gpt-4o-mini,True
+row_306,306,Teriparatide 주사제,1,10,3,79676,openai,gpt-4o-mini,True
+row_308,308,Oxymetholone 경구제,1,10,3,105854,openai,gpt-4o-mini,True
+row_312,312,Epinephrine bitartrate 주사제,1,10,3,66266,openai,gpt-4o-mini,True
+row_314,314,Methylprednisolone sodium succinate 주사제,1,10,3,64905,openai,gpt-4o-mini,True
+row_309,309,스테로이드 주사제,1,10,3,136530,openai,gpt-4o-mini,True
+row_311,311,Deflazacort 경구제,1,10,3,82400,openai,gpt-4o-mini,True
+row_313,313,Epinephrine 제제,1,10,3,91022,openai,gpt-4o-mini,True
+row_315,315,Triamcinolone acetonide 주사제,1,10,3,49455,openai,gpt-4o-mini,True
+row_316,316,Danazol 경구제,1,10,3,38691,openai,gpt-4o-mini,True
+row_320,320,Levonorgestrol 제제,1,10,3,42900,openai,gpt-4o-mini,True
+row_321,321,Medroxyprogesterone acetate 경구제,1,10,3,55336,openai,gpt-4o-mini,True
+row_317,317,Dienogest 경구제,1,10,3,77968,openai,gpt-4o-mini,True
+row_322,322,난포자극호르몬,0,7,3,74659,openai,gpt-4o-mini,True
+row_318,318,Estradiol hemihydrate 경구제,1,10,3,102632,openai,gpt-4o-mini,True
+row_323,323,태반성성선자극호르몬,1,10,3,48913,openai,gpt-4o-mini,True
+row_319,319,Estradiol valerate 경구제,1,10,3,106398,openai,gpt-4o-mini,True
+row_324,324,Clomiphene citrate 경구제,1,10,3,52062,openai,gpt-4o-mini,True
+row_325,325,Darbepoetin alpha 주사제,1,10,3,57077,openai,gpt-4o-mini,True
+row_326,326,Erythropoietin 주사제,1,10,3,30154,openai,gpt-4o-mini,True
+row_328,328,GnRH antagonist 주사제,0,7,3,34163,openai,gpt-4o-mini,True
+row_329,329,Long-acting octreotide 주사제,1,10,3,47848,openai,gpt-4o-mini,True
+row_327,327,Follitropin-a + lutropin a,1,10,3,71156,openai,gpt-4o-mini,True
+row_335,335,Pegvisomant 주사제,1,10,3,17803,openai,gpt-4o-mini,True
+row_334,334,Pasireotide pamoate 주사제,1,10,3,40257,openai,gpt-4o-mini,True
+row_331,331,Menotrophin 주사제,1,10,3,75931,openai,gpt-4o-mini,True
+row_330,330,Lutropin alpha,0,7,3,86904,openai,gpt-4o-mini,True
+row_337,337,5알파 환원효소 억제제 경구제,0,7,3,12972,openai,gpt-4o-mini,True
+row_332,332,Methoxy polyethylene glycol-epoetin β 주사제,1,10,3,94074,openai,gpt-4o-mini,True
+row_333,333,Octreotide 주사제,1,10,3,86146,openai,gpt-4o-mini,True
+row_336,336,Methylergonovine maleate 주사제,1,10,3,38605,openai,gpt-4o-mini,True
+row_338,338,Alfuzosin 경구제,1,10,3,24317,openai,gpt-4o-mini,True
+row_341,341,Fesoterodine fumarate 경구제,1,10,3,11320,openai,gpt-4o-mini,True
+row_344,344,Potassium citrate 경구제,1,10,3,21722,openai,gpt-4o-mini,True
+row_342,342,Mirabegron 경구제,1,10,3,29125,openai,gpt-4o-mini,True
+row_339,339,Atosiban 주사제,1,10,3,55058,openai,gpt-4o-mini,True
+row_345,345,"Potassium citrate, Citric acid 경구제",1,10,3,30215,openai,gpt-4o-mini,True
+row_340,340,"dutasteride 0.5mg, tamsulosin hydrochloride 0.4mg 복합경구제",1,10,3,68843,openai,gpt-4o-mini,True
+row_347,347,Solifenacin 경구제,1,10,3,28018,openai,gpt-4o-mini,True
+row_343,343,Naftopidil 경구제,1,10,3,60384,openai,gpt-4o-mini,True
+row_346,346,Silodosin 경구제,1,10,3,65885,openai,gpt-4o-mini,True
+row_352,352,Mafenide acetate 외용제,1,10,3,38582,openai,gpt-4o-mini,True
+row_348,348,Tamsulosin HCl 경구제,1,10,3,68044,openai,gpt-4o-mini,True
+row_349,349,Terazosin HCl 경구제,1,10,3,66314,openai,gpt-4o-mini,True
+row_350,350,Tolterodine 경구제,1,10,3,61517,openai,gpt-4o-mini,True
+row_353,353,Recombinant human epidermal growth factor 500mcg,1,10,3,46659,openai,gpt-4o-mini,True
+row_351,351,Povidone iodine 외용제,1,10,3,101165,openai,gpt-4o-mini,True
+row_355,355,코르티코스테로이드 피부 도포제,0,7,3,72521,openai,gpt-4o-mini,True
+row_354,354,진통·진양·수렴·소염 외용제,0,7,3,88118,openai,gpt-4o-mini,True
+row_356,356,Ammonium lactate 외용제,1,10,3,91877,openai,gpt-4o-mini,True
+row_357,357,Buprenorphine 패취제,1,10,3,92993,openai,gpt-4o-mini,True
+row_359,359,Lidocaine 패취제,1,10,3,59968,openai,gpt-4o-mini,True
+row_358,358,Capsaicin 외용제,1,10,3,92018,openai,gpt-4o-mini,True
+row_362,362,Calcipotriol 외용제,1,10,3,32523,openai,gpt-4o-mini,True
+row_360,360,Fluconazole 외용제,1,10,3,63770,openai,gpt-4o-mini,True
+row_361,361,Imiquimod 12.5mg 외용제,1,10,3,68278,openai,gpt-4o-mini,True
+row_365,365,Tacalcitol 20.87mcg/g 외용제,1,10,3,31451,openai,gpt-4o-mini,True
+row_366,366,Tacrolimus 외용제,1,10,3,33573,openai,gpt-4o-mini,True
+row_363,363,Penciclovir 외용제,1,10,3,66014,openai,gpt-4o-mini,True
+row_367,367,Calcitriol 경구제,1,10,3,43405,openai,gpt-4o-mini,True
+row_364,364,Pimecrolimus 외용제,1,10,3,68349,openai,gpt-4o-mini,True
+row_370,370,수용성비타민·엽산 복합성분 경구제,1,10,3,30462,openai,gpt-4o-mini,True
+row_368,368,Calcitriol 주사제,1,10,3,38300,openai,gpt-4o-mini,True
+row_371,371,액제형 철분제제,1,10,3,34036,openai,gpt-4o-mini,True
+row_375,375,단백아미노산 제제,0,7,3,16058,openai,gpt-4o-mini,True
+row_372,372,철분주사제,1,10,3,30612,openai,gpt-4o-mini,True
+row_373,373,Iron acetyl-transferrin 200mg 경구제,1,10,3,38083,openai,gpt-4o-mini,True
+row_376,376,A액,1,10,3,31238,openai,gpt-4o-mini,True
+row_369,369,Paricalcitol 주사제,1,10,3,81512,openai,gpt-4o-mini,True
+row_378,378,"L-leucine, L-phenylalanine, L-methionine 등 주사제",1,10,3,32134,openai,gpt-4o-mini,True
+row_374,374,경장영양제,1,10,3,68335,openai,gpt-4o-mini,True
+row_380,380,a-Keto-DL-isoleuci ne calcium 67.0mg외 9종 경구제,1,10,3,25186,openai,gpt-4o-mini,True
+row_377,377,Glycyl-L-glutamine 주사제,1,10,3,65350,openai,gpt-4o-mini,True
+row_381,381,Lipid 주사제,1,10,3,43190,openai,gpt-4o-mini,True
+row_382,382,Eptacog alfa 주사제,1,10,3,45045,openai,gpt-4o-mini,True
+row_379,379,N,1,10,3,72205,openai,gpt-4o-mini,True
+row_383,383,Gelatin sponge 외용제,1,10,3,44146,openai,gpt-4o-mini,True
+row_384,384,Idarucizumab 주사제,1,10,3,64975,openai,gpt-4o-mini,True
+row_388,388,Tranexamic acid 경구제,1,10,3,35857,openai,gpt-4o-mini,True
+row_385,385,Oxidized regenerated cellulose,1,10,3,58603,openai,gpt-4o-mini,True
+row_386,386,P-aminomethyl benzoic acid 주사제,1,10,3,63493,openai,gpt-4o-mini,True
+row_387,387,Thrombin 제제,0,7,3,72024,openai,gpt-4o-mini,True
+row_390,390,Dabigatran 경구제,1,10,3,40250,openai,gpt-4o-mini,True
+row_392,392,Defibrotide 주사제,1,10,3,34063,openai,gpt-4o-mini,True
+row_389,389,Apixaban 경구제,1,10,3,80410,openai,gpt-4o-mini,True
+row_393,393,Edoxaban Tosilate Hydrate 경구제,1,10,3,60733,openai,gpt-4o-mini,True
+row_394,394,Enoxaparin sodium 주사제,1,10,3,57760,openai,gpt-4o-mini,True
+row_396,396,Heparin 주사제,0,7,3,55506,openai,gpt-4o-mini,True
+row_391,391,Dalteparin sodium 주사제,1,10,3,95574,openai,gpt-4o-mini,True
+row_395,395,Fondaparinux sodium 주사제,1,10,3,69236,openai,gpt-4o-mini,True
+row_398,398,Rivaroxaban 경구제,1,10,3,31658,openai,gpt-4o-mini,True
+row_397,397,Nadroparin 주사제,1,10,3,66351,openai,gpt-4o-mini,True
+row_399,399,Cilostazol 경구제,1,10,3,37010,openai,gpt-4o-mini,True
+row_402,402,Emicizumab 주사제,1,10,3,40507,openai,gpt-4o-mini,True
+row_403,403,G-CSF 주사제 filgrastim,1,10,3,54076,openai,gpt-4o-mini,True
+row_401,401,Eltrombopag olamine 경구제,1,10,3,72379,openai,gpt-4o-mini,True
+row_400,400,Damoctocog alfa pegol 주사제,1,10,3,79516,openai,gpt-4o-mini,True
+row_406,406,Plerixafor 주사제,1,10,3,39354,openai,gpt-4o-mini,True
+row_404,404,Hydroxyethyl starch 함유 제제,1,10,3,66002,openai,gpt-4o-mini,True
+row_405,405,Pentastarch 제제,1,10,3,69944,openai,gpt-4o-mini,True
+row_409,409,Recombinant blood coagulation factor IX 주사제,1,10,3,39309,openai,gpt-4o-mini,True
+row_407,407,Recombinant blood coagulation factor VIII 주사제,1,10,3,49298,openai,gpt-4o-mini,True
+row_410,410,"Recombinant blood coagulation factor IX, albumun fusion protein Albutrepenonacog a 주사제",1,10,3,44880,openai,gpt-4o-mini,True
+row_408,408,Recombinant blood coagulation factor VIII-Fc fusion protein Efmoroctocog a 주사제,1,10,3,63769,openai,gpt-4o-mini,True
+row_411,411,Recombinant blood coagulation factor IX-Fc fusion protein Eftrenonacog a 주사제,1,10,3,44617,openai,gpt-4o-mini,True
+row_412,412,Recombinant blood coagulation factor IX Nonacog gamma 주사제,1,10,3,41249,openai,gpt-4o-mini,True
+row_414,414,Susoctocog alfa 주사제,1,10,3,38521,openai,gpt-4o-mini,True
+row_416,416,복막투석액,0,7,3,59198,openai,gpt-4o-mini,True
+row_413,413,Romiplostim 주사제,1,10,3,81576,openai,gpt-4o-mini,True
+row_417,417,L-methionine 외 복막투석액,1,10,3,67703,openai,gpt-4o-mini,True
+row_418,418,Calcium chloride 외,1,10,3,83225,openai,gpt-4o-mini,True
+row_415,415,Ticlopidine HCl 경구제,1,10,3,94011,openai,gpt-4o-mini,True
+row_420,420,Lamivudine 100mg 경구제,1,10,3,34140,openai,gpt-4o-mini,True
+row_419,419,D-mannitol + D-sorbitol,1,10,3,77086,openai,gpt-4o-mini,True
+row_426,426,Sodium thiosulfate 주사제,1,10,3,37426,openai,gpt-4o-mini,True
+row_421,421,구형흡착탄 경구제,1,10,3,74211,openai,gpt-4o-mini,True
+row_425,425,Leucovorin calcium 주사제,1,10,3,43897,openai,gpt-4o-mini,True
+row_422,422,Betaine anhydrous 180g 경구제,1,10,3,73495,openai,gpt-4o-mini,True
+row_424,424,Flumazenil 주사제,1,10,3,57628,openai,gpt-4o-mini,True
+row_423,423,Deferasirox 경구제,1,10,3,70156,openai,gpt-4o-mini,True
+row_428,428,Colchicine 경구제,1,10,3,42112,openai,gpt-4o-mini,True
+row_427,427,Zinc acetate 경구제,1,10,3,64064,openai,gpt-4o-mini,True
+row_431,431,Alglucosidase alfa 주사제,1,10,3,60374,openai,gpt-4o-mini,True
+row_430,430,Agalsidase β 37mg 주사제,1,10,3,70780,openai,gpt-4o-mini,True
+row_429,429,Agalsidase alfa 3.5mg 주사제,1,10,3,77966,openai,gpt-4o-mini,True
+row_434,434,Galsulfase 주사제,1,10,3,32908,openai,gpt-4o-mini,True
+row_435,435,Idursulfase 주사제,1,10,3,20477,openai,gpt-4o-mini,True
+row_432,432,Asfotase alfa 주사제,2,10,3,72421,openai,gpt-4o-mini,True
+row_433,433,Elosulfase alfa 5mg 주사제,1,10,3,55380,openai,gpt-4o-mini,True
+row_437,437,당뇨병용제 + 고지혈증 복합경구제,0,7,3,27397,openai,gpt-4o-mini,True
+row_439,439,Empagliflozin 경구제,1,10,3,26685,openai,gpt-4o-mini,True
+row_438,438,Dapagliflozin 경구제,1,10,3,55093,openai,gpt-4o-mini,True
+row_440,440,Metformin 경구제,1,10,3,56572,openai,gpt-4o-mini,True
+row_436,436,Rasburicase 주사제,1,10,3,85094,openai,gpt-4o-mini,True
+row_443,443,Avocado soya unsaponifiables 경구제,1,10,3,44545,openai,gpt-4o-mini,True
+row_441,441,Pioglitazone 경구제,1,10,3,70761,openai,gpt-4o-mini,True
+row_442,442,4:1 w/w mixed hydrogel of sodium hyaluronate gel crosslinked by divinyl sulfone and sodium hyaluronate 주사제,1,10,3,69932,openai,gpt-4o-mini,True
+row_445,445,Bromocryptine mesylate 경구제,1,10,3,34833,openai,gpt-4o-mini,True
+row_449,449,Cinacalcet HCl 경구제,1,10,3,42601,openai,gpt-4o-mini,True
+row_447,447,Cabergoline 경구제,1,10,3,55655,openai,gpt-4o-mini,True
+row_444,444,BDDE bridged sodium hyaluronate 60mg 주사제,1,10,3,95689,openai,gpt-4o-mini,True
+row_446,446,Burosumab 주사제,1,10,3,87525,openai,gpt-4o-mini,True
+row_448,448,Carglumic acid 경구제,1,10,3,94206,openai,gpt-4o-mini,True
+row_450,450,Denosumab 주사제,1,10,3,82329,openai,gpt-4o-mini,True
+row_452,452,Eliglustat tartrate 경구제,1,10,3,50919,openai,gpt-4o-mini,True
+row_454,454,Miglustat 경구제,1,10,3,36126,openai,gpt-4o-mini,True
+row_453,453,Lactulose 경구제 [전문의약품],1,10,3,43209,openai,gpt-4o-mini,True
+row_451,451,Disodium etidronate 경구제,1,10,3,72767,openai,gpt-4o-mini,True
+row_456,456,Nitisinone 경구제,1,10,3,32705,openai,gpt-4o-mini,True
+row_457,457,Pamidronate 제제,1,10,3,42759,openai,gpt-4o-mini,True
+row_458,458,proteolytic peptide from porcine brain 주사제,1,10,3,33343,openai,gpt-4o-mini,True
+row_455,455,Nafamostat 주사제,1,10,3,65730,openai,gpt-4o-mini,True
+row_462,462,Sodium hyaluronate 20mg 주사제,1,10,3,36025,openai,gpt-4o-mini,True
+row_460,460,S-adenosyl-L-met hionine sulfate-P-toluene sulfonate 경구제,1,10,3,63558,openai,gpt-4o-mini,True
+row_459,459,Romosozumab 주사제,1,10,3,67522,openai,gpt-4o-mini,True
+row_461,461,Sodium alendronate 시럽제,1,10,3,60326,openai,gpt-4o-mini,True
+row_464,464,Thioctic acid 주사제,1,10,3,41604,openai,gpt-4o-mini,True
+row_463,463,Sodium hyaluronate 25mg 주사제,1,10,3,72321,openai,gpt-4o-mini,True
+row_469,469,6-Mercaptopurine 경구제,1,10,3,40346,openai,gpt-4o-mini,True
+row_468,468,5-fluorouracil 주사제,1,10,3,48724,openai,gpt-4o-mini,True
+row_465,465,Zoledronic acid 5mg/100ml 주사제,2,10,3,72625,openai,gpt-4o-mini,True
+row_466,466,a-lipoic acid,0,7,3,72504,openai,gpt-4o-mini,True
+row_467,467,상황균사체엑스 경구제,1,10,3,72992,openai,gpt-4o-mini,True
+row_472,472,GnRH agonist 주사제,0,7,3,32271,openai,gpt-4o-mini,True
+row_470,470,Cyclophosphamide 제제,0,7,3,67534,openai,gpt-4o-mini,True
+row_474,474,Interferon α-2b 주사제,1,10,3,67930,openai,gpt-4o-mini,True
+row_471,471,Etoposide 제제,0,7,3,86383,openai,gpt-4o-mini,True
+row_473,473,Interferon α-2a 주사제,1,10,3,80261,openai,gpt-4o-mini,True
+row_475,475,letrozole 경구제,1,10,3,76761,openai,gpt-4o-mini,True
+row_476,476,Megestrol acetate,1,10,3,70358,openai,gpt-4o-mini,True
+row_477,477,Methotrexate 제제,0,7,3,62829,openai,gpt-4o-mini,True
+row_481,481,Tamoxifen 경구제,1,10,3,45173,openai,gpt-4o-mini,True
+row_479,479,Rituximab 주사제,1,10,3,61987,openai,gpt-4o-mini,True
+row_483,483,Anagrelide acetate,1,10,3,40539,openai,gpt-4o-mini,True
+row_480,480,Ruxolitinib phosphate 경구제,1,10,3,57110,openai,gpt-4o-mini,True
+row_482,482,Vincristin sulfate 주사제,1,10,3,51568,openai,gpt-4o-mini,True
+row_478,478,Mitoxantrone HCl 주사제,1,10,3,84119,openai,gpt-4o-mini,True
+row_484,484,Selumetinib 경구제,1,10,3,35208,openai,gpt-4o-mini,True
+row_485,485,Thymomodulin 경구제,1,10,3,33224,openai,gpt-4o-mini,True
+row_487,487,"3,3-Diphosphono-1, 2-Propane Dicarboxylate",1,10,3,44540,openai,gpt-4o-mini,True
+row_489,489,Exametazime 주사제,1,10,3,34744,openai,gpt-4o-mini,True
+row_488,488,Chromium,1,10,3,66857,openai,gpt-4o-mini,True
+row_490,490,Indium chloride,1,10,3,46749,openai,gpt-4o-mini,True
+row_486,486,에프도파18F,1,10,3,82567,openai,gpt-4o-mini,True
+row_493,493,동종피부유래 각질세포,1,10,3,48033,openai,gpt-4o-mini,True
+row_492,492,Thallium-201 주사제,1,10,3,67690,openai,gpt-4o-mini,True
+row_496,496,자가 지방유래 중간엽줄기세포,1,10,3,36731,openai,gpt-4o-mini,True
+row_491,491,Strontium chloride,1,10,3,93401,openai,gpt-4o-mini,True
+row_494,494,사람유래 피부각질세포,1,10,3,55746,openai,gpt-4o-mini,True
+row_495,495,자가유래연골세포,1,10,3,59419,openai,gpt-4o-mini,True
+row_498,498,Adalimumab 주사제,1,10,3,43282,openai,gpt-4o-mini,True
+row_499,499,Aflibercept 주사제,1,10,3,39784,openai,gpt-4o-mini,True
+row_500,500,Anakinra,1,10,3,38640,openai,gpt-4o-mini,True
+row_504,504,Infliximab 제제,1,10,3,35577,openai,gpt-4o-mini,True
+row_497,497,Abatacept 주사제,1,10,3,94598,openai,gpt-4o-mini,True
+row_502,502,Etanercept 주사제,1,10,3,65385,openai,gpt-4o-mini,True
+row_503,503,Faricimab 주사제,1,10,3,44150,openai,gpt-4o-mini,True
+row_501,501,Brolucizumab 주사제,1,10,3,79943,openai,gpt-4o-mini,True
+row_509,509,Daptomycin 주사제,1,10,3,22370,openai,gpt-4o-mini,True
+row_507,507,Vedolizumab 주사제,1,10,3,48671,openai,gpt-4o-mini,True
+row_510,510,Linezolid 경구제,1,10,3,37493,openai,gpt-4o-mini,True
+row_505,505,Onasemnogene abeparvovec 주사제,1,10,3,86581,openai,gpt-4o-mini,True
+row_511,511,Tedizolid 경구제,1,10,3,29343,openai,gpt-4o-mini,True
+row_508,508,Benzathine penicillin G 주사제,1,10,3,60688,openai,gpt-4o-mini,True
+row_506,506,Ranibizumab 주사제,1,10,3,79456,openai,gpt-4o-mini,True
+row_512,512,Teicoplanin 주사제,1,10,3,41357,openai,gpt-4o-mini,True
+row_514,514,Amikacin sulfate 주사제,1,10,3,46339,openai,gpt-4o-mini,True
+row_517,517,Kanamycin sulfate 주사제,1,10,3,45103,openai,gpt-4o-mini,True
+row_513,513,Vancomycin 주사제,1,10,3,86849,openai,gpt-4o-mini,True
+row_515,515,Aztreonam 주사제,1,10,3,81473,openai,gpt-4o-mini,True
+row_516,516,Colistimethate 주사제,1,10,3,91337,openai,gpt-4o-mini,True
+row_519,519,Rifampicin 경구제,1,10,3,54306,openai,gpt-4o-mini,True
+row_522,522,Roxithromycin 경구제,1,10,3,40022,openai,gpt-4o-mini,True
+row_521,521,Erythromycin 경구제,1,10,3,43299,openai,gpt-4o-mini,True
+row_518,518,Rifabutin 경구제,1,10,3,92920,openai,gpt-4o-mini,True
+row_520,520,Azithromycin 경구제,1,10,3,79270,openai,gpt-4o-mini,True
+row_526,526,Mitomycin-C 점안액,0,7,3,24950,openai,gpt-4o-mini,True
+row_524,524,Pentamidine isethionate 주사제,1,10,3,51685,openai,gpt-4o-mini,True
+row_528,528,Amoxicillin + Clavulanate 경구제,1,10,3,19906,openai,gpt-4o-mini,True
+row_530,530,Ceftazidime 주사제,1,10,3,28302,openai,gpt-4o-mini,True
+row_529,529,Cefazolin sod. 주사제,1,10,3,33551,openai,gpt-4o-mini,True
+row_527,527,Mitomycin-C 주사제,0,7,3,56691,openai,gpt-4o-mini,True
+row_525,525,Bleomycin HCl 주사제,1,10,3,65179,openai,gpt-4o-mini,True
+row_523,523,"Doxycycline 50, 100mg 제제",1,10,3,93126,openai,gpt-4o-mini,True
+row_531,531,Ceftazidime + Avibactam 주사제,1,10,3,29701,openai,gpt-4o-mini,True
+row_536,536,Rifaximin 경구제,1,10,3,24820,openai,gpt-4o-mini,True
+row_533,533,Ertapenem 주사제,1,10,3,46350,openai,gpt-4o-mini,True
+row_532,532,Ceftolozane + Tazobactam 주사제,1,10,3,49865,openai,gpt-4o-mini,True
+row_537,537,Tigecycline 주사제,1,10,3,33166,openai,gpt-4o-mini,True
+row_534,534,Gentamicin sulfate 주사제,0,7,3,51149,openai,gpt-4o-mini,True
+row_535,535,Imipenem + Cilastatin 제제,1,10,3,66803,openai,gpt-4o-mini,True
+row_538,538,Clarithromycin 경구제,1,10,3,48709,openai,gpt-4o-mini,True
+row_539,539,Sulfadiazine 단일성분 경구제,1,10,3,38012,openai,gpt-4o-mini,True
+row_542,542,Bedaquiline fumarate 경구제,1,10,3,53730,openai,gpt-4o-mini,True
+row_541,541,Sulfasalazine 경구제,1,10,3,61007,openai,gpt-4o-mini,True
+row_540,540,"Sulfamethoxazole 400mg, Trimethoprim 80mg 경구제",1,10,3,67908,openai,gpt-4o-mini,True
+row_545,545,Dapsone 경구제,1,10,3,34484,openai,gpt-4o-mini,True
+row_543,543,Delamanid 경구제,1,10,3,61924,openai,gpt-4o-mini,True
+row_548,548,Balofloxacin 100mg,1,10,3,25003,openai,gpt-4o-mini,True
+row_544,544,Pretomanid 경구제,1,10,3,63283,openai,gpt-4o-mini,True
+row_546,546,에이즈치료제,0,7,3,40509,openai,gpt-4o-mini,True
+row_549,549,Ciprofloxacin 경구제,1,10,3,32699,openai,gpt-4o-mini,True
+row_547,547,Acyclovir 제제,1,10,3,85303,openai,gpt-4o-mini,True
+row_553,553,Elbasvir + Grazoprevir 경구제,1,10,3,47146,openai,gpt-4o-mini,True
+row_550,550,Darunavir ethanolate 433.64mg 경구제,1,10,3,68369,openai,gpt-4o-mini,True
+row_551,551,Darunavir ethanolate 650.46mg 경구제,1,10,3,65696,openai,gpt-4o-mini,True
+row_552,552,Darunavir ethanolate + Cobicistat silicon dioxide 복합제,1,10,3,60604,openai,gpt-4o-mini,True
+row_554,554,Etravirine 경구제,1,10,3,72736,openai,gpt-4o-mini,True
+row_556,556,Ganciclovir 주사제,1,10,3,31508,openai,gpt-4o-mini,True
+row_557,557,Gemifloxacin mesylate 경구제,1,10,3,43235,openai,gpt-4o-mini,True
+row_558,558,Glecaprevir + Pibrentasvir 경구제,1,10,3,40516,openai,gpt-4o-mini,True
+row_563,563,Lomefloxacin 경구제,1,10,3,35253,openai,gpt-4o-mini,True
+row_559,559,Ledipasvir + Sofosbuvir 경구제,1,10,3,84422,openai,gpt-4o-mini,True
+row_561,561,Levofloxacin 경구제,1,10,3,72626,openai,gpt-4o-mini,True
+row_555,555,Famciclovir 250mg 경구제,1,10,3,109453,openai,gpt-4o-mini,True
+row_562,562,Levofloxacin 주사제,1,10,3,78326,openai,gpt-4o-mini,True
+row_560,560,Letermovir 경구제,1,10,3,101334,openai,gpt-4o-mini,True
+row_565,565,Moxifloxacin 경구제,1,10,3,36744,openai,gpt-4o-mini,True
+row_567,567,Ofloxacin 제제,1,10,3,44528,openai,gpt-4o-mini,True
+row_566,566,Nelfinavir mesylate 경구제,1,10,3,72251,openai,gpt-4o-mini,True
+row_570,570,Raltegravir potassium 경구제,1,10,3,44320,openai,gpt-4o-mini,True
+row_571,571,Sofosbuvir 경구제,1,10,3,27645,openai,gpt-4o-mini,True
+row_564,564,Maribavir 경구제,1,10,3,94979,openai,gpt-4o-mini,True
+row_568,568,Oseltamivir 경구제,1,10,3,63200,openai,gpt-4o-mini,True
+row_575,575,Tenofovir disoproxil + Emtricitabine 경구제,1,10,3,28799,openai,gpt-4o-mini,True
+row_574,574,Tenofovir disoproxil 경구제,1,10,3,35974,openai,gpt-4o-mini,True
+row_569,569,Palivizumab 주사제,1,10,3,86628,openai,gpt-4o-mini,True
+row_578,578,Valganciclovir 경구제,1,10,3,23174,openai,gpt-4o-mini,True
+row_572,572,Sofosbuvir + Velpatasvir 경구제,1,10,3,65724,openai,gpt-4o-mini,True
+row_573,573,Sofosbuvir + Velpatasvir + Voxilaprevir 경구제,1,10,3,65650,openai,gpt-4o-mini,True
+row_577,577,Valacyclovir HCl 경구제,1,10,3,39648,openai,gpt-4o-mini,True
+row_579,579,Zabofloxacin 경구제,1,10,3,33215,openai,gpt-4o-mini,True
+row_576,576,Tosufloxacin 경구제,1,10,3,77155,openai,gpt-4o-mini,True
+row_584,584,Antivenin agkistrodon halys,1,10,3,24507,openai,gpt-4o-mini,True
+row_582,582,Clostridium botulinum A toxin haemagglutinin complex 주사제,1,10,3,55687,openai,gpt-4o-mini,True
+row_586,586,Anti-inhibitor coagulant complex 주사제,1,10,3,33465,openai,gpt-4o-mini,True
+row_583,583,Clostridium botulinum A toxin 주사제,1,10,3,74953,openai,gpt-4o-mini,True
+row_587,587,"Antithrombin III, human 주사제",1,10,3,31020,openai,gpt-4o-mini,True
+row_581,581,"Free-dried rabies vaccine produced on VERO cell line, Inactivated and purified≥2.5I.U",1,10,3,89394,openai,gpt-4o-mini,True
+row_580,580,Zanamivir 외용제,1,10,3,99784,openai,gpt-4o-mini,True
+row_589,589,"Human blood coagulation factor VIII 250I.U, 500I.U 주사제",1,10,3,25392,openai,gpt-4o-mini,True
+row_585,585,Albumin 주사제,0,7,3,98101,openai,gpt-4o-mini,True
+row_591,591,Human blood coagulation factor VIII 주사제,1,10,3,41221,openai,gpt-4o-mini,True
+row_588,588,Human anti-hepatitis B immunoglobulin 정주용 주사제,1,10,3,69635,openai,gpt-4o-mini,True
+row_590,590,"Human blood coagulation factor 250I.U, 500I.U, 1,000I.U",1,10,3,57322,openai,gpt-4o-mini,True
+row_592,592,Human coagulation factor X 주사제,0,7,3,50243,openai,gpt-4o-mini,True
+row_594,594,Human plasma fraction with a factor XIII,1,10,3,44458,openai,gpt-4o-mini,True
+row_593,593,Human immunoglobulin G 주사제,1,10,3,74761,openai,gpt-4o-mini,True
+row_595,595,IgM 고함유 사람면역글로불린 주사제,1,10,3,65204,openai,gpt-4o-mini,True
+row_596,596,Immunoglobulin anti-D,1,10,3,61535,openai,gpt-4o-mini,True
+row_598,598,Protein C Concentrate Lyophilized Powder,1,10,3,68824,openai,gpt-4o-mini,True
+row_600,600,Rabies human immunoglobulin 300 I.U 주사제,1,10,3,39301,openai,gpt-4o-mini,True
+row_602,602,Interferon β-1a 주사제,1,10,3,25671,openai,gpt-4o-mini,True
+row_599,599,Tuberculin purified protein derivative,2,10,3,54407,openai,gpt-4o-mini,True
+row_601,601,Eculizumab 주사제,1,10,3,33544,openai,gpt-4o-mini,True
+row_597,597,"Immunoglobulin G, Human cytomegalovirus 주사제",1,10,3,90887,openai,gpt-4o-mini,True
+row_606,606,Peginterferon alfa-2a 주사제,1,10,3,40510,openai,gpt-4o-mini,True
+row_604,604,Interferon-r 주사제,1,10,3,45612,openai,gpt-4o-mini,True
+row_603,603,Interferon β-1b,1,10,3,59513,openai,gpt-4o-mini,True
+row_605,605,Natalizumab 주사제,1,10,3,71276,openai,gpt-4o-mini,True
+row_608,608,"Atovaquone 250mg, Proguanil HCl 100mg 경구제",1,10,3,74570,openai,gpt-4o-mini,True
+row_609,609,Metronidazole 주사제,1,10,3,48914,openai,gpt-4o-mini,True
+row_607,607,Ravulizumab 주사제,1,10,3,89792,openai,gpt-4o-mini,True
+row_610,610,Pyrimethamine,1,10,3,65443,openai,gpt-4o-mini,True
+row_612,612,Pyronaridine + Artesunate 복합경구제,1,10,3,40932,openai,gpt-4o-mini,True
+row_615,615,PEG3350외,1,10,3,52174,openai,gpt-4o-mini,True
+row_611,611,Pyrimethamine + Sulfadoxine 복합경구제,1,10,3,96786,openai,gpt-4o-mini,True
+row_614,614,Ethyl esters of the iodised fatty acids of poppyseed oil 주사제,1,10,3,69693,openai,gpt-4o-mini,True
+row_616,616,Corticorelin trifluoroacetate,1,10,3,50903,openai,gpt-4o-mini,True
+row_613,613,Barium sulfate 제제,1,10,3,77140,openai,gpt-4o-mini,True
+row_617,617,Perfluorobutane 주사제,1,10,3,73897,openai,gpt-4o-mini,True
+row_619,619,"Paracetamol 250mg, Ibuprofen 200mg, Codeine phosphate 10mg 복합 제제",1,10,3,46479,openai,gpt-4o-mini,True
+row_620,620,Alfentanil HCl 주사제,1,10,3,41465,openai,gpt-4o-mini,True
+row_622,622,Oxycodone HCl 주사제,1,10,3,52802,openai,gpt-4o-mini,True
+row_623,623,Remifentanil 주사제,1,10,3,30380,openai,gpt-4o-mini,True
+row_625,625,[일반사항] 같은 날에 2가지 이상 기준처방 동시 투약시 인정여부,0,7,3,34298,openai,gpt-4o-mini,True
+row_618,618,Somatorelin acetate,1,10,3,91880,openai,gpt-4o-mini,True
+row_624,624,Sufentanil citrate 주사제,1,10,3,44369,openai,gpt-4o-mini,True
+row_627,627,[일반사항] 처방별 적응증,0,7,3,27480,openai,gpt-4o-mini,True
+row_621,621,Fentanyl citrate 주사제,1,10,3,114376,openai,gpt-4o-mini,True
+row_626,626,[일반사항] 급여 한약제의 제형 변형에 따른 인정 범주,0,7,3,76761,openai,gpt-4o-mini,True
+row_628,628,가미소요산,0,7,3,71105,openai,gpt-4o-mini,True
+row_629,629,갈근탕,0,7,3,72131,openai,gpt-4o-mini,True
+row_631,631,구미강활탕,0,7,3,73611,openai,gpt-4o-mini,True
+row_630,630,갈근해기탕,0,7,3,86526,openai,gpt-4o-mini,True
+row_632,632,궁소산,0,7,3,68068,openai,gpt-4o-mini,True
+row_635,635,당귀연교음,0,7,3,34908,openai,gpt-4o-mini,True
+row_633,633,궁하탕,0,7,3,69461,openai,gpt-4o-mini,True
+row_634,634,내소산,0,7,3,57262,openai,gpt-4o-mini,True
+row_638,638,대청룡탕,0,7,3,25043,openai,gpt-4o-mini,True
+row_639,639,대화중음,0,7,3,33004,openai,gpt-4o-mini,True
+row_636,636,당귀육황탕,0,7,3,67788,openai,gpt-4o-mini,True
+row_642,642,반하백출 천마탕,0,7,3,23702,openai,gpt-4o-mini,True
+row_640,640,대황목단 피탕,0,7,3,31776,openai,gpt-4o-mini,True
+row_637,637,대시호탕,0,7,3,82781,openai,gpt-4o-mini,True
+row_641,641,도인승기탕,0,7,3,61603,openai,gpt-4o-mini,True
+row_647,647,보허탕,0,7,3,24940,openai,gpt-4o-mini,True
+row_643,643,반하사심탕,0,7,3,57137,openai,gpt-4o-mini,True
+row_644,644,반하후박탕,0,7,3,60631,openai,gpt-4o-mini,True
+row_648,648,복령보심탕,0,7,3,30458,openai,gpt-4o-mini,True
+row_650,650,삼소음,0,7,3,25818,openai,gpt-4o-mini,True
+row_645,645,백출탕,0,7,3,72065,openai,gpt-4o-mini,True
+row_646,646,보중익기탕,0,7,3,76010,openai,gpt-4o-mini,True
+row_654,654,생맥산,0,7,3,21157,openai,gpt-4o-mini,True
+row_652,652,삼호작약탕,0,7,3,35880,openai,gpt-4o-mini,True
+row_651,651,삼출건비탕,0,7,3,47030,openai,gpt-4o-mini,True
+row_649,649,불환금 정기산,0,7,3,69779,openai,gpt-4o-mini,True
+row_655,655,소시호탕,0,7,3,57006,openai,gpt-4o-mini,True
+row_653,653,삼황사심탕,0,7,3,69651,openai,gpt-4o-mini,True
+row_659,659,시호계지탕,0,7,3,32197,openai,gpt-4o-mini,True
+row_656,656,소청룡탕,0,7,3,56695,openai,gpt-4o-mini,True
+row_657,657,승양보위탕,0,7,3,53481,openai,gpt-4o-mini,True
+row_662,662,안태음,0,7,3,24149,openai,gpt-4o-mini,True
+row_658,658,시경반하탕,0,7,3,67827,openai,gpt-4o-mini,True
+row_663,663,연교패독산,0,7,3,23423,openai,gpt-4o-mini,True
+row_661,661,시호청간탕,0,7,3,37593,openai,gpt-4o-mini,True
+row_665,665,오적산,0,7,3,26651,openai,gpt-4o-mini,True
+row_660,660,시호소간탕,0,7,3,65231,openai,gpt-4o-mini,True
+row_664,664,오림산,0,7,3,55628,openai,gpt-4o-mini,True
+row_666,666,이중탕,0,7,3,61176,openai,gpt-4o-mini,True
+row_671,671,자음강화탕,0,7,3,26582,openai,gpt-4o-mini,True
+row_667,667,이진탕,0,7,3,63078,openai,gpt-4o-mini,True
+row_668,668,익위승양탕,0,7,3,63706,openai,gpt-4o-mini,True
+row_669,669,인삼패독산,0,7,3,60078,openai,gpt-4o-mini,True
+row_670,670,인진호탕,0,7,3,62925,openai,gpt-4o-mini,True
+row_676,676,팔물탕,0,7,3,15904,openai,gpt-4o-mini,True
+row_678,678,행소탕,0,7,3,14878,openai,gpt-4o-mini,True
+row_674,674,청서익기탕,0,7,3,69611,openai,gpt-4o-mini,True
+row_673,673,청상견통탕,0,7,3,71903,openai,gpt-4o-mini,True
+row_675,675,청위산,0,7,3,66218,openai,gpt-4o-mini,True
+row_672,672,조위승기탕,0,7,3,82120,openai,gpt-4o-mini,True
+row_677,677,평위산,0,7,3,61529,openai,gpt-4o-mini,True
+row_681,681,황련해독탕,0,7,3,29211,openai,gpt-4o-mini,True
+row_684,684,[심사지침] 만성 호흡기 질환에 장기 투여된 macrolide 계열 제제 인정여부,0,7,3,17443,openai,gpt-4o-mini,True
+row_683,683,회춘양격산,0,7,3,36396,openai,gpt-4o-mini,True
+row_679,679,향사평위산,0,7,3,67960,openai,gpt-4o-mini,True
+row_680,680,황금작약탕,0,7,3,62225,openai,gpt-4o-mini,True
+row_682,682,형개연교탕,0,7,3,96454,openai,gpt-4o-mini,True
+row_685,685,[심사지침] 급성 심재성 정맥혈전증 상병에 투여하는 프라그민,0,7,3,72570,openai,gpt-4o-mini,True
+row_687,687,[심사지침] 폐계면활성제,0,7,3,61955,openai,gpt-4o-mini,True
+row_686,686,[심사지침] 류마티스질환에서 TNF-α inhibitor 제제,1,10,3,93418,openai,gpt-4o-mini,True

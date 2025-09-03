@@ -1,193 +1,75 @@
-# Pharma-Augment: 요양급여 심사 도메인 질문 생성기
+# Pharma-Augment
 
-한국 요양급여 심사 도메인의 엑셀 데이터를 기반으로 학습용 질문을 생성하고 증강하는 도구입니다.
+한국 요양급여 심사 도메인 질문 생성 및 데이터 증강 프로젝트
 
-## 주요 기능
+## 프로젝트 구조
 
-- 엑셀 파일에서 요양급여 심사 데이터 로드
-- OpenAI/Claude API를 사용한 질문 생성
-- 기본 5문형 + 증강 질문 자동 생성 (조항당 5~20개)
-- 중복 제거 및 품질 필터링
-- JSONL 형식 출력
-- 비동기 처리로 높은 성능
-
-## 설치
-
-### Windows
-```cmd
-install_packages.bat
+```
+Pharma-Augment/
+├── versions/           # 버전별 구현체
+│   ├── v1/            # 기본 질문 생성 (기존)
+│   ├── v2/            # 임베딩 최적화 버전
+│   └── v3/            # 대명사 차단 + 이름비율 강제 (최신)
+├── data/
+│   ├── inputs/        # 입력 엑셀 파일
+│   └── outputs/       # 생성 결과 파일
+├── utils/             # 유틸리티 스크립트
+├── docs/              # 문서 및 프롬프트
+└── logs/              # 실행 로그
 ```
 
-### Linux/Mac
+## 버전별 특징
+
+### V1 (기본)
+- 기본적인 질문 생성
+- WH 질문 중심
+- 길이/품질 필터링
+
+### V2 (임베딩 최적화)
+- 임베딩 학습 최적화
+- 의미 다양성 강화
+- 부정/긍정 균형
+
+### V3 (최신 - Prompt3.md 기반)
+- **대명사 완전 차단**: "이 약제", "해당 제제" 등 금지
+- **이름 사용 비율 강제**: MAIN/BRAND/BOTH 비율 엄격 준수
+- **9개 카테고리 분산**: 범위/요건/오프라벨/기간/전환/증빙/본인부담/대상군/절차
+- **브랜드명 개수별 비율 자동 조정**
+
+## 실행 방법
+
+### V3 실행 (권장)
 ```bash
-chmod +x install_packages.sh
-./install_packages.sh
+python versions/v3/generate_questions_v3.py --excel data/inputs/요양심사약제.xlsx --out data/outputs/questions_v3.jsonl --excel_out data/outputs/questions_v3.xlsx
 ```
 
-### 수동 설치
+### 환경 설정
 ```bash
-pip install -r requirements.txt
+# 패키지 설치
+python -m pip install -r requirements.txt
+
+# 환경변수 설정 (.env 파일)
+OPENAI_API_KEY=your_api_key_here
 ```
 
-## 환경 설정
+## 주요 특징
 
-`.env` 파일에 API 키를 설정하세요:
-
-```env
-OPENAI_API_KEY=your_openai_api_key_here
-ANTHROPIC_API_KEY=your_claude_api_key_here  # Claude 사용 시
-```
-
-## 사용법
-
-### 기본 사용
-
-```bash
-python generate_questions.py \
-  --excel "data/요양심사약제_후처리_v2.xlsx" \
-  --sheet "Sheet1" \
-  --out "questions.jsonl" \
-  --provider "openai" \
-  --model "gpt-4o-mini" \
-  --concurrency 6 \
-  --max_aug 15 \
-  --seed 20250902
-```
-
-### 옵션 설명
-
-- `--excel`: 엑셀 파일 경로 (필수)
-- `--sheet`: 시트명 (기본: Sheet1)
-- `--out`: 출력 파일명 (기본: questions.jsonl)
-- `--provider`: API 제공자 (openai/claude, 기본: openai)
-- `--model`: 모델명 (기본: gpt-4o-mini)
-- `--concurrency`: 동시 실행 수 (기본: 6)
-- `--max_aug`: 최대 증강 질문 수 (기본: 15)
-- `--seed`: 랜덤 시드 (기본: 20250902)
-- `--base5_only`: 기본 5문형만 생성
-- `--print-sample N`: N개 샘플 질문 출력
-
-### 예시
-
-```bash
-# 샘플 출력과 함께 실행
-python generate_questions.py \
-  --excel "data/요양심사약제_후처리_v2.xlsx" \
-  --print-sample 5
-
-# Claude 사용
-python generate_questions.py \
-  --excel "data/요양심사약제_후처리_v2.xlsx" \
-  --provider "claude" \
-  --model "claude-3-sonnet-20240229"
-
-# 기본 5문형만 생성
-python generate_questions.py \
-  --excel "data/요양심사약제_후처리_v2.xlsx" \
-  --base5_only
-```
-
-## 입력 데이터 형식
-
-엑셀 파일은 다음 컬럼을 포함해야 합니다:
-
-- `약제분류번호`: 약제 분류 번호 (선택)
-- `약제분류명`: 약제 분류명 (선택)
-- `구분`: 조항 제목
-- `세부인정기준 및 방법`: 본문 내용
+- **엄격한 검증 시스템**: 대명사 정규식 체크, 이름 사용 검증, 비율 검증
+- **약제별 맞춤 생성**: 브랜드명 개수에 따른 비율 자동 조정  
+- **다양한 출력 형식**: JSONL, 엑셀 지원
+- **상세한 감사 로그**: API 호출, 검증 결과 추적
 
 ## 출력 형식
 
-JSONL 파일로 저장되며, 각 줄은 하나의 조항에 대한 JSON 객체입니다:
-
 ```json
 {
-  "clause_id": "간장용제_b54ee5da",
-  "group_id": "간장용제",
-  "title": "[일반원칙] 간장용제",
-  "title_clean": "간장용제",
-  "category": "일반원칙",
-  "code": null,
-  "code_name": null,
+  "drug_id": "A01AD02_tacrolimus",
+  "main_name": "Tacrolimus 제제", 
+  "brand_names": ["프로그랍캅셀", "프로그랍주사"],
   "questions": [
-    "간장용제의 요양급여 인정 범위는 무엇인가요?",
-    "간장용제를 투여하기 위한 기준은 무엇인가요?",
-    "..."
+    {"text": "Tacrolimus 제제의 조혈모세포이식 급여 범위는?", "name_usage": "MAIN", "category": "범위"},
+    {"text": "프로그랍캅셀의 만성 류마티스관절염 인정 기준은?", "name_usage": "BRAND", "category": "요건"}
   ],
-  "meta": {
-    "source_sheet": "Sheet1",
-    "mapping_confidence": 0.95,
-    "dedup_rule": "rapidfuzz>=90",
-    "neg_ratio": 0.0,
-    "version": "qgen_v1.2",
-    "seed": 20250902
-  }
+  "ratio": {"MAIN": 0.35, "BRAND": 0.35, "BOTH": 0.30}
 }
 ```
-
-## 질문 생성 규칙
-
-### 기본 5문형
-1. **정의/범위**: "~의 적용 범위는 무엇인가요?"
-2. **요건/기준**: "~의 인정 요건은 무엇인가요?"
-3. **제외/불인정**: "~에서 제외되는 경우는 무엇인가요?"
-4. **증빙/서류**: "~을 위해 필요한 서류는 무엇인가요?"
-5. **엣지/경계**: "재시술/합병증 등의 경우 기준은 어떻게 적용되나요?"
-
-### 증강 질문
-- WH 다양화 (무엇/언제/어디서/누가/어떤 조건/어떻게/왜)
-- 문체 변형 (~인가요/~해야 하나요/~가능한가요/~허용되나요/~인정되나요)
-- 길이 변형 (짧은 요점형 ↔ 구체 조건형)
-- 주체/시점 명시 (신청자/의료기관/담당부서, 최초/재시술/추적관찰)
-- 조건 조합 (~인 경우에도 인정되나요? / ~이면 제외되나요?)
-
-## 품질 관리
-
-### 자동 필터링
-- 금지어 제거 (추정, 일반적으로, 대체로, 관행상, 아마도 등)
-- 외부 지식 의심 키워드 제거
-- 길이 필터링 (15~180자)
-- 중복 제거 (rapidfuzz ≥ 90% 유사도)
-
-### 후처리
-- 정규화 (공백/중복기호/말줄임 보정)
-- 문장부호 통일 (물음표 추가)
-- 5개 미만 시 재생성 시도
-
-## 로그 및 감사
-
-- `question_generation.log`: 실행 로그
-- `audit_log.csv`: 성능 감사 로그 (토큰 사용량, 실행 시간 등)
-
-## 성능 팁
-
-- 동시성 6~8 권장 (API 제한 고려)
-- 긴 조항(6000자 초과)은 자동 분할
-- 실패 시 자동 재시도 (지수형 백오프)
-- temperature=0.5, top_p=0.9로 다양성 확보
-
-## 테스트
-
-10행 샘플로 테스트:
-```bash
-python generate_questions.py \
-  --excel "data/sample_요양심사약제_후처리_v2.xlsx" \
-  --print-sample 3
-```
-
-## 문제 해결
-
-### 일반적인 오류
-1. **API 키 오류**: `.env` 파일의 API 키 확인
-2. **엑셀 파일 오류**: 컬럼명 및 파일 경로 확인  
-3. **메모리 부족**: concurrency 값 낮추기
-4. **Rate Limit**: concurrency 값 낮추거나 재시도 대기
-
-### 로그 확인
-```bash
-tail -f question_generation.log
-```
-
-## 라이선스
-
-MIT License

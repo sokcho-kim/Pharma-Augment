@@ -1,0 +1,3 @@
+﻿row_id,row_idx,main_name,brand_count,questions_generated,avg_length,elapsed_ms,provider,model,version
+v5_row_0,0,Tacrolimus 제제,1,3,48.666666666666664,515,openai,gpt-4o-mini,v5
+v5_row_1,1,Factor VIII 제제,1,3,48.666666666666664,517,openai,gpt-4o-mini,v5

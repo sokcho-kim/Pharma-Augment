@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025-09-03 17:51:04,005 - INFO - 엑셀 파일 로드 완료: 688행 4열
 2025-09-03 17:51:04,009 - INFO - 실제 컬럼: ['약제분류번호', '약제분류명', '구분', '세부인정기준 및 방법']
 2025-09-03 17:51:04,010 - INFO - 컬럼 매핑 완료: {'약제분류번호': '약제분류번호', '약제분류명': '약제 분류명', '구분': '구분', '세부인정기준 및 방법': '세부인정기준 및 방법'}
@@ -1387,3 +1388,76 @@
 2025-09-03 17:59:27,327 - ERROR - V5 질문 생성 실패 v5_row_687: name 'brand_name' is not defined
 2025-09-03 17:59:27,347 - INFO - V5 결과 저장: drug_questions_v5_fixed.xlsx (0개 질문)
 2025-09-03 17:59:27,353 - INFO - V5 감사 로그 저장: .\audit_log_drug_v5.csv
+=======
+2025-09-04 00:47:08,174 - INFO - V5 전처리 완료: 1개 항목
+2025-09-04 00:47:32,195 - INFO - V5 전처리 완료: 1개 항목
+2025-09-04 00:47:37,974 - ERROR - V5 실행 실패: 'cp949' codec can't encode character '\U0001f4cb' in position 0: illegal multibyte sequence
+2025-09-04 00:48:04,435 - INFO - 엑셀 파일 로드 완료: 10행 4열
+2025-09-04 00:48:04,435 - INFO - 실제 컬럼: ['약제분류번호', '약제분류명', '구분', '세부인정기준 및 방법']
+2025-09-04 00:48:04,435 - INFO - 컬럼 매핑 완료: {'약제분류번호': '약제분류번호', '약제분류명': '약제 분류명', '구분': '구분', '세부인정기준 및 방법': '세부인정기준 및 방법'}
+2025-09-04 00:48:04,447 - INFO - V5 전처리 완료: 10개 항목
+2025-09-04 00:48:05,265 - INFO - Backing off call_api_v5(...) for 1.0s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:06,808 - INFO - Backing off call_api_v5(...) for 1.1s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:08,228 - ERROR - Giving up call_api_v5(...) after 3 tries (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:08,228 - ERROR - V5 질문 생성 실패 v5_row_0: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions'
+2025-09-04 00:48:08,750 - INFO - Backing off call_api_v5(...) for 0.5s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:10,086 - INFO - Backing off call_api_v5(...) for 0.5s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:11,416 - ERROR - Giving up call_api_v5(...) after 3 tries (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:11,416 - ERROR - V5 질문 생성 실패 v5_row_1: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions'
+2025-09-04 00:48:11,718 - INFO - Backing off call_api_v5(...) for 0.1s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:12,634 - INFO - Backing off call_api_v5(...) for 1.4s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:14,381 - ERROR - Giving up call_api_v5(...) after 3 tries (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:14,381 - ERROR - V5 질문 생성 실패 v5_row_2: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions'
+2025-09-04 00:48:14,750 - INFO - Backing off call_api_v5(...) for 0.1s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:15,200 - INFO - Backing off call_api_v5(...) for 1.6s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:17,252 - ERROR - Giving up call_api_v5(...) after 3 tries (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:17,252 - ERROR - V5 질문 생성 실패 v5_row_3: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions'
+2025-09-04 00:48:17,658 - INFO - Backing off call_api_v5(...) for 0.7s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:18,927 - INFO - Backing off call_api_v5(...) for 1.8s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:21,036 - ERROR - Giving up call_api_v5(...) after 3 tries (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:21,036 - ERROR - V5 질문 생성 실패 v5_row_4: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions'
+2025-09-04 00:48:21,403 - INFO - Backing off call_api_v5(...) for 1.0s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:22,630 - INFO - Backing off call_api_v5(...) for 0.0s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:23,037 - ERROR - Giving up call_api_v5(...) after 3 tries (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:23,037 - ERROR - V5 질문 생성 실패 v5_row_5: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions'
+2025-09-04 00:48:23,932 - INFO - Backing off call_api_v5(...) for 0.2s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:24,519 - INFO - Backing off call_api_v5(...) for 0.6s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:26,503 - ERROR - Giving up call_api_v5(...) after 3 tries (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:26,503 - ERROR - V5 질문 생성 실패 v5_row_6: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions'
+2025-09-04 00:48:26,989 - INFO - Backing off call_api_v5(...) for 0.5s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:27,802 - INFO - Backing off call_api_v5(...) for 0.7s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:28,721 - ERROR - Giving up call_api_v5(...) after 3 tries (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:28,723 - ERROR - V5 질문 생성 실패 v5_row_7: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions'
+2025-09-04 00:48:29,023 - INFO - Backing off call_api_v5(...) for 0.9s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:30,363 - INFO - Backing off call_api_v5(...) for 0.7s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:31,474 - ERROR - Giving up call_api_v5(...) after 3 tries (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:31,474 - ERROR - V5 질문 생성 실패 v5_row_8: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions'
+2025-09-04 00:48:31,850 - INFO - Backing off call_api_v5(...) for 0.8s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:33,103 - INFO - Backing off call_api_v5(...) for 0.2s (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:33,740 - ERROR - Giving up call_api_v5(...) after 3 tries (aiohttp.client_exceptions.ClientResponseError: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions')
+2025-09-04 00:48:33,740 - ERROR - V5 질문 생성 실패 v5_row_9: 400, message='Bad Request', url='https://api.openai.com/v1/chat/completions'
+2025-09-04 00:48:33,778 - INFO - V5 결과 저장: test_v5_real.xlsx (0개 질문)
+2025-09-04 00:48:33,778 - INFO - V5 감사 로그 저장: .\audit_log_drug_v5.csv
+2025-09-04 00:49:09,215 - INFO - V5 전처리 완료: 2개 항목
+2025-09-04 00:49:09,223 - INFO - 테스트 모드: v5_row_0 가상 응답 생성
+2025-09-04 00:49:09,232 - INFO - 테스트 모드: v5_row_1 가상 응답 생성
+2025-09-04 00:49:09,739 - WARNING - V5 길이 부족: 테스트 약제의 급여 인정 기준은 무엇인가요? (24자)
+2025-09-04 00:49:09,739 - WARNING - V5 길이 부족: 테스트 약제 사용 시 주의해야 할 사항은? (23자)
+2025-09-04 00:49:09,739 - WARNING - v5_row_0: V5 품질 기준 미달 (0개)
+2025-09-04 00:49:09,741 - INFO - V5 완료: v5_row_0 - 0개 질문 (평균 0자)
+2025-09-04 00:49:09,742 - WARNING - V5 길이 부족: 테스트 약제의 급여 인정 기준은 무엇인가요? (24자)
+2025-09-04 00:49:09,743 - WARNING - V5 길이 부족: 테스트 약제 사용 시 주의해야 할 사항은? (23자)
+2025-09-04 00:49:09,743 - WARNING - v5_row_1: V5 품질 기준 미달 (0개)
+2025-09-04 00:49:09,743 - INFO - V5 완료: v5_row_1 - 0개 질문 (평균 0자)
+2025-09-04 00:49:09,929 - INFO - V5 결과 저장: test_v5_mock_results.xlsx (0개 질문)
+2025-09-04 00:49:09,937 - INFO - V5 감사 로그 저장: .\audit_log_drug_v5.csv
+2025-09-04 00:49:30,649 - INFO - V5 전처리 완료: 2개 항목
+2025-09-04 00:49:30,663 - INFO - 테스트 모드: v5_row_0 가상 응답 생성
+2025-09-04 00:49:30,663 - INFO - 테스트 모드: v5_row_1 가상 응답 생성
+2025-09-04 00:49:31,178 - WARNING - v5_row_0: V5 품질 기준 미달 (3개)
+2025-09-04 00:49:31,179 - INFO - V5 완료: v5_row_0 - 3개 질문 (평균 48자)
+2025-09-04 00:49:31,179 - WARNING - v5_row_1: V5 품질 기준 미달 (3개)
+2025-09-04 00:49:31,181 - INFO - V5 완료: v5_row_1 - 3개 질문 (평균 48자)
+2025-09-04 00:49:31,389 - INFO - V5 결과 저장: test_v5_mock_results.xlsx (6개 질문)
+2025-09-04 00:49:31,397 - INFO - V5 감사 로그 저장: .\audit_log_drug_v5.csv
+>>>>>>> 4be8624b0c6ffe798e6cecc848ab68407730207d

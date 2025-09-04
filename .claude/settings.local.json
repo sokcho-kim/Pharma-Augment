@@ -5,7 +5,23 @@
       "Bash(chcp:*)",
       "Bash(pip install:*)",
       "Bash(dir:*)",
+<<<<<<< HEAD
       "Bash(git add:*)"
+=======
+      "Bash(where python)",
+      "Bash(pip --version)",
+      "Bash(echo $VIRTUAL_ENV)",
+      "Bash(.venv/Scripts/python.exe -m ensurepip:*)",
+      "Bash(.venv/Scripts/pip.exe:*)",
+      "Bash(.venv/Scripts/python.exe -m pip:*)",
+      "Bash(.venv/Scripts/python.exe:*)",
+      "Bash(../../.venv/Scripts/python.exe:*)",
+      "Bash(.venv\\Scripts\\python.exe:*)",
+      "Bash(kill:*)",
+      "Bash(.venvScriptspython.exe versionsv5drug_generator_v5.py --excel data고시.xlsx --out versionsv5drug_questions_v5_고시.xlsx --concurrency 2 --count 1)",
+      "Bash(.venvScriptspython.exe versionsv5drug_generator_v5.py --excel \"data\\고시.xlsx\" --out \"versions\\v5\\drug_questions_v5_고시.xlsx\" --concurrency 2 --count 1)",
+      "Bash(del test_v5_basic.py test_v5_mock.py test_api_simple.py test_api_v5_format.py debug_v5_prompt.py test_real_api_debug.py debug_text_parsing.py)"
+>>>>>>> 4be8624b0c6ffe798e6cecc848ab68407730207d
     ],
     "deny": [],
     "ask": []

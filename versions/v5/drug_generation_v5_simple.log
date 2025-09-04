@@ -1,0 +1,127 @@
+2025-09-03 18:01:57,518 - INFO - 엑셀 파일 로드 완료: 688행 4열
+2025-09-03 18:01:57,518 - INFO - 실제 컬럼: ['약제분류번호', '약제분류명', '구분', '세부인정기준 및 방법']
+2025-09-03 18:01:57,518 - INFO - 컬럼 매핑 완료: {'약제분류번호': '약제분류번호', '약제분류명': '약제 분류명', '구분': '구분', '세부인정기준 및 방법': '세부인정기준 및 방법'}
+2025-09-03 18:01:57,542 - INFO - V5 Simple 전처리 완료: 688개 항목
+2025-09-03 18:02:32,201 - WARNING - V5 길이 부족:  (0자)
+2025-09-03 18:02:32,202 - INFO - V5 Simple 완료: v5_simple_row_1 - 0개 질문 (평균 0자)
+2025-09-03 18:02:32,872 - WARNING - V5 길이 부족:  (0자)
+2025-09-03 18:02:32,873 - INFO - V5 Simple 완료: v5_simple_row_0 - 0개 질문 (평균 0자)
+2025-09-03 18:02:58,743 - WARNING - V5 길이 부족:  (0자)
+2025-09-03 18:02:58,743 - INFO - V5 Simple 완료: v5_simple_row_3 - 0개 질문 (평균 0자)
+2025-09-03 18:03:09,466 - WARNING - V5 길이 부족:  (0자)
+2025-09-03 18:03:09,466 - INFO - V5 Simple 완료: v5_simple_row_2 - 0개 질문 (평균 0자)
+2025-09-03 18:03:30,864 - WARNING - V5 길이 부족:  (0자)
+2025-09-03 18:03:30,864 - INFO - V5 Simple 완료: v5_simple_row_4 - 0개 질문 (평균 0자)
+2025-09-03 18:03:39,589 - WARNING - V5 길이 부족:  (0자)
+2025-09-03 18:03:39,590 - INFO - V5 Simple 완료: v5_simple_row_5 - 0개 질문 (평균 0자)
+2025-09-03 18:04:39,638 - INFO - 엑셀 파일 로드 완료: 688행 4열
+2025-09-03 18:04:39,638 - INFO - 실제 컬럼: ['약제분류번호', '약제분류명', '구분', '세부인정기준 및 방법']
+2025-09-03 18:04:39,639 - INFO - 컬럼 매핑 완료: {'약제분류번호': '약제분류번호', '약제분류명': '약제 분류명', '구분': '구분', '세부인정기준 및 방법': '세부인정기준 및 방법'}
+2025-09-03 18:04:39,664 - INFO - V5 Simple 전처리 완료: 688개 항목
+2025-09-03 18:05:11,602 - ERROR - JSON 파싱 실패 for v5_simple_row_1: Expecting value: line 1 column 1 (char 0)
+2025-09-03 18:05:11,602 - INFO - V5 Simple 완료: v5_simple_row_1 - 0개 질문 (평균 0자)
+2025-09-03 18:05:44,407 - ERROR - JSON 파싱 실패 for v5_simple_row_0: Unterminated string starting at: line 7 column 54 (char 4973)
+2025-09-03 18:05:44,407 - INFO - V5 Simple 완료: v5_simple_row_0 - 0개 질문 (평균 0자)
+2025-09-03 18:05:49,528 - ERROR - JSON 파싱 실패 for v5_simple_row_2: Expecting value: line 1 column 1 (char 0)
+2025-09-03 18:05:49,529 - INFO - V5 Simple 완료: v5_simple_row_2 - 0개 질문 (평균 0자)
+2025-09-03 18:06:09,822 - ERROR - JSON 파싱 실패 for v5_simple_row_3: Expecting value: line 1 column 1 (char 0)
+2025-09-03 18:06:09,822 - INFO - V5 Simple 완료: v5_simple_row_3 - 0개 질문 (평균 0자)
+2025-09-03 18:06:14,893 - ERROR - JSON 파싱 실패 for v5_simple_row_4: Expecting value: line 1 column 1 (char 0)
+2025-09-03 18:06:14,894 - INFO - V5 Simple 완료: v5_simple_row_4 - 0개 질문 (평균 0자)
+2025-09-03 18:06:45,201 - ERROR - JSON 파싱 실패 for v5_simple_row_5: Expecting value: line 1 column 1 (char 0)
+2025-09-03 18:06:45,201 - INFO - V5 Simple 완료: v5_simple_row_5 - 0개 질문 (평균 0자)
+2025-09-03 18:06:52,976 - WARNING - V5 길이 부족: 스핀라자주 투여 조건은 무엇인가요? (19자)
+2025-09-03 18:06:52,976 - INFO - V5 Simple 완료: v5_simple_row_6 - 12개 질문 (평균 29자)
+2025-09-03 18:07:16,308 - ERROR - JSON 파싱 실패 for v5_simple_row_8: Expecting value: line 1 column 1 (char 0)
+2025-09-03 18:07:16,308 - INFO - V5 Simple 완료: v5_simple_row_8 - 0개 질문 (평균 0자)
+2025-09-03 18:07:32,779 - ERROR - JSON 파싱 실패 for v5_simple_row_7: Expecting value: line 1 column 1 (char 0)
+2025-09-03 18:07:32,780 - INFO - V5 Simple 완료: v5_simple_row_7 - 0개 질문 (평균 0자)
+2025-09-03 18:07:39,867 - ERROR - JSON 파싱 실패 for v5_simple_row_9: Expecting value: line 1 column 1 (char 0)
+2025-09-03 18:07:39,867 - INFO - V5 Simple 완료: v5_simple_row_9 - 0개 질문 (평균 0자)
+2025-09-03 18:07:53,287 - INFO - V5 Simple 완료: v5_simple_row_10 - 10개 질문 (평균 32자)
+2025-09-03 18:08:11,802 - INFO - V5 Simple 완료: v5_simple_row_12 - 10개 질문 (평균 36자)
+2025-09-03 18:08:13,791 - INFO - V5 Simple 완료: v5_simple_row_11 - 14개 질문 (평균 30자)
+2025-09-03 18:08:31,885 - INFO - V5 Simple 완료: v5_simple_row_13 - 12개 질문 (평균 32자)
+2025-09-03 18:08:55,888 - WARNING - V5 대명사 검출: 이 약제를 사용하지 못하는 특정 질환은 무엇인가요?
+2025-09-03 18:08:55,888 - INFO - V5 Simple 완료: v5_simple_row_14 - 15개 질문 (평균 34자)
+2025-09-03 18:09:02,755 - ERROR - JSON 파싱 실패 for v5_simple_row_15: Expecting value: line 1 column 1 (char 0)
+2025-09-03 18:09:02,756 - INFO - V5 Simple 완료: v5_simple_row_15 - 0개 질문 (평균 0자)
+2025-09-03 18:09:19,546 - ERROR - JSON 파싱 실패 for v5_simple_row_16: Expecting value: line 1 column 1 (char 0)
+2025-09-03 18:09:19,546 - INFO - V5 Simple 완료: v5_simple_row_16 - 0개 질문 (평균 0자)
+2025-09-03 18:09:30,445 - ERROR - JSON 파싱 실패 for v5_simple_row_17: Expecting value: line 1 column 1 (char 0)
+2025-09-03 18:09:30,446 - INFO - V5 Simple 완료: v5_simple_row_17 - 0개 질문 (평균 0자)
+2025-09-03 18:10:30,000 - INFO - 엑셀 파일 로드 완료: 688행 4열
+2025-09-03 18:10:30,000 - INFO - 실제 컬럼: ['약제분류번호', '약제분류명', '구분', '세부인정기준 및 방법']
+2025-09-03 18:10:30,000 - INFO - 컬럼 매핑 완료: {'약제분류번호': '약제분류번호', '약제분류명': '약제 분류명', '구분': '구분', '세부인정기준 및 방법': '세부인정기준 및 방법'}
+2025-09-03 18:10:30,025 - INFO - V5 Simple 전처리 완료: 688개 항목
+2025-09-03 18:11:02,955 - WARNING - V5 길이 부족: 급여 인정 기준은 무엇인가요? (16자)
+2025-09-03 18:11:02,955 - WARNING - V5 길이 부족: 어떤 조건에서 사용 가능한가요? (17자)
+2025-09-03 18:11:02,955 - WARNING - V5 대명사 검출: 이 약제와 함께 사용 금지 약물은 어떤 것이 있나요?
+2025-09-03 18:11:02,955 - INFO - V5 Simple 완료: v5_simple_row_1 - 10개 질문 (평균 25자)
+2025-09-03 18:11:04,974 - INFO - V5 Simple 완료: v5_simple_row_2 - 13개 질문 (평균 40자)
+2025-09-03 18:11:28,722 - ERROR - JSON 파싱 실패 for v5_simple_row_0: Unterminated string starting at: line 7 column 54 (char 4970)
+2025-09-03 18:11:28,722 - ERROR - Content: [
+  {"약제분류번호":"","약제 분류명":"","구분":"간장용제","세부인정기준 및 방법":"1. 허가사항 범위 내에서 투여 시 요양급여를 인정함 2. 허가사항 중 간질환에 투여하는 경우에는 아래와 같은 기준으로 투여시 요양급여를 인정하며, 동 인정기준 이외에는 약값 전액을 환자가 부담토록 함. - 아 래 - 가. 대상환자 1) 투여개시 AST(As...
+2025-09-03 18:11:28,722 - WARNING - V5 Fallback 시도 for v5_simple_row_0: 0개 -> 재시도
+2025-09-03 18:11:38,263 - INFO - V5 Simple 완료: v5_simple_row_3 - 10개 질문 (평균 37자)
+2025-09-03 18:11:38,443 - INFO - V5 Simple 완료: v5_simple_row_4 - 13개 질문 (평균 29자)
+2025-09-03 18:11:45,766 - INFO - V5 Simple 완료: v5_simple_row_0 - 12개 질문 (평균 34자)
+2025-09-03 18:12:06,270 - INFO - V5 Simple 완료: v5_simple_row_5 - 10개 질문 (평균 32자)
+2025-09-03 18:12:17,454 - WARNING - V5 길이 부족: 스핀라자주 투여 조건은 무엇인가요? (19자)
+2025-09-03 18:12:17,455 - INFO - V5 Simple 완료: v5_simple_row_6 - 11개 질문 (평균 30자)
+2025-09-03 18:12:26,317 - WARNING - V5 대명사 검출: 이 약제를 3개월 이상 처방할 경우 어떤 절차를 따라야 하나요?
+2025-09-03 18:12:26,317 - INFO - V5 Simple 완료: v5_simple_row_7 - 8개 질문 (평균 32자)
+2025-09-03 18:12:30,850 - INFO - V5 Simple 완료: v5_simple_row_8 - 14개 질문 (평균 31자)
+2025-09-03 18:12:54,338 - INFO - V5 Simple 완료: v5_simple_row_11 - 14개 질문 (평균 28자)
+2025-09-03 18:12:57,674 - INFO - V5 Simple 완료: v5_simple_row_10 - 11개 질문 (평균 30자)
+2025-09-03 18:12:58,795 - INFO - V5 Simple 완료: v5_simple_row_9 - 12개 질문 (평균 39자)
+2025-09-03 18:13:21,079 - INFO - V5 Simple 완료: v5_simple_row_12 - 12개 질문 (평균 29자)
+2025-09-03 18:13:26,654 - INFO - V5 Simple 완료: v5_simple_row_14 - 11개 질문 (평균 35자)
+2025-09-03 18:13:35,027 - INFO - V5 Simple 완료: v5_simple_row_13 - 12개 질문 (평균 30자)
+2025-09-03 18:13:42,828 - INFO - V5 Simple 완료: v5_simple_row_15 - 15개 질문 (평균 33자)
+2025-09-03 18:13:51,573 - INFO - V5 Simple 완료: v5_simple_row_17 - 10개 질문 (평균 42자)
+2025-09-03 18:13:54,141 - INFO - V5 Simple 완료: v5_simple_row_16 - 8개 질문 (평균 29자)
+2025-09-03 18:14:10,845 - INFO - V5 Simple 완료: v5_simple_row_18 - 13개 질문 (평균 35자)
+2025-09-03 18:14:16,647 - WARNING - V5 대명사 검출: 이 약제를 비급여로 사용해야 하는 경우는 언제인가요?
+2025-09-03 18:14:16,648 - INFO - V5 Simple 완료: v5_simple_row_20 - 14개 질문 (평균 33자)
+2025-09-03 18:14:21,246 - INFO - V5 Simple 완료: v5_simple_row_19 - 14개 질문 (평균 36자)
+2025-09-03 18:14:37,958 - WARNING - V5 대명사 검출: 이 약제를 처방하기 위한 사전승인 절차는 무엇인가요?
+2025-09-03 18:14:37,958 - INFO - V5 Simple 완료: v5_simple_row_21 - 15개 질문 (평균 38자)
+2025-09-03 18:14:58,388 - INFO - V5 Simple 완료: v5_simple_row_23 - 13개 질문 (평균 31자)
+2025-09-03 18:15:00,082 - INFO - V5 Simple 완료: v5_simple_row_22 - 12개 질문 (평균 33자)
+2025-09-03 18:15:10,787 - INFO - V5 Simple 완료: v5_simple_row_24 - 10개 질문 (평균 30자)
+2025-09-03 18:15:32,438 - WARNING - V5 대명사 검출: 이 약제가 주사제로 사용될 경우 경구제와의 차이점은 무엇인가요?
+2025-09-03 18:15:32,438 - INFO - V5 Simple 완료: v5_simple_row_25 - 9개 질문 (평균 35자)
+2025-09-03 18:15:38,972 - INFO - V5 Simple 완료: v5_simple_row_26 - 15개 질문 (평균 37자)
+2025-09-03 18:15:57,960 - INFO - V5 Simple 완료: v5_simple_row_28 - 13개 질문 (평균 31자)
+2025-09-03 18:16:00,954 - INFO - V5 Simple 완료: v5_simple_row_27 - 14개 질문 (평균 28자)
+2025-09-03 18:16:11,419 - INFO - V5 Simple 완료: v5_simple_row_29 - 14개 질문 (평균 28자)
+2025-09-03 18:16:25,344 - INFO - V5 Simple 완료: v5_simple_row_31 - 14개 질문 (평균 37자)
+2025-09-03 18:16:27,309 - INFO - V5 Simple 완료: v5_simple_row_30 - 10개 질문 (평균 38자)
+2025-09-03 18:16:33,480 - INFO - V5 Simple 완료: v5_simple_row_32 - 12개 질문 (평균 28자)
+2025-09-03 18:16:47,391 - INFO - V5 Simple 완료: v5_simple_row_33 - 17개 질문 (평균 28자)
+2025-09-03 18:16:50,891 - INFO - V5 Simple 완료: v5_simple_row_34 - 13개 질문 (평균 38자)
+2025-09-03 18:16:53,089 - INFO - V5 Simple 완료: v5_simple_row_35 - 13개 질문 (평균 34자)
+2025-09-03 18:17:15,826 - INFO - V5 Simple 완료: v5_simple_row_37 - 15개 질문 (평균 30자)
+2025-09-03 18:17:21,915 - INFO - V5 Simple 완료: v5_simple_row_36 - 14개 질문 (평균 35자)
+2025-09-03 18:17:25,923 - INFO - V5 Simple 완료: v5_simple_row_38 - 11개 질문 (평균 34자)
+2025-09-03 18:17:41,029 - INFO - V5 Simple 완료: v5_simple_row_40 - 10개 질문 (평균 36자)
+2025-09-03 18:17:47,569 - INFO - V5 Simple 완료: v5_simple_row_39 - 12개 질문 (평균 34자)
+2025-09-03 18:17:49,783 - INFO - V5 Simple 완료: v5_simple_row_41 - 10개 질문 (평균 41자)
+2025-09-03 18:18:13,666 - INFO - V5 Simple 완료: v5_simple_row_43 - 12개 질문 (평균 36자)
+2025-09-03 18:18:18,459 - INFO - V5 Simple 완료: v5_simple_row_42 - 14개 질문 (평균 43자)
+2025-09-03 18:18:20,994 - INFO - V5 Simple 완료: v5_simple_row_44 - 14개 질문 (평균 40자)
+2025-09-03 18:18:37,081 - INFO - V5 Simple 완료: v5_simple_row_45 - 13개 질문 (평균 31자)
+2025-09-03 18:18:41,534 - INFO - V5 Simple 완료: v5_simple_row_46 - 10개 질문 (평균 50자)
+2025-09-03 18:19:02,363 - INFO - V5 Simple 완료: v5_simple_row_47 - 15개 질문 (평균 45자)
+2025-09-03 18:19:02,580 - INFO - V5 Simple 완료: v5_simple_row_48 - 13개 질문 (평균 42자)
+2025-09-03 18:19:04,402 - INFO - V5 Simple 완료: v5_simple_row_49 - 10개 질문 (평균 44자)
+2025-09-03 18:19:25,209 - INFO - V5 Simple 완료: v5_simple_row_51 - 10개 질문 (평균 33자)
+2025-09-03 18:19:26,222 - INFO - V5 Simple 완료: v5_simple_row_50 - 11개 질문 (평균 32자)
+2025-09-03 18:19:33,627 - INFO - V5 Simple 완료: v5_simple_row_52 - 9개 질문 (평균 41자)
+2025-09-03 18:19:58,400 - INFO - V5 Simple 완료: v5_simple_row_54 - 10개 질문 (평균 44자)
+2025-09-03 18:20:01,076 - INFO - V5 Simple 완료: v5_simple_row_55 - 11개 질문 (평균 48자)
+2025-09-03 18:20:17,743 - ERROR - JSON 파싱 실패 for v5_simple_row_53: Unterminated string starting at: line 12 column 93 (char 5009)
+2025-09-03 18:20:17,744 - ERROR - Content: [
+  {"약제분류번호":"113.0","약제 분류명":"항전간제","구분":"Sodium valproate 주사제 (품명 : 데파킨주 등)","세부인정기준 및 방법":"허가사항 범위 내에서 아래와 같은 기준으로 투여 시 요양 급여를 인정하며, 동 인정기준 이외에는 약값 전액을 환자가 부담토록 함. - 아 래 - 가. 뇌전증지속상태 급성기 등에 투여 시 2...
+2025-09-03 18:20:17,744 - WARNING - V5 Fallback 시도 for v5_simple_row_53: 0개 -> 재시도

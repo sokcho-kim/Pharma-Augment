@@ -1,0 +1,689 @@
+﻿row_id,row_idx,main_name,brand_count,questions_generated,avg_length,elapsed_ms,provider,model,version
+v5_simple_row_2,2,경구용 만성 B형간염치료제,0,14,33.142857142857146,23863,openai,gpt-4o-mini,v5_simple
+v5_simple_row_1,1,경구용 뇌대사개선제,0,11,24.363636363636363,33053,openai,gpt-4o-mini,v5_simple
+v5_simple_row_3,3,경구용 서방형제제,0,9,35.44444444444444,20255,openai,gpt-4o-mini,v5_simple
+v5_simple_row_5,5,경구용 항혈전제,0,13,35.92307692307692,15486,openai,gpt-4o-mini,v5_simple
+v5_simple_row_0,0,간장용제,0,12,34.166666666666664,60875,openai,gpt-4o-mini,v5_simple
+v5_simple_row_6,6,고가의약품 급여관리에 관한 기준,0,13,30.384615384615383,31250,openai,gpt-4o-mini,v5_simple
+v5_simple_row_7,7,고지혈증치료제,0,10,33.9,40186,openai,gpt-4o-mini,v5_simple
+v5_simple_row_4,4,경구용 항뇌전증약,0,11,28.545454545454547,68104,openai,gpt-4o-mini,v5_simple
+v5_simple_row_8,8,고혈압약제,0,14,36.285714285714285,27157,openai,gpt-4o-mini,v5_simple
+v5_simple_row_9,9,골다공증치료제,0,14,32.07142857142857,18175,openai,gpt-4o-mini,v5_simple
+v5_simple_row_10,10,국민건강보험 요양급여의 기준에 관한 규칙 제5조제4항에 의하여 중증환자 중 암환자에게 처방·투여하는 약제로서 건강보험심사평가원장이 정하여 공고하는 약제의 범위 및 비용부담,0,11,31.545454545454547,31377,openai,gpt-4o-mini,v5_simple
+v5_simple_row_11,11,국소지혈제,0,14,31.142857142857142,16990,openai,gpt-4o-mini,v5_simple
+v5_simple_row_12,12,기관지천식 치료용흡입제,0,13,31.076923076923077,17140,openai,gpt-4o-mini,v5_simple
+v5_simple_row_15,15,당뇨병용제,0,14,34.285714285714285,17985,openai,gpt-4o-mini,v5_simple
+v5_simple_row_13,13,내용액제,0,15,31.866666666666667,24975,openai,gpt-4o-mini,v5_simple
+v5_simple_row_14,14,뇌대사제제 및 뇌순환계용약 주사제,0,8,31.875,34683,openai,gpt-4o-mini,v5_simple
+v5_simple_row_16,16,동일성분 의약품 중복처방 관리에 관한 기준,0,9,27.333333333333332,26437,openai,gpt-4o-mini,v5_simple
+v5_simple_row_17,17,마약성 진통제,0,13,29.153846153846153,25576,openai,gpt-4o-mini,v5_simple
+v5_simple_row_18,18,메르스 코로나바이러스,0,14,33.5,28388,openai,gpt-4o-mini,v5_simple
+v5_simple_row_20,20,보조생식술에 사용되는 호르몬 약제,0,15,38.13333333333333,22701,openai,gpt-4o-mini,v5_simple
+v5_simple_row_19,19,"병용금기 성분, 특정연령대 금기 성분 및 임부금기 성분",0,15,35.4,31861,openai,gpt-4o-mini,v5_simple
+v5_simple_row_21,21,비결핵항산균,0,13,37.38461538461539,24323,openai,gpt-4o-mini,v5_simple
+v5_simple_row_23,23,비타민제,0,13,31.53846153846154,27726,openai,gpt-4o-mini,v5_simple
+v5_simple_row_22,22,비용효과적인 함량 의약품 사용,0,12,34.666666666666664,39315,openai,gpt-4o-mini,v5_simple
+v5_simple_row_24,24,안연고,0,10,32.9,27900,openai,gpt-4o-mini,v5_simple
+v5_simple_row_25,25,암질환이 아닌 환자에서의 조혈모세포이식 전처치요법,0,8,36.125,23194,openai,gpt-4o-mini,v5_simple
+v5_simple_row_26,26,요오드 조영제,0,13,38.69230769230769,28315,openai,gpt-4o-mini,v5_simple
+v5_simple_row_27,27,주사제의 자가주사 및 장기처방,0,14,32.0,40098,openai,gpt-4o-mini,v5_simple
+v5_simple_row_29,29,폐경 후 호르몬요법 인정기준,0,14,28.928571428571427,21363,openai,gpt-4o-mini,v5_simple
+v5_simple_row_31,31,폐동맥고혈압 약제,0,15,39.53333333333333,28051,openai,gpt-4o-mini,v5_simple
+v5_simple_row_30,30,폐경기증후군에 투여하는 약제,0,10,37.7,33214,openai,gpt-4o-mini,v5_simple
+v5_simple_row_28,28,진해거담제,0,12,26.666666666666668,69956,openai,gpt-4o-mini,v5_simple
+v5_simple_row_33,33,항생제,0,14,30.785714285714285,18922,openai,gpt-4o-mini,v5_simple
+v5_simple_row_32,32,필수경구약제,0,13,29.53846153846154,25301,openai,gpt-4o-mini,v5_simple
+v5_simple_row_34,34,항생제 및 항원충제,0,14,36.142857142857146,22173,openai,gpt-4o-mini,v5_simple
+v5_simple_row_35,35,항진균제,0,14,38.642857142857146,23839,openai,gpt-4o-mini,v5_simple
+v5_simple_row_36,36,항파킨슨 약제,0,15,36.666666666666664,30388,openai,gpt-4o-mini,v5_simple
+v5_simple_row_37,37,향정신성약물,0,13,30.307692307692307,24911,openai,gpt-4o-mini,v5_simple
+v5_simple_row_38,38,허가 또는 신고범위 초과 약제 비급여 사용승인에 관한 기준 및 절차,0,10,34.6,28597,openai,gpt-4o-mini,v5_simple
+v5_simple_row_39,39,흡입마취에 사용되는 약제,0,12,32.416666666666664,18875,openai,gpt-4o-mini,v5_simple
+v5_simple_row_40,40,Probiotics,0,10,38.1,21939,openai,gpt-4o-mini,v5_simple
+v5_simple_row_42,42,Ketamine HCl 주사제,1,13,44.53846153846154,24632,openai,gpt-4o-mini,v5_simple
+v5_simple_row_43,43,Propofol 주사제,1,10,37.7,20891,openai,gpt-4o-mini,v5_simple
+v5_simple_row_41,41,Etomidate 주사제,1,11,42.90909090909091,30403,openai,gpt-4o-mini,v5_simple
+v5_simple_row_45,45,Cannabidiol,1,13,33.53846153846154,21592,openai,gpt-4o-mini,v5_simple
+v5_simple_row_44,44,Midazolam 주사제,1,12,33.333333333333336,25180,openai,gpt-4o-mini,v5_simple
+v5_simple_row_46,46,Carbamazepine 경구제,1,13,45.30769230769231,26191,openai,gpt-4o-mini,v5_simple
+v5_simple_row_47,47,Clonazepam 경구제,1,11,33.27272727272727,19605,openai,gpt-4o-mini,v5_simple
+v5_simple_row_49,49,Lamotrigine 경구제,1,10,37.9,19859,openai,gpt-4o-mini,v5_simple
+v5_simple_row_48,48,Gabapentin 경구제,1,13,42.30769230769231,29043,openai,gpt-4o-mini,v5_simple
+v5_simple_row_50,50,Levetiracetam 주사제,1,11,34.36363636363637,23726,openai,gpt-4o-mini,v5_simple
+v5_simple_row_51,51,Primidone 경구제,1,10,33.0,18254,openai,gpt-4o-mini,v5_simple
+v5_simple_row_52,52,Rufinamide 경구제,1,9,38.44444444444444,15759,openai,gpt-4o-mini,v5_simple
+v5_simple_row_54,54,Stiripentol 경구제,1,11,34.36363636363637,25494,openai,gpt-4o-mini,v5_simple
+v5_simple_row_55,55,Tetrabenazine 경구제,1,10,45.7,24578,openai,gpt-4o-mini,v5_simple
+v5_simple_row_53,53,Sodium valproate 주사제,1,10,37.6,54141,openai,gpt-4o-mini,v5_simple
+v5_simple_row_56,56,자오가·우슬·방풍·두충 ·구척·흑두 건조엑스,1,7,29.714285714285715,31177,openai,gpt-4o-mini,v5_simple
+v5_simple_row_57,57,편두통 치료제,0,12,32.416666666666664,42889,openai,gpt-4o-mini,v5_simple
+v5_simple_row_59,59,Celecoxib 경구제,1,10,42.6,23562,openai,gpt-4o-mini,v5_simple
+v5_simple_row_60,60,Etoricoxib 경구제,1,9,43.111111111111114,16016,openai,gpt-4o-mini,v5_simple
+v5_simple_row_58,58,Celecoxib + 당귀·목과·방풍·속단· 오가피·우슬·위령선·육계·진교·천궁·천마·홍화 25% ethanol soft ext.,1,5,33.8,40077,openai,gpt-4o-mini,v5_simple
+v5_simple_row_62,62,Methotrexate 프리필드시린지 주사제,1,13,44.84615384615385,18330,openai,gpt-4o-mini,v5_simple
+v5_simple_row_61,61,Loxoprofen sodium 60mg 경구제,1,12,43.75,24417,openai,gpt-4o-mini,v5_simple
+v5_simple_row_64,64,Propacetamol HCl 주사제,1,13,47.46153846153846,29901,openai,gpt-4o-mini,v5_simple
+v5_simple_row_65,65,Methylphenidate HCl 서방형 경구제,1,13,34.23076923076923,33437,openai,gpt-4o-mini,v5_simple
+v5_simple_row_67,67,Agomelatine 경구제,1,13,33.0,19391,openai,gpt-4o-mini,v5_simple
+v5_simple_row_63,63,Polmacoxib 경구제,1,9,30.555555555555557,70831,openai,gpt-4o-mini,v5_simple
+v5_simple_row_66,66,Methylphenidate HCl 일반형 경구제,1,13,45.15384615384615,32197,openai,gpt-4o-mini,v5_simple
+v5_simple_row_69,69,Blonanserin 경구제,1,10,39.3,25158,openai,gpt-4o-mini,v5_simple
+v5_simple_row_68,68,Aripiprazole 주사제,1,13,37.30769230769231,32358,openai,gpt-4o-mini,v5_simple
+v5_simple_row_70,70,Bupropion 100mg 경구제,1,10,45.3,24756,openai,gpt-4o-mini,v5_simple
+v5_simple_row_71,71,Bupropion HCl 150mg 경구제,1,11,45.63636363636363,18522,openai,gpt-4o-mini,v5_simple
+v5_simple_row_72,72,Clozapine 경구제,1,13,38.30769230769231,20582,openai,gpt-4o-mini,v5_simple
+v5_simple_row_73,73,Desvenlafaxine 경구제,1,13,36.15384615384615,20637,openai,gpt-4o-mini,v5_simple
+v5_simple_row_74,74,Duloxetine 경구제,1,12,43.583333333333336,17934,openai,gpt-4o-mini,v5_simple
+v5_simple_row_75,75,Fluvoxamine maleate,1,11,29.90909090909091,34833,openai,gpt-4o-mini,v5_simple
+v5_simple_row_76,76,Levomepromazine maleate 경구제,1,9,50.888888888888886,35367,openai,gpt-4o-mini,v5_simple
+v5_simple_row_77,77,Lorazepam 주사제,1,16,41.5625,33689,openai,gpt-4o-mini,v5_simple
+v5_simple_row_78,78,Paliperidone palmitate 주사제,1,10,58.3,20259,openai,gpt-4o-mini,v5_simple
+v5_simple_row_80,80,Risperidone 주사제,1,10,32.5,13610,openai,gpt-4o-mini,v5_simple
+v5_simple_row_79,79,Quetiapine fumarate 경구제,1,10,43.8,31831,openai,gpt-4o-mini,v5_simple
+v5_simple_row_82,82,Sulpiride 경구제,1,10,42.6,17350,openai,gpt-4o-mini,v5_simple
+v5_simple_row_83,83,Tandospirone 경구제,1,10,40.0,24375,openai,gpt-4o-mini,v5_simple
+v5_simple_row_84,84,Venlafaxine HCl 서방경구제,1,11,52.90909090909091,26785,openai,gpt-4o-mini,v5_simple
+v5_simple_row_85,85,Vortioxetine hydrobromide 경구제,1,10,31.1,21087,openai,gpt-4o-mini,v5_simple
+v5_simple_row_81,81,Sertraline HCl,1,10,28.5,75902,openai,gpt-4o-mini,v5_simple
+v5_simple_row_87,87,Amantadine 경구제,1,10,44.0,17375,openai,gpt-4o-mini,v5_simple
+v5_simple_row_86,86,Alemtuzumab 주사제,1,12,38.5,30161,openai,gpt-4o-mini,v5_simple
+v5_simple_row_88,88,Amantadine 주사제,1,14,39.42857142857143,23179,openai,gpt-4o-mini,v5_simple
+v5_simple_row_89,89,Atomoxetine HCl 경구제,1,12,39.166666666666664,23741,openai,gpt-4o-mini,v5_simple
+v5_simple_row_90,90,Cladribine 경구제,1,14,38.07142857142857,28333,openai,gpt-4o-mini,v5_simple
+v5_simple_row_92,92,Dimethyl fumarate 경구제,1,9,37.666666666666664,17740,openai,gpt-4o-mini,v5_simple
+v5_simple_row_91,91,Clonidine hydrochloride 경구제,1,15,52.46666666666667,29429,openai,gpt-4o-mini,v5_simple
+v5_simple_row_94,94,Fingolimod HCl 경구제,1,10,37.3,19172,openai,gpt-4o-mini,v5_simple
+v5_simple_row_93,93,Donepezil 경구제,1,11,36.54545454545455,28159,openai,gpt-4o-mini,v5_simple
+v5_simple_row_95,95,Fremanezumab 주사제,1,14,35.214285714285715,31536,openai,gpt-4o-mini,v5_simple
+v5_simple_row_98,98,Glatiramer acetate 주사제,2,10,41.4,20705,openai,gpt-4o-mini,v5_simple
+v5_simple_row_99,99,Memantine 경구제,1,14,34.92857142857143,24541,openai,gpt-4o-mini,v5_simple
+v5_simple_row_97,97,Galcanezumab 주사제,2,10,36.0,68091,openai,gpt-4o-mini,v5_simple
+v5_simple_row_96,96,Galantamine 경구제,1,11,35.90909090909091,75314,openai,gpt-4o-mini,v5_simple
+v5_simple_row_100,100,Modafinil 200mg 경구제,1,8,50.625,24044,openai,gpt-4o-mini,v5_simple
+v5_simple_row_101,101,Nusinersen sodium 주사제,1,12,41.833333333333336,32959,openai,gpt-4o-mini,v5_simple
+v5_simple_row_103,103,Pregabalin 서방형 경구제,1,14,47.214285714285715,26828,openai,gpt-4o-mini,v5_simple
+v5_simple_row_102,102,Pitolisant hydrochloride 경구제,1,17,49.705882352941174,47101,openai,gpt-4o-mini,v5_simple
+v5_simple_row_104,104,Pregabalin 일반형 경구제,1,14,33.42857142857143,31812,openai,gpt-4o-mini,v5_simple
+v5_simple_row_106,106,Rivastigmine 제제,1,11,45.0,25155,openai,gpt-4o-mini,v5_simple
+v5_simple_row_105,105,Risdiplam 경구제,1,13,29.923076923076923,29674,openai,gpt-4o-mini,v5_simple
+v5_simple_row_107,107,Satralizumab 주사제,1,14,40.42857142857143,27022,openai,gpt-4o-mini,v5_simple
+v5_simple_row_108,108,Teriflunomide 경구제,1,10,30.0,23489,openai,gpt-4o-mini,v5_simple
+v5_simple_row_109,109,Levobupivacaine HCl 25mg 주사제,1,13,45.15384615384615,29236,openai,gpt-4o-mini,v5_simple
+v5_simple_row_110,110,Lidocaine HCl 주사제,1,13,48.53846153846154,33947,openai,gpt-4o-mini,v5_simple
+v5_simple_row_113,113,Eperisone hydrochloride 경구제,1,10,50.6,21274,openai,gpt-4o-mini,v5_simple
+v5_simple_row_112,112,baclofen 주사제,2,10,36.6,45781,openai,gpt-4o-mini,v5_simple
+v5_simple_row_111,111,Atracurium besylate 주사제,1,12,40.666666666666664,63145,openai,gpt-4o-mini,v5_simple
+v5_simple_row_114,114,Bethanechol chloride 경구제,1,8,46.5,25817,openai,gpt-4o-mini,v5_simple
+v5_simple_row_115,115,Glycopyrrolate 주사제,1,10,46.5,24949,openai,gpt-4o-mini,v5_simple
+v5_simple_row_116,116,Oxybutynin 경구제,1,9,41.0,28008,openai,gpt-4o-mini,v5_simple
+v5_simple_row_118,118,Tafamidis meglumine 경구제,1,9,44.77777777777778,23120,openai,gpt-4o-mini,v5_simple
+v5_simple_row_117,117,Hyoscine butylbromide 주사제,1,13,52.46153846153846,30886,openai,gpt-4o-mini,v5_simple
+v5_simple_row_120,120,Cyclosporin 0.05% 외용제,1,10,41.8,22556,openai,gpt-4o-mini,v5_simple
+v5_simple_row_119,119,Bilberry fruit dried ext. 경구제,1,11,51.09090909090909,35671,openai,gpt-4o-mini,v5_simple
+v5_simple_row_121,121,Cyclosporin 0.1% 외용제,1,10,31.8,26068,openai,gpt-4o-mini,v5_simple
+v5_simple_row_123,123,Natamycin 외용제,1,11,35.27272727272727,19404,openai,gpt-4o-mini,v5_simple
+v5_simple_row_124,124,Omidenepag isopropyl 외용제,1,14,32.07142857142857,26572,openai,gpt-4o-mini,v5_simple
+v5_simple_row_122,122,Dexamethasone 700㎍ 이식제,1,13,40.30769230769231,31528,openai,gpt-4o-mini,v5_simple
+v5_simple_row_126,126,Sodium hyaluronate 18mg/10ml 외용제,1,10,37.2,19491,openai,gpt-4o-mini,v5_simple
+v5_simple_row_125,125,Rebamipide 0.1g/5ml 외용제,1,11,34.63636363636363,33989,openai,gpt-4o-mini,v5_simple
+v5_simple_row_127,127,Tafluprost 외용제,1,12,31.916666666666668,27930,openai,gpt-4o-mini,v5_simple
+v5_simple_row_128,128,Tosufloxacin tosylate 외용제,1,15,55.53333333333333,32678,openai,gpt-4o-mini,v5_simple
+v5_simple_row_129,129,Triamcinolone acetonide 주사제,1,12,44.25,27083,openai,gpt-4o-mini,v5_simple
+v5_simple_row_130,130,Verteporfin 주사제,1,14,43.5,34120,openai,gpt-4o-mini,v5_simple
+v5_simple_row_131,131,Voretigene neparvovec 주사제,1,12,41.75,26389,openai,gpt-4o-mini,v5_simple
+v5_simple_row_132,132,Ciprofloxacin HCl + Dexamethasone 외용제,1,12,61.833333333333336,30932,openai,gpt-4o-mini,v5_simple
+v5_simple_row_133,133,Fluticasone furoate 외용제,1,10,49.6,23959,openai,gpt-4o-mini,v5_simple
+v5_simple_row_134,134,Micronized ciclesonide 외용제,1,10,56.2,23762,openai,gpt-4o-mini,v5_simple
+v5_simple_row_136,136,Desloratadine 경구제,1,12,43.5,26628,openai,gpt-4o-mini,v5_simple
+v5_simple_row_135,135,olopatadine + mometasone furoate 외용제,1,14,36.0,34764,openai,gpt-4o-mini,v5_simple
+v5_simple_row_137,137,Piprinhydrinate 제제,1,12,49.0,21231,openai,gpt-4o-mini,v5_simple
+v5_simple_row_140,140,Baricitinib 경구제,1,14,40.785714285714285,28050,openai,gpt-4o-mini,v5_simple
+v5_simple_row_139,139,Abrocitinib 경구제,1,12,43.0,42758,openai,gpt-4o-mini,v5_simple
+v5_simple_row_138,138,Rupatadine 경구제,1,21,31.904761904761905,57945,openai,gpt-4o-mini,v5_simple
+v5_simple_row_142,142,Belimumab 주사제,1,11,38.81818181818182,24273,openai,gpt-4o-mini,v5_simple
+v5_simple_row_141,141,Basiliximab 주사제,1,13,39.07692307692308,34866,openai,gpt-4o-mini,v5_simple
+v5_simple_row_143,143,Cyclosporine 경구제,1,10,35.1,22833,openai,gpt-4o-mini,v5_simple
+v5_simple_row_144,144,Cyclosporine 주사제,1,10,45.6,30809,openai,gpt-4o-mini,v5_simple
+v5_simple_row_145,145,Deucravacitinib 경구제,1,11,37.27272727272727,34580,openai,gpt-4o-mini,v5_simple
+v5_simple_row_146,146,Dimethyl fumarate 경구제,1,10,47.0,32935,openai,gpt-4o-mini,v5_simple
+v5_simple_row_147,147,Dupilumab 주사제,1,13,38.15384615384615,25415,openai,gpt-4o-mini,v5_simple
+v5_simple_row_148,148,Everolimus 경구제,1,11,41.90909090909091,21529,openai,gpt-4o-mini,v5_simple
+v5_simple_row_150,150,Golimumab 주사제,1,9,46.111111111111114,20028,openai,gpt-4o-mini,v5_simple
+v5_simple_row_149,149,Filgotinib 경구제,1,10,36.0,35675,openai,gpt-4o-mini,v5_simple
+v5_simple_row_151,151,Guselkumab 주사제,1,12,40.0,24269,openai,gpt-4o-mini,v5_simple
+v5_simple_row_152,152,Ixekizumab 주사제,1,13,42.76923076923077,32729,openai,gpt-4o-mini,v5_simple
+v5_simple_row_154,154,Mycophenolate mofetil 경구제,1,14,47.142857142857146,31833,openai,gpt-4o-mini,v5_simple
+v5_simple_row_153,153,Leflunomide 경구제,1,13,41.0,39065,openai,gpt-4o-mini,v5_simple
+v5_simple_row_156,156,Ozanimod 경구제,1,13,36.38461538461539,24922,openai,gpt-4o-mini,v5_simple
+v5_simple_row_157,157,Rabbit anti-human thymocyte immunoglobulin 주사제,1,9,58.44444444444444,25762,openai,gpt-4o-mini,v5_simple
+v5_simple_row_155,155,Mycophenolate sodium 경구제,1,9,53.888888888888886,47944,openai,gpt-4o-mini,v5_simple
+v5_simple_row_158,158,Risankizumab 주사제,1,10,45.8,28696,openai,gpt-4o-mini,v5_simple
+v5_simple_row_160,160,Sirolimus 경구제,1,12,36.666666666666664,25881,openai,gpt-4o-mini,v5_simple
+v5_simple_row_159,159,Secukinumab 주사제,1,12,26.916666666666668,57520,openai,gpt-4o-mini,v5_simple
+v5_simple_row_161,161,Tacrolimus 제제,2,13,39.69230769230769,34412,openai,gpt-4o-mini,v5_simple
+v5_simple_row_162,162,Tocilizumab 주사제,1,15,36.2,28974,openai,gpt-4o-mini,v5_simple
+v5_simple_row_163,163,Tofacitinib 경구제,1,11,44.09090909090909,27728,openai,gpt-4o-mini,v5_simple
+v5_simple_row_164,164,Tralokinumab 주사제,1,11,45.09090909090909,32528,openai,gpt-4o-mini,v5_simple
+v5_simple_row_165,165,Upadacitinib 경구제,1,9,45.77777777777778,31439,openai,gpt-4o-mini,v5_simple
+v5_simple_row_166,166,Ustekinumab 주사제,1,11,38.54545454545455,25568,openai,gpt-4o-mini,v5_simple
+v5_simple_row_169,169,Omalizumab 주사제,1,13,39.92307692307692,22957,openai,gpt-4o-mini,v5_simple
+v5_simple_row_167,167,Epinastine 경구제,1,14,44.92857142857143,44295,openai,gpt-4o-mini,v5_simple
+v5_simple_row_171,171,Caffeine and sodium benzoate 주사제,1,10,54.2,17720,openai,gpt-4o-mini,v5_simple
+v5_simple_row_170,170,Pemirolast potassium 시럽제,1,10,53.3,26757,openai,gpt-4o-mini,v5_simple
+v5_simple_row_172,172,Ubidecarenone 경구제,1,11,40.0,23560,openai,gpt-4o-mini,v5_simple
+v5_simple_row_173,173,Arotinolol HCl 경구제,1,12,41.083333333333336,24406,openai,gpt-4o-mini,v5_simple
+v5_simple_row_174,174,Dronedarone 경구제,1,12,34.25,17974,openai,gpt-4o-mini,v5_simple
+v5_simple_row_168,168,Leukotriene 조절제 Montelukast 경구제,1,0,0.0,96468,openai,gpt-4o-mini,v5_simple
+v5_simple_row_177,177,Propranolol HCl 경구제,1,10,47.9,18812,openai,gpt-4o-mini,v5_simple
+v5_simple_row_175,175,Esmolol HCl 주사제,1,18,42.166666666666664,34196,openai,gpt-4o-mini,v5_simple
+v5_simple_row_176,176,Pilsicainide HCl 경구제,1,12,41.25,24927,openai,gpt-4o-mini,v5_simple
+v5_simple_row_178,178,Ambrisentan 경구제,1,10,40.6,19184,openai,gpt-4o-mini,v5_simple
+v5_simple_row_179,179,Azilsartan medoxomil potassium 경구제,1,14,53.5,27961,openai,gpt-4o-mini,v5_simple
+v5_simple_row_180,180,Bosentan hydrate 경구제,1,12,36.333333333333336,40314,openai,gpt-4o-mini,v5_simple
+v5_simple_row_181,181,Doxazosin 경구제,1,12,37.583333333333336,25433,openai,gpt-4o-mini,v5_simple
+v5_simple_row_182,182,Fimasartan potassium 경구제,1,14,53.714285714285715,29049,openai,gpt-4o-mini,v5_simple
+v5_simple_row_184,184,Macitentan 경구제,1,9,40.0,17612,openai,gpt-4o-mini,v5_simple
+v5_simple_row_183,183,Iloprost 흡입액,1,9,33.44444444444444,27692,openai,gpt-4o-mini,v5_simple
+v5_simple_row_186,186,Selexipag 경구제,1,10,34.0,16097,openai,gpt-4o-mini,v5_simple
+v5_simple_row_185,185,Phenoxybenzamine 경구제,1,14,39.714285714285715,26733,openai,gpt-4o-mini,v5_simple
+v5_simple_row_187,187,Sildenafil 경구제,1,14,38.642857142857146,27301,openai,gpt-4o-mini,v5_simple
+v5_simple_row_188,188,"Treprostinil 1mg/mL, 2.5mg/mL, 5mg/mL 주사제",1,13,42.38461538461539,34791,openai,gpt-4o-mini,v5_simple
+v5_simple_row_189,189,Zofenopril calcium 경구제,1,13,29.923076923076923,29782,openai,gpt-4o-mini,v5_simple
+v5_simple_row_190,190,Efonidipine 경구제,1,10,36.3,18793,openai,gpt-4o-mini,v5_simple
+v5_simple_row_192,192,Nifedipine 경구제,1,11,43.18181818181818,22524,openai,gpt-4o-mini,v5_simple
+v5_simple_row_191,191,Nicorandil 주사제,1,12,39.0,34816,openai,gpt-4o-mini,v5_simple
+v5_simple_row_193,193,Nimodipine 경구제,1,11,37.36363636363637,41292,openai,gpt-4o-mini,v5_simple
+v5_simple_row_194,194,Nitroglycerin 주사제,1,13,45.07692307692308,26897,openai,gpt-4o-mini,v5_simple
+v5_simple_row_195,195,Trimetazidine 경구제,1,10,43.8,19456,openai,gpt-4o-mini,v5_simple
+v5_simple_row_196,196,Verapamil HCl 주사제,1,10,46.2,23815,openai,gpt-4o-mini,v5_simple
+v5_simple_row_197,197,Alirocumab 주사제,1,15,38.13333333333333,30493,openai,gpt-4o-mini,v5_simple
+v5_simple_row_198,198,Clopidogrel 경구제,1,16,37.5,33066,openai,gpt-4o-mini,v5_simple
+v5_simple_row_199,199,Clopidogrel + Aspirin 복합경구제,1,14,52.5,31508,openai,gpt-4o-mini,v5_simple
+v5_simple_row_201,201,Ezetimibe 경구제,1,11,40.18181818181818,23592,openai,gpt-4o-mini,v5_simple
+v5_simple_row_200,200,Evolocumab 주사제,1,15,34.666666666666664,28406,openai,gpt-4o-mini,v5_simple
+v5_simple_row_202,202,Ezetimibe+Atorvastatin 복합경구제,1,12,31.166666666666668,28644,openai,gpt-4o-mini,v5_simple
+v5_simple_row_204,204,Lovastatin 경구제,1,11,41.27272727272727,23681,openai,gpt-4o-mini,v5_simple
+v5_simple_row_203,203,Ezetimibe+Fenofibrate 복합경구제,1,11,52.54545454545455,26895,openai,gpt-4o-mini,v5_simple
+v5_simple_row_205,205,Omega-3-acid ethyl esters 90 경구제,1,9,34.44444444444444,24895,openai,gpt-4o-mini,v5_simple
+v5_simple_row_207,207,Omega-3-acid ethyl esters 90 + Rosuvastatin 복합경구제,1,8,35.875,23384,openai,gpt-4o-mini,v5_simple
+v5_simple_row_206,206,Omega-3-acid ethyl esters 90 + atorvastatin 복합경구제,1,12,31.083333333333332,27529,openai,gpt-4o-mini,v5_simple
+v5_simple_row_208,208,고혈압치료제 + 고지혈증치료제 복합경구제,0,8,28.5,21768,openai,gpt-4o-mini,v5_simple
+v5_simple_row_209,209,Abciximab 주사제,1,13,39.07692307692308,23143,openai,gpt-4o-mini,v5_simple
+v5_simple_row_210,210,Adenosine 주사제,1,12,37.916666666666664,24575,openai,gpt-4o-mini,v5_simple
+v5_simple_row_211,211,Alprostadil 주사제,1,10,45.9,22216,openai,gpt-4o-mini,v5_simple
+v5_simple_row_214,214,Argatroban 주사제,1,10,42.3,16928,openai,gpt-4o-mini,v5_simple
+v5_simple_row_212,212,Alprostadil a-cyclodextrin 주사제,1,12,50.5,37495,openai,gpt-4o-mini,v5_simple
+v5_simple_row_215,215,Aspirin 경구제,1,10,30.1,18373,openai,gpt-4o-mini,v5_simple
+v5_simple_row_216,216,Aspirin 25mg + Dipyridamole 200mg 경구제,1,11,48.18181818181818,18618,openai,gpt-4o-mini,v5_simple
+v5_simple_row_213,213,Alteplase 주사제,1,13,32.30769230769231,64505,openai,gpt-4o-mini,v5_simple
+v5_simple_row_217,217,Citicoline 경구제,1,11,43.54545454545455,24241,openai,gpt-4o-mini,v5_simple
+v5_simple_row_218,218,Citicoline 주사제,1,12,31.75,19159,openai,gpt-4o-mini,v5_simple
+v5_simple_row_220,220,Ferric citrate 경구제,1,12,47.25,23563,openai,gpt-4o-mini,v5_simple
+v5_simple_row_219,219,Dobesilate calcium 경구제,1,10,31.0,49808,openai,gpt-4o-mini,v5_simple
+v5_simple_row_222,222,Ginkgo biloba extract 경구제,1,12,54.666666666666664,24110,openai,gpt-4o-mini,v5_simple
+v5_simple_row_223,223,Icatibant 주사제,1,11,39.72727272727273,20089,openai,gpt-4o-mini,v5_simple
+v5_simple_row_221,221,Finerenone 경구제,1,12,30.833333333333332,68059,openai,gpt-4o-mini,v5_simple
+v5_simple_row_224,224,Ivabradine 경구제,1,11,37.09090909090909,24591,openai,gpt-4o-mini,v5_simple
+v5_simple_row_225,225,Kallidinogenase 경구제,1,10,49.2,19304,openai,gpt-4o-mini,v5_simple
+v5_simple_row_228,228,L-Carnitine,2,15,37.666666666666664,22370,openai,gpt-4o-mini,v5_simple
+v5_simple_row_227,227,Limaprost a-cyclodextrin 경구제,1,10,56.6,33172,openai,gpt-4o-mini,v5_simple
+v5_simple_row_226,226,Lanthanum carbonate 경구제,1,11,54.09090909090909,41992,openai,gpt-4o-mini,v5_simple
+v5_simple_row_230,230,"Nicergoline 5mg, 10mg 경구제",1,10,35.0,18472,openai,gpt-4o-mini,v5_simple
+v5_simple_row_229,229,Milrinone 주사제,1,10,37.4,27911,openai,gpt-4o-mini,v5_simple
+v5_simple_row_231,231,Pentoxifylline 경구제,1,10,44.3,32635,openai,gpt-4o-mini,v5_simple
+v5_simple_row_232,232,Sacubitril·Valsartan 경구제,1,10,39.7,30815,openai,gpt-4o-mini,v5_simple
+v5_simple_row_233,233,"Sevelamer HCl 400mg, 800mg 경구제",1,11,37.09090909090909,23490,openai,gpt-4o-mini,v5_simple
+v5_simple_row_235,235,Sucroferric oxyhydroxide 경구제,1,10,43.4,19625,openai,gpt-4o-mini,v5_simple
+v5_simple_row_234,234,Sodium ozagrel 주사제,1,12,45.166666666666664,34759,openai,gpt-4o-mini,v5_simple
+v5_simple_row_236,236,Tenecteplase 주사제,1,10,41.2,28041,openai,gpt-4o-mini,v5_simple
+v5_simple_row_238,238,Tolvaptan 경구제,1,11,33.90909090909091,21479,openai,gpt-4o-mini,v5_simple
+v5_simple_row_237,237,Tirofiban HCl,1,12,39.666666666666664,26690,openai,gpt-4o-mini,v5_simple
+v5_simple_row_239,239,Vericiguat 경구제,1,11,31.0,24140,openai,gpt-4o-mini,v5_simple
+v5_simple_row_240,240,vitis vinifera ext. 경구제,1,10,29.4,24121,openai,gpt-4o-mini,v5_simple
+v5_simple_row_241,241,Fluticasone propionate + Formoterol 흡입제,1,8,38.5,23907,openai,gpt-4o-mini,v5_simple
+v5_simple_row_243,243,Caffeine citrate 주사제,1,11,48.63636363636363,14434,openai,gpt-4o-mini,v5_simple
+v5_simple_row_244,244,Acetylcysteine 주사제,1,12,43.666666666666664,32521,openai,gpt-4o-mini,v5_simple
+v5_simple_row_245,245,Acetylcysteine 흡입액,1,12,39.666666666666664,25240,openai,gpt-4o-mini,v5_simple
+v5_simple_row_246,246,Ambroxol HCl 주사제,1,11,40.09090909090909,24842,openai,gpt-4o-mini,v5_simple
+v5_simple_row_242,242,Vilanterol trifenatate + Fluticasone furoate 흡입제,1,10,27.7,88210,openai,gpt-4o-mini,v5_simple
+v5_simple_row_247,247,Beclomethasone dipropionate + Formoterol 흡입제,2,12,49.583333333333336,33313,openai,gpt-4o-mini,v5_simple
+v5_simple_row_248,248,Ciclesonide 외용제,1,14,46.785714285714285,29952,openai,gpt-4o-mini,v5_simple
+v5_simple_row_250,250,Formoterol fumarate +,1,9,29.22222222222222,22308,openai,gpt-4o-mini,v5_simple
+v5_simple_row_249,249,Fluticasone furoate 흡입제,1,10,47.6,24746,openai,gpt-4o-mini,v5_simple
+v5_simple_row_251,251,Ivy leaf 30% ethanol dried ext. 시럽제,1,10,36.0,16746,openai,gpt-4o-mini,v5_simple
+v5_simple_row_252,252,Salbutamol 경구제,1,12,43.25,30623,openai,gpt-4o-mini,v5_simple
+v5_simple_row_253,253,Salbutamol sulfate 흡입액,1,11,41.90909090909091,36901,openai,gpt-4o-mini,v5_simple
+v5_simple_row_255,255,만성폐쇄성폐질환 흡입용 치료제,0,13,31.76923076923077,21637,openai,gpt-4o-mini,v5_simple
+v5_simple_row_256,256,Beclometasone dipropionate + Formoterol fumarate + Glycopyrronium bromide흡입제,3,5,34.8,27145,openai,gpt-4o-mini,v5_simple
+v5_simple_row_254,254,Salmeterol xinafoate + Fluticasone propionate 흡입제,1,15,33.4,57586,openai,gpt-4o-mini,v5_simple
+v5_simple_row_257,257,Benralizumab 주사제,1,10,41.3,22389,openai,gpt-4o-mini,v5_simple
+v5_simple_row_259,259,Indacaterol acetate +Mometasone furoate 흡입제,2,10,30.3,22895,openai,gpt-4o-mini,v5_simple
+v5_simple_row_260,260,Lung surfactant,1,13,29.384615384615383,22429,openai,gpt-4o-mini,v5_simple
+v5_simple_row_261,261,mepolizumab 주사제,1,12,39.416666666666664,20656,openai,gpt-4o-mini,v5_simple
+v5_simple_row_258,258,Indacaterol acetate+ Glycopyrronium bromide+ Mometasone furoate 흡입제,3,4,25.5,53057,openai,gpt-4o-mini,v5_simple
+v5_simple_row_262,262,Pirfenidone 경구제,1,11,39.90909090909091,31573,openai,gpt-4o-mini,v5_simple
+v5_simple_row_263,263,Reslizumab 주사제,1,11,38.18181818181818,27535,openai,gpt-4o-mini,v5_simple
+v5_simple_row_264,264,Roflumilast 경구제,1,15,38.266666666666666,36192,openai,gpt-4o-mini,v5_simple
+v5_simple_row_266,266,Sivelestat sodium hydrate 주사제,1,9,45.888888888888886,26101,openai,gpt-4o-mini,v5_simple
+v5_simple_row_265,265,Salmeterol xinafoate micronized + budesonide 흡입제,2,5,42.4,66788,openai,gpt-4o-mini,v5_simple
+v5_simple_row_268,268,Vilanterol trifenatate + Fluticasone furoate + Umeclidinium 흡입제,1,11,37.09090909090909,35463,openai,gpt-4o-mini,v5_simple
+v5_simple_row_267,267,Tiotropium 흡입제,1,9,36.55555555555556,51858,openai,gpt-4o-mini,v5_simple
+v5_simple_row_269,269,가글 용제,1,13,34.84615384615385,22222,openai,gpt-4o-mini,v5_simple
+v5_simple_row_270,270,Doxycycline hyclate 20mg 경구제,1,10,45.9,22965,openai,gpt-4o-mini,v5_simple
+v5_simple_row_271,271,프로톤 펌프 억제 경구제 Omeprazole,1,10,41.8,35076,openai,gpt-4o-mini,v5_simple
+v5_simple_row_272,272,프로톤 펌프 억제 주사제 Pantoprazole sodium,1,12,32.333333333333336,43661,openai,gpt-4o-mini,v5_simple
+v5_simple_row_274,274,Bismuth 경구제,1,14,40.07142857142857,22145,openai,gpt-4o-mini,v5_simple
+v5_simple_row_273,273,Artemisia asiatica 95% ethanol ext. 경구제,1,8,24.125,42622,openai,gpt-4o-mini,v5_simple
+v5_simple_row_277,277,Ilaprazole 경구제,1,14,40.285714285714285,25008,openai,gpt-4o-mini,v5_simple
+v5_simple_row_275,275,Fexuprazan 경구제,1,13,33.15384615384615,34271,openai,gpt-4o-mini,v5_simple
+v5_simple_row_276,276,H2 수용체 길항 주사제,1,12,34.75,34424,openai,gpt-4o-mini,v5_simple
+v5_simple_row_278,278,Irsogladine maleate 경구제,1,12,45.166666666666664,27791,openai,gpt-4o-mini,v5_simple
+v5_simple_row_280,280,Polaprezinc 경구제,1,10,35.6,22475,openai,gpt-4o-mini,v5_simple
+v5_simple_row_279,279,Lafutidine 경구제,1,15,39.86666666666667,33851,openai,gpt-4o-mini,v5_simple
+v5_simple_row_281,281,Roxatidine acetate HCl 경구제,1,11,43.36363636363637,21524,openai,gpt-4o-mini,v5_simple
+v5_simple_row_283,283,Sodium alginate 경구제,1,10,45.0,16069,openai,gpt-4o-mini,v5_simple
+v5_simple_row_282,282,S-pantoprazole 경구제,1,13,41.92307692307692,25752,openai,gpt-4o-mini,v5_simple
+v5_simple_row_284,284,Sulglycotide 경구제,1,10,39.1,26934,openai,gpt-4o-mini,v5_simple
+v5_simple_row_286,286,항구토제,0,10,36.1,24145,openai,gpt-4o-mini,v5_simple
+v5_simple_row_285,285,Tegoprazan 경구제,1,10,41.0,40964,openai,gpt-4o-mini,v5_simple
+v5_simple_row_287,287,Pyridoxine Hydrochloride + Doxylamine Succinate 복합경구제,1,5,55.6,21229,openai,gpt-4o-mini,v5_simple
+v5_simple_row_288,288,Prucalopride succinate 경구제,1,10,45.5,24540,openai,gpt-4o-mini,v5_simple
+v5_simple_row_290,290,Beclomethasone dipropionate 경구제,1,11,39.72727272727273,22250,openai,gpt-4o-mini,v5_simple
+v5_simple_row_289,289,"Sodium docusate, D-sorbitol 복합 제제",1,9,44.888888888888886,37046,openai,gpt-4o-mini,v5_simple
+v5_simple_row_291,291,Calcium polycarbophil 경구제,1,10,56.9,29646,openai,gpt-4o-mini,v5_simple
+v5_simple_row_292,292,Dexpanthenol 주사제,1,13,43.38461538461539,38568,openai,gpt-4o-mini,v5_simple
+v5_simple_row_293,293,E.Coli strain Nissle 1917 동결건조물 14mg 경구제,1,11,46.81818181818182,30375,openai,gpt-4o-mini,v5_simple
+v5_simple_row_294,294,Mesalazine 제제,1,12,42.75,38965,openai,gpt-4o-mini,v5_simple
+v5_simple_row_295,295,Migalastat 경구제,1,11,41.0,24296,openai,gpt-4o-mini,v5_simple
+v5_simple_row_296,296,"Ramosetron HCl 2.5㎍, 5㎍ 경구제",1,12,37.583333333333336,26550,openai,gpt-4o-mini,v5_simple
+v5_simple_row_298,298,Desmopressin acetate 경구제,1,12,38.333333333333336,13431,openai,gpt-4o-mini,v5_simple
+v5_simple_row_297,297,Somatostatin acetate 주사제,1,9,46.22222222222222,25816,openai,gpt-4o-mini,v5_simple
+v5_simple_row_301,301,Somatropin 서방형 주사제,1,12,27.0,14030,openai,gpt-4o-mini,v5_simple
+v5_simple_row_299,299,Desmopressin acetate 주사제,1,10,48.7,32080,openai,gpt-4o-mini,v5_simple
+v5_simple_row_300,300,Somatrogon 주사제,1,11,38.45454545454545,42549,openai,gpt-4o-mini,v5_simple
+v5_simple_row_302,302,Somatropin 주사제,1,11,31.363636363636363,25122,openai,gpt-4o-mini,v5_simple
+v5_simple_row_303,303,Terlipressin acetate 주사제,1,12,40.75,22342,openai,gpt-4o-mini,v5_simple
+v5_simple_row_304,304,Vasopressin 20U 주사제,1,10,42.6,11459,openai,gpt-4o-mini,v5_simple
+v5_simple_row_305,305,Teriparatide acetate 주사제,1,12,39.583333333333336,22982,openai,gpt-4o-mini,v5_simple
+v5_simple_row_306,306,Teriparatide 주사제,1,13,43.92307692307692,27678,openai,gpt-4o-mini,v5_simple
+v5_simple_row_307,307,Thyrotropin 주사제,1,14,44.642857142857146,35271,openai,gpt-4o-mini,v5_simple
+v5_simple_row_308,308,Oxymetholone 경구제,1,10,39.8,27564,openai,gpt-4o-mini,v5_simple
+v5_simple_row_309,309,스테로이드 주사제,1,10,37.0,19494,openai,gpt-4o-mini,v5_simple
+v5_simple_row_310,310,Budesonide,1,9,30.666666666666668,25383,openai,gpt-4o-mini,v5_simple
+v5_simple_row_311,311,Deflazacort 경구제,1,14,41.42857142857143,29349,openai,gpt-4o-mini,v5_simple
+v5_simple_row_312,312,Epinephrine bitartrate 주사제,1,9,40.55555555555556,34039,openai,gpt-4o-mini,v5_simple
+v5_simple_row_313,313,Epinephrine 제제,1,10,42.2,25401,openai,gpt-4o-mini,v5_simple
+v5_simple_row_314,314,Methylprednisolone sodium succinate 주사제,1,10,62.8,24454,openai,gpt-4o-mini,v5_simple
+v5_simple_row_315,315,Triamcinolone acetonide 주사제,1,15,33.266666666666666,27955,openai,gpt-4o-mini,v5_simple
+v5_simple_row_316,316,Danazol 경구제,1,9,39.333333333333336,20409,openai,gpt-4o-mini,v5_simple
+v5_simple_row_317,317,Dienogest 경구제,1,9,36.666666666666664,16928,openai,gpt-4o-mini,v5_simple
+v5_simple_row_320,320,Levonorgestrol 제제,1,9,32.333333333333336,22696,openai,gpt-4o-mini,v5_simple
+v5_simple_row_318,318,Estradiol hemihydrate 경구제,1,9,49.44444444444444,38456,openai,gpt-4o-mini,v5_simple
+v5_simple_row_319,319,Estradiol valerate 경구제,1,11,46.18181818181818,39408,openai,gpt-4o-mini,v5_simple
+v5_simple_row_322,322,난포자극호르몬,0,11,34.63636363636363,24853,openai,gpt-4o-mini,v5_simple
+v5_simple_row_321,321,Medroxyprogesterone acetate 경구제,1,12,51.416666666666664,34754,openai,gpt-4o-mini,v5_simple
+v5_simple_row_323,323,태반성성선자극호르몬,1,10,39.8,31495,openai,gpt-4o-mini,v5_simple
+v5_simple_row_325,325,Darbepoetin alpha 주사제,1,11,47.0,35158,openai,gpt-4o-mini,v5_simple
+v5_simple_row_326,326,Erythropoietin 주사제,1,12,39.833333333333336,25686,openai,gpt-4o-mini,v5_simple
+v5_simple_row_327,327,Follitropin-a + lutropin a,1,14,36.714285714285715,28230,openai,gpt-4o-mini,v5_simple
+v5_simple_row_328,328,GnRH antagonist 주사제,0,12,38.0,32969,openai,gpt-4o-mini,v5_simple
+v5_simple_row_330,330,Lutropin alpha,0,12,42.666666666666664,22180,openai,gpt-4o-mini,v5_simple
+v5_simple_row_324,324,Clomiphene citrate 경구제,1,10,48.2,102896,openai,gpt-4o-mini,v5_simple
+v5_simple_row_329,329,Long-acting octreotide 주사제,1,15,52.86666666666667,41690,openai,gpt-4o-mini,v5_simple
+v5_simple_row_332,332,Methoxy polyethylene glycol-epoetin β 주사제,1,9,35.77777777777778,29634,openai,gpt-4o-mini,v5_simple
+v5_simple_row_333,333,Octreotide 주사제,1,11,39.90909090909091,27782,openai,gpt-4o-mini,v5_simple
+v5_simple_row_331,331,Menotrophin 주사제,1,10,46.7,42687,openai,gpt-4o-mini,v5_simple
+v5_simple_row_335,335,Pegvisomant 주사제,1,10,37.3,25424,openai,gpt-4o-mini,v5_simple
+v5_simple_row_336,336,Methylergonovine maleate 주사제,1,11,57.90909090909091,33195,openai,gpt-4o-mini,v5_simple
+v5_simple_row_334,334,Pasireotide pamoate 주사제,1,9,46.111111111111114,50832,openai,gpt-4o-mini,v5_simple
+v5_simple_row_337,337,5알파 환원효소 억제제 경구제,0,9,32.333333333333336,30002,openai,gpt-4o-mini,v5_simple
+v5_simple_row_338,338,Alfuzosin 경구제,1,9,43.666666666666664,31371,openai,gpt-4o-mini,v5_simple
+v5_simple_row_340,340,"dutasteride 0.5mg, tamsulosin hydrochloride 0.4mg 복합경구제",1,8,30.75,23393,openai,gpt-4o-mini,v5_simple
+v5_simple_row_341,341,Fesoterodine fumarate 경구제,1,5,41.8,21279,openai,gpt-4o-mini,v5_simple
+v5_simple_row_342,342,Mirabegron 경구제,1,10,41.7,17951,openai,gpt-4o-mini,v5_simple
+v5_simple_row_343,343,Naftopidil 경구제,1,11,39.0,30269,openai,gpt-4o-mini,v5_simple
+v5_simple_row_344,344,Potassium citrate 경구제,1,10,35.8,21073,openai,gpt-4o-mini,v5_simple
+v5_simple_row_339,339,Atosiban 주사제,1,10,34.9,81057,openai,gpt-4o-mini,v5_simple
+v5_simple_row_346,346,Silodosin 경구제,1,10,36.3,29533,openai,gpt-4o-mini,v5_simple
+v5_simple_row_345,345,"Potassium citrate, Citric acid 경구제",1,5,49.4,36002,openai,gpt-4o-mini,v5_simple
+v5_simple_row_347,347,Solifenacin 경구제,1,15,43.46666666666667,30139,openai,gpt-4o-mini,v5_simple
+v5_simple_row_350,350,Tolterodine 경구제,1,10,41.2,17357,openai,gpt-4o-mini,v5_simple
+v5_simple_row_348,348,Tamsulosin HCl 경구제,1,10,44.4,36699,openai,gpt-4o-mini,v5_simple
+v5_simple_row_349,349,Terazosin HCl 경구제,1,10,47.1,33037,openai,gpt-4o-mini,v5_simple
+v5_simple_row_351,351,Povidone iodine 외용제,1,10,47.1,17022,openai,gpt-4o-mini,v5_simple
+v5_simple_row_352,352,Mafenide acetate 외용제,1,10,44.6,26230,openai,gpt-4o-mini,v5_simple
+v5_simple_row_354,354,진통·진양·수렴·소염 외용제,0,11,36.27272727272727,24637,openai,gpt-4o-mini,v5_simple
+v5_simple_row_355,355,코르티코스테로이드 피부 도포제,0,13,45.23076923076923,23868,openai,gpt-4o-mini,v5_simple
+v5_simple_row_356,356,Ammonium lactate 외용제,1,10,46.6,19177,openai,gpt-4o-mini,v5_simple
+v5_simple_row_353,353,Recombinant human epidermal growth factor 500mcg,1,13,34.30769230769231,62621,openai,gpt-4o-mini,v5_simple
+v5_simple_row_357,357,Buprenorphine 패취제,1,9,41.77777777777778,17196,openai,gpt-4o-mini,v5_simple
+v5_simple_row_360,360,Fluconazole 외용제,1,10,42.4,18919,openai,gpt-4o-mini,v5_simple
+v5_simple_row_358,358,Capsaicin 외용제,1,13,42.0,31937,openai,gpt-4o-mini,v5_simple
+v5_simple_row_359,359,Lidocaine 패취제,1,10,35.4,34789,openai,gpt-4o-mini,v5_simple
+v5_simple_row_361,361,Imiquimod 12.5mg 외용제,1,11,42.72727272727273,25709,openai,gpt-4o-mini,v5_simple
+v5_simple_row_362,362,Calcipotriol 외용제,1,11,45.90909090909091,26870,openai,gpt-4o-mini,v5_simple
+v5_simple_row_363,363,Penciclovir 외용제,1,10,28.9,21300,openai,gpt-4o-mini,v5_simple
+v5_simple_row_365,365,Tacalcitol 20.87mcg/g 외용제,1,12,39.0,24501,openai,gpt-4o-mini,v5_simple
+v5_simple_row_364,364,Pimecrolimus 외용제,1,14,40.07142857142857,27601,openai,gpt-4o-mini,v5_simple
+v5_simple_row_366,366,Tacrolimus 외용제,1,12,41.666666666666664,29104,openai,gpt-4o-mini,v5_simple
+v5_simple_row_368,368,Calcitriol 주사제,1,12,36.416666666666664,23201,openai,gpt-4o-mini,v5_simple
+v5_simple_row_369,369,Paricalcitol 주사제,1,11,49.54545454545455,17020,openai,gpt-4o-mini,v5_simple
+v5_simple_row_371,371,액제형 철분제제,1,10,30.7,18241,openai,gpt-4o-mini,v5_simple
+v5_simple_row_370,370,수용성비타민·엽산 복합성분 경구제,1,10,33.7,24629,openai,gpt-4o-mini,v5_simple
+v5_simple_row_372,372,철분주사제,1,13,28.615384615384617,22267,openai,gpt-4o-mini,v5_simple
+v5_simple_row_373,373,Iron acetyl-transferrin 200mg 경구제,1,11,43.45454545454545,20463,openai,gpt-4o-mini,v5_simple
+v5_simple_row_367,367,Calcitriol 경구제,1,13,30.153846153846153,70011,openai,gpt-4o-mini,v5_simple
+v5_simple_row_374,374,경장영양제,1,14,34.142857142857146,19732,openai,gpt-4o-mini,v5_simple
+v5_simple_row_375,375,단백아미노산 제제,0,13,36.61538461538461,24293,openai,gpt-4o-mini,v5_simple
+v5_simple_row_376,376,A액,1,11,30.545454545454547,24261,openai,gpt-4o-mini,v5_simple
+v5_simple_row_377,377,Glycyl-L-glutamine 주사제,1,10,38.5,15838,openai,gpt-4o-mini,v5_simple
+v5_simple_row_378,378,"L-leucine, L-phenylalanine, L-methionine 등 주사제",1,10,39.8,21488,openai,gpt-4o-mini,v5_simple
+v5_simple_row_379,379,N,1,5,31.8,24933,openai,gpt-4o-mini,v5_simple
+v5_simple_row_380,380,a-Keto-DL-isoleuci ne calcium 67.0mg외 9종 경구제,1,6,35.166666666666664,26380,openai,gpt-4o-mini,v5_simple
+v5_simple_row_381,381,Lipid 주사제,1,10,39.3,18263,openai,gpt-4o-mini,v5_simple
+v5_simple_row_382,382,Eptacog alfa 주사제,1,13,38.84615384615385,22241,openai,gpt-4o-mini,v5_simple
+v5_simple_row_384,384,Idarucizumab 주사제,1,14,42.285714285714285,23434,openai,gpt-4o-mini,v5_simple
+v5_simple_row_385,385,Oxidized regenerated cellulose,1,10,32.9,18074,openai,gpt-4o-mini,v5_simple
+v5_simple_row_383,383,Gelatin sponge 외용제,1,10,32.6,29742,openai,gpt-4o-mini,v5_simple
+v5_simple_row_387,387,Thrombin 제제,0,10,33.9,16445,openai,gpt-4o-mini,v5_simple
+v5_simple_row_386,386,P-aminomethyl benzoic acid 주사제,1,12,49.333333333333336,21672,openai,gpt-4o-mini,v5_simple
+v5_simple_row_388,388,Tranexamic acid 경구제,1,10,48.0,25379,openai,gpt-4o-mini,v5_simple
+v5_simple_row_389,389,Apixaban 경구제,1,11,32.63636363636363,20529,openai,gpt-4o-mini,v5_simple
+v5_simple_row_390,390,Dabigatran 경구제,1,11,35.27272727272727,25022,openai,gpt-4o-mini,v5_simple
+v5_simple_row_392,392,Defibrotide 주사제,1,14,31.071428571428573,24754,openai,gpt-4o-mini,v5_simple
+v5_simple_row_393,393,Edoxaban Tosilate Hydrate 경구제,1,10,54.9,26208,openai,gpt-4o-mini,v5_simple
+v5_simple_row_391,391,Dalteparin sodium 주사제,1,12,47.0,57329,openai,gpt-4o-mini,v5_simple
+v5_simple_row_394,394,Enoxaparin sodium 주사제,1,11,50.18181818181818,25586,openai,gpt-4o-mini,v5_simple
+v5_simple_row_395,395,Fondaparinux sodium 주사제,1,13,49.23076923076923,21304,openai,gpt-4o-mini,v5_simple
+v5_simple_row_398,398,Rivaroxaban 경구제,1,11,36.18181818181818,17040,openai,gpt-4o-mini,v5_simple
+v5_simple_row_396,396,Heparin 주사제,0,10,41.5,32046,openai,gpt-4o-mini,v5_simple
+v5_simple_row_397,397,Nadroparin 주사제,1,10,43.2,32440,openai,gpt-4o-mini,v5_simple
+v5_simple_row_399,399,Cilostazol 경구제,1,14,46.42857142857143,27062,openai,gpt-4o-mini,v5_simple
+v5_simple_row_400,400,Damoctocog alfa pegol 주사제,1,13,33.61538461538461,21825,openai,gpt-4o-mini,v5_simple
+v5_simple_row_401,401,Eltrombopag olamine 경구제,1,14,31.357142857142858,20948,openai,gpt-4o-mini,v5_simple
+v5_simple_row_402,402,Emicizumab 주사제,1,13,37.53846153846154,21733,openai,gpt-4o-mini,v5_simple
+v5_simple_row_404,404,Hydroxyethyl starch 함유 제제,1,8,37.75,19439,openai,gpt-4o-mini,v5_simple
+v5_simple_row_403,403,G-CSF 주사제 filgrastim,1,10,35.5,24775,openai,gpt-4o-mini,v5_simple
+v5_simple_row_406,406,Plerixafor 주사제,1,15,39.0,24647,openai,gpt-4o-mini,v5_simple
+v5_simple_row_407,407,Recombinant blood coagulation factor VIII 주사제,1,11,40.90909090909091,48695,openai,gpt-4o-mini,v5_simple
+v5_simple_row_405,405,Pentastarch 제제,1,10,33.9,59606,openai,gpt-4o-mini,v5_simple
+v5_simple_row_408,408,Recombinant blood coagulation factor VIII-Fc fusion protein Efmoroctocog a 주사제,1,14,32.07142857142857,31999,openai,gpt-4o-mini,v5_simple
+v5_simple_row_409,409,Recombinant blood coagulation factor IX 주사제,1,13,71.61538461538461,25014,openai,gpt-4o-mini,v5_simple
+v5_simple_row_410,410,"Recombinant blood coagulation factor IX, albumun fusion protein Albutrepenonacog a 주사제",1,8,41.625,24731,openai,gpt-4o-mini,v5_simple
+v5_simple_row_411,411,Recombinant blood coagulation factor IX-Fc fusion protein Eftrenonacog a 주사제,1,11,38.09090909090909,35094,openai,gpt-4o-mini,v5_simple
+v5_simple_row_413,413,Romiplostim 주사제,1,10,43.9,15516,openai,gpt-4o-mini,v5_simple
+v5_simple_row_412,412,Recombinant blood coagulation factor IX Nonacog gamma 주사제,1,7,29.857142857142858,30868,openai,gpt-4o-mini,v5_simple
+v5_simple_row_414,414,Susoctocog alfa 주사제,1,14,39.785714285714285,25893,openai,gpt-4o-mini,v5_simple
+v5_simple_row_415,415,Ticlopidine HCl 경구제,1,13,46.0,24590,openai,gpt-4o-mini,v5_simple
+v5_simple_row_416,416,복막투석액,0,13,29.923076923076923,23804,openai,gpt-4o-mini,v5_simple
+v5_simple_row_418,418,Calcium chloride 외,1,11,43.81818181818182,21923,openai,gpt-4o-mini,v5_simple
+v5_simple_row_417,417,L-methionine 외 복막투석액,1,10,38.0,35138,openai,gpt-4o-mini,v5_simple
+v5_simple_row_419,419,D-mannitol + D-sorbitol,1,10,52.2,23004,openai,gpt-4o-mini,v5_simple
+v5_simple_row_420,420,Lamivudine 100mg 경구제,1,13,41.46153846153846,30948,openai,gpt-4o-mini,v5_simple
+v5_simple_row_421,421,구형흡착탄 경구제,1,11,33.18181818181818,26617,openai,gpt-4o-mini,v5_simple
+v5_simple_row_422,422,Betaine anhydrous 180g 경구제,1,11,36.63636363636363,29045,openai,gpt-4o-mini,v5_simple
+v5_simple_row_425,425,Leucovorin calcium 주사제,1,10,49.2,20702,openai,gpt-4o-mini,v5_simple
+v5_simple_row_424,424,Flumazenil 주사제,1,14,41.785714285714285,33652,openai,gpt-4o-mini,v5_simple
+v5_simple_row_423,423,Deferasirox 경구제,1,13,39.69230769230769,47142,openai,gpt-4o-mini,v5_simple
+v5_simple_row_426,426,Sodium thiosulfate 주사제,1,10,49.8,20303,openai,gpt-4o-mini,v5_simple
+v5_simple_row_428,428,Colchicine 경구제,1,10,42.9,18177,openai,gpt-4o-mini,v5_simple
+v5_simple_row_427,427,Zinc acetate 경구제,1,10,49.1,27651,openai,gpt-4o-mini,v5_simple
+v5_simple_row_429,429,Agalsidase alfa 3.5mg 주사제,1,10,37.4,19492,openai,gpt-4o-mini,v5_simple
+v5_simple_row_432,432,Asfotase alfa 주사제,2,13,35.84615384615385,29116,openai,gpt-4o-mini,v5_simple
+v5_simple_row_430,430,Agalsidase β 37mg 주사제,1,10,40.5,46996,openai,gpt-4o-mini,v5_simple
+v5_simple_row_433,433,Elosulfase alfa 5mg 주사제,1,12,33.416666666666664,28747,openai,gpt-4o-mini,v5_simple
+v5_simple_row_431,431,Alglucosidase alfa 주사제,1,11,25.818181818181817,74350,openai,gpt-4o-mini,v5_simple
+v5_simple_row_434,434,Galsulfase 주사제,1,13,44.07692307692308,36116,openai,gpt-4o-mini,v5_simple
+v5_simple_row_435,435,Idursulfase 주사제,1,12,41.0,29890,openai,gpt-4o-mini,v5_simple
+v5_simple_row_437,437,당뇨병용제 + 고지혈증 복합경구제,0,5,34.0,14689,openai,gpt-4o-mini,v5_simple
+v5_simple_row_436,436,Rasburicase 주사제,1,12,38.083333333333336,25120,openai,gpt-4o-mini,v5_simple
+v5_simple_row_440,440,Metformin 경구제,1,10,35.5,15631,openai,gpt-4o-mini,v5_simple
+v5_simple_row_438,438,Dapagliflozin 경구제,1,12,32.916666666666664,27059,openai,gpt-4o-mini,v5_simple
+v5_simple_row_439,439,Empagliflozin 경구제,1,16,36.375,33629,openai,gpt-4o-mini,v5_simple
+v5_simple_row_441,441,Pioglitazone 경구제,1,12,38.75,26755,openai,gpt-4o-mini,v5_simple
+v5_simple_row_442,442,4:1 w/w mixed hydrogel of sodium hyaluronate gel crosslinked by divinyl sulfone and sodium hyaluronate 주사제,1,5,31.2,38806,openai,gpt-4o-mini,v5_simple
+v5_simple_row_443,443,Avocado soya unsaponifiables 경구제,1,14,28.0,25461,openai,gpt-4o-mini,v5_simple
+v5_simple_row_446,446,Burosumab 주사제,1,10,33.1,26840,openai,gpt-4o-mini,v5_simple
+v5_simple_row_444,444,BDDE bridged sodium hyaluronate 60mg 주사제,1,15,52.6,46818,openai,gpt-4o-mini,v5_simple
+v5_simple_row_447,447,Cabergoline 경구제,1,14,44.357142857142854,36364,openai,gpt-4o-mini,v5_simple
+v5_simple_row_448,448,Carglumic acid 경구제,1,12,48.916666666666664,38695,openai,gpt-4o-mini,v5_simple
+v5_simple_row_445,445,Bromocryptine mesylate 경구제,1,11,47.0,83945,openai,gpt-4o-mini,v5_simple
+v5_simple_row_449,449,Cinacalcet HCl 경구제,1,9,39.44444444444444,53295,openai,gpt-4o-mini,v5_simple
+v5_simple_row_451,451,Disodium etidronate 경구제,1,11,50.27272727272727,36410,openai,gpt-4o-mini,v5_simple
+v5_simple_row_452,452,Eliglustat tartrate 경구제,1,10,35.9,33473,openai,gpt-4o-mini,v5_simple
+v5_simple_row_453,453,Lactulose 경구제,1,11,46.27272727272727,48976,openai,gpt-4o-mini,v5_simple
+v5_simple_row_450,450,Denosumab 주사제,1,10,37.0,104674,openai,gpt-4o-mini,v5_simple
+v5_simple_row_454,454,Miglustat 경구제,1,9,40.22222222222222,32240,openai,gpt-4o-mini,v5_simple
+v5_simple_row_455,455,Nafamostat 주사제,1,14,38.785714285714285,23608,openai,gpt-4o-mini,v5_simple
+v5_simple_row_456,456,Nitisinone 경구제,1,10,41.5,20235,openai,gpt-4o-mini,v5_simple
+v5_simple_row_458,458,proteolytic peptide from porcine brain 주사제,1,5,29.4,23643,openai,gpt-4o-mini,v5_simple
+v5_simple_row_459,459,Romosozumab 주사제,1,10,38.6,22822,openai,gpt-4o-mini,v5_simple
+v5_simple_row_457,457,Pamidronate 제제,1,9,40.55555555555556,64228,openai,gpt-4o-mini,v5_simple
+v5_simple_row_460,460,S-adenosyl-L-met hionine sulfate-P-toluene sulfonate 경구제,1,6,76.5,33319,openai,gpt-4o-mini,v5_simple
+v5_simple_row_461,461,Sodium alendronate 시럽제,1,13,49.23076923076923,36895,openai,gpt-4o-mini,v5_simple
+v5_simple_row_464,464,Thioctic acid 주사제,1,11,33.36363636363637,27661,openai,gpt-4o-mini,v5_simple
+v5_simple_row_463,463,Sodium hyaluronate 25mg 주사제,1,8,47.375,56179,openai,gpt-4o-mini,v5_simple
+v5_simple_row_465,465,Zoledronic acid 5mg/100ml 주사제,2,11,39.90909090909091,31184,openai,gpt-4o-mini,v5_simple
+v5_simple_row_462,462,Sodium hyaluronate 20mg 주사제,1,10,37.6,79471,openai,gpt-4o-mini,v5_simple
+v5_simple_row_466,466,a-lipoic acid,0,10,32.7,36723,openai,gpt-4o-mini,v5_simple
+v5_simple_row_468,468,5-fluorouracil 주사제,1,11,44.45454545454545,29259,openai,gpt-4o-mini,v5_simple
+v5_simple_row_467,467,상황균사체엑스 경구제,1,6,36.333333333333336,43344,openai,gpt-4o-mini,v5_simple
+v5_simple_row_469,469,6-Mercaptopurine 경구제,1,14,43.0,37474,openai,gpt-4o-mini,v5_simple
+v5_simple_row_470,470,Cyclophosphamide 제제,0,14,45.785714285714285,31576,openai,gpt-4o-mini,v5_simple
+v5_simple_row_471,471,Etoposide 제제,0,10,42.6,31636,openai,gpt-4o-mini,v5_simple
+v5_simple_row_472,472,GnRH agonist 주사제,0,12,38.416666666666664,25934,openai,gpt-4o-mini,v5_simple
+v5_simple_row_473,473,Interferon α-2a 주사제,1,9,45.333333333333336,31826,openai,gpt-4o-mini,v5_simple
+v5_simple_row_475,475,letrozole 경구제,1,13,39.07692307692308,26046,openai,gpt-4o-mini,v5_simple
+v5_simple_row_474,474,Interferon α-2b 주사제,1,12,51.333333333333336,44309,openai,gpt-4o-mini,v5_simple
+v5_simple_row_476,476,Megestrol acetate,1,11,37.54545454545455,33172,openai,gpt-4o-mini,v5_simple
+v5_simple_row_477,477,Methotrexate 제제,0,15,39.266666666666666,29660,openai,gpt-4o-mini,v5_simple
+v5_simple_row_478,478,Mitoxantrone HCl 주사제,1,12,45.333333333333336,28198,openai,gpt-4o-mini,v5_simple
+v5_simple_row_479,479,Rituximab 주사제,1,13,44.30769230769231,34070,openai,gpt-4o-mini,v5_simple
+v5_simple_row_481,481,Tamoxifen 경구제,1,11,38.90909090909091,24861,openai,gpt-4o-mini,v5_simple
+v5_simple_row_483,483,Anagrelide acetate,1,13,42.46153846153846,27857,openai,gpt-4o-mini,v5_simple
+v5_simple_row_482,482,Vincristin sulfate 주사제,1,10,55.6,36932,openai,gpt-4o-mini,v5_simple
+v5_simple_row_484,484,Selumetinib 경구제,1,14,28.214285714285715,16459,openai,gpt-4o-mini,v5_simple
+v5_simple_row_480,480,Ruxolitinib phosphate 경구제,1,15,43.8,76642,openai,gpt-4o-mini,v5_simple
+v5_simple_row_486,486,에프도파18F,1,9,34.888888888888886,29323,openai,gpt-4o-mini,v5_simple
+v5_simple_row_487,487,"3,3-Diphosphono-1, 2-Propane Dicarboxylate",1,10,37.0,23129,openai,gpt-4o-mini,v5_simple
+v5_simple_row_485,485,Thymomodulin 경구제,1,14,42.42857142857143,40100,openai,gpt-4o-mini,v5_simple
+v5_simple_row_489,489,Exametazime 주사제,1,14,41.214285714285715,31902,openai,gpt-4o-mini,v5_simple
+v5_simple_row_490,490,Indium chloride,1,7,34.142857142857146,34510,openai,gpt-4o-mini,v5_simple
+v5_simple_row_488,488,Chromium,1,12,38.0,41842,openai,gpt-4o-mini,v5_simple
+v5_simple_row_491,491,Strontium chloride,1,8,47.5,27324,openai,gpt-4o-mini,v5_simple
+v5_simple_row_492,492,Thallium-201 주사제,1,10,41.5,42058,openai,gpt-4o-mini,v5_simple
+v5_simple_row_494,494,사람유래 피부각질세포,1,14,33.857142857142854,28029,openai,gpt-4o-mini,v5_simple
+v5_simple_row_493,493,동종피부유래 각질세포,1,7,36.142857142857146,51278,openai,gpt-4o-mini,v5_simple
+v5_simple_row_496,496,자가 지방유래 중간엽줄기세포,1,10,32.0,19740,openai,gpt-4o-mini,v5_simple
+v5_simple_row_495,495,자가유래연골세포,1,13,29.0,32212,openai,gpt-4o-mini,v5_simple
+v5_simple_row_497,497,Abatacept 주사제,1,12,34.583333333333336,30549,openai,gpt-4o-mini,v5_simple
+v5_simple_row_498,498,Adalimumab 주사제,1,12,38.333333333333336,31006,openai,gpt-4o-mini,v5_simple
+v5_simple_row_499,499,Aflibercept 주사제,1,14,42.214285714285715,35424,openai,gpt-4o-mini,v5_simple
+v5_simple_row_500,500,Anakinra,1,13,32.07692307692308,34634,openai,gpt-4o-mini,v5_simple
+v5_simple_row_502,502,Etanercept 주사제,1,15,39.06666666666667,28258,openai,gpt-4o-mini,v5_simple
+v5_simple_row_501,501,Brolucizumab 주사제,1,11,43.81818181818182,37161,openai,gpt-4o-mini,v5_simple
+v5_simple_row_503,503,Faricimab 주사제,1,12,38.166666666666664,30447,openai,gpt-4o-mini,v5_simple
+v5_simple_row_504,504,Infliximab 제제,1,11,44.45454545454545,18471,openai,gpt-4o-mini,v5_simple
+v5_simple_row_506,506,Ranibizumab 주사제,1,11,34.72727272727273,26425,openai,gpt-4o-mini,v5_simple
+v5_simple_row_507,507,Vedolizumab 주사제,1,10,46.6,22668,openai,gpt-4o-mini,v5_simple
+v5_simple_row_508,508,Benzathine penicillin G 주사제,1,10,52.4,24453,openai,gpt-4o-mini,v5_simple
+v5_simple_row_509,509,Daptomycin 주사제,1,10,35.8,25098,openai,gpt-4o-mini,v5_simple
+v5_simple_row_505,505,Onasemnogene abeparvovec 주사제,1,9,26.22222222222222,71480,openai,gpt-4o-mini,v5_simple
+v5_simple_row_511,511,Tedizolid 경구제,1,13,37.53846153846154,32850,openai,gpt-4o-mini,v5_simple
+v5_simple_row_512,512,Teicoplanin 주사제,1,12,36.833333333333336,29851,openai,gpt-4o-mini,v5_simple
+v5_simple_row_513,513,Vancomycin 주사제,1,10,44.4,31174,openai,gpt-4o-mini,v5_simple
+v5_simple_row_510,510,Linezolid 경구제,1,11,27.90909090909091,65101,openai,gpt-4o-mini,v5_simple
+v5_simple_row_514,514,Amikacin sulfate 주사제,1,10,45.3,41339,openai,gpt-4o-mini,v5_simple
+v5_simple_row_515,515,Aztreonam 주사제,1,12,42.75,26397,openai,gpt-4o-mini,v5_simple
+v5_simple_row_516,516,Colistimethate 주사제,1,13,45.30769230769231,35635,openai,gpt-4o-mini,v5_simple
+v5_simple_row_517,517,Kanamycin sulfate 주사제,1,12,48.833333333333336,32061,openai,gpt-4o-mini,v5_simple
+v5_simple_row_519,519,Rifampicin 경구제,1,13,42.07692307692308,20595,openai,gpt-4o-mini,v5_simple
+v5_simple_row_520,520,Azithromycin 경구제,1,13,41.76923076923077,29223,openai,gpt-4o-mini,v5_simple
+v5_simple_row_522,522,Roxithromycin 경구제,1,9,38.55555555555556,18762,openai,gpt-4o-mini,v5_simple
+v5_simple_row_521,521,Erythromycin 경구제,1,10,49.6,44930,openai,gpt-4o-mini,v5_simple
+v5_simple_row_518,518,Rifabutin 경구제,1,11,31.90909090909091,77221,openai,gpt-4o-mini,v5_simple
+v5_simple_row_524,524,Pentamidine isethionate 주사제,1,15,51.0,33671,openai,gpt-4o-mini,v5_simple
+v5_simple_row_525,525,Bleomycin HCl 주사제,1,11,44.72727272727273,32102,openai,gpt-4o-mini,v5_simple
+v5_simple_row_526,526,Mitomycin-C 점안액,0,10,35.5,14164,openai,gpt-4o-mini,v5_simple
+v5_simple_row_527,527,Mitomycin-C 주사제,0,13,45.69230769230769,21831,openai,gpt-4o-mini,v5_simple
+v5_simple_row_523,523,"Doxycycline 50, 100mg 제제",1,11,33.36363636363637,64077,openai,gpt-4o-mini,v5_simple
+v5_simple_row_529,529,Cefazolin sod. 주사제,1,12,44.333333333333336,30513,openai,gpt-4o-mini,v5_simple
+v5_simple_row_530,530,Ceftazidime 주사제,1,11,38.63636363636363,35197,openai,gpt-4o-mini,v5_simple
+v5_simple_row_532,532,Ceftolozane + Tazobactam 주사제,1,11,46.63636363636363,18158,openai,gpt-4o-mini,v5_simple
+v5_simple_row_531,531,Ceftazidime + Avibactam 주사제,1,11,51.27272727272727,34039,openai,gpt-4o-mini,v5_simple
+v5_simple_row_533,533,Ertapenem 주사제,1,12,40.0,18733,openai,gpt-4o-mini,v5_simple
+v5_simple_row_528,528,Amoxicillin + Clavulanate 경구제,1,5,39.8,90252,openai,gpt-4o-mini,v5_simple
+v5_simple_row_534,534,Gentamicin sulfate 주사제,0,10,43.0,31642,openai,gpt-4o-mini,v5_simple
+v5_simple_row_535,535,Imipenem + Cilastatin 제제,1,9,48.888888888888886,26042,openai,gpt-4o-mini,v5_simple
+v5_simple_row_536,536,Rifaximin 경구제,1,12,38.166666666666664,26963,openai,gpt-4o-mini,v5_simple
+v5_simple_row_537,537,Tigecycline 주사제,1,9,40.666666666666664,17076,openai,gpt-4o-mini,v5_simple
+v5_simple_row_538,538,Clarithromycin 경구제,1,10,31.5,19427,openai,gpt-4o-mini,v5_simple
+v5_simple_row_539,539,Sulfadiazine 단일성분 경구제,1,10,28.2,16716,openai,gpt-4o-mini,v5_simple
+v5_simple_row_540,540,"Sulfamethoxazole 400mg, Trimethoprim 80mg 경구제",1,9,56.888888888888886,24088,openai,gpt-4o-mini,v5_simple
+v5_simple_row_541,541,Sulfasalazine 경구제,1,14,43.785714285714285,23763,openai,gpt-4o-mini,v5_simple
+v5_simple_row_542,542,Bedaquiline fumarate 경구제,1,12,39.666666666666664,26276,openai,gpt-4o-mini,v5_simple
+v5_simple_row_544,544,Pretomanid 경구제,1,11,43.54545454545455,18551,openai,gpt-4o-mini,v5_simple
+v5_simple_row_543,543,Delamanid 경구제,1,16,40.0625,31788,openai,gpt-4o-mini,v5_simple
+v5_simple_row_546,546,에이즈치료제,0,13,34.92307692307692,17404,openai,gpt-4o-mini,v5_simple
+v5_simple_row_545,545,Dapsone 경구제,1,12,39.583333333333336,31246,openai,gpt-4o-mini,v5_simple
+v5_simple_row_547,547,Acyclovir 제제,1,16,41.75,26248,openai,gpt-4o-mini,v5_simple
+v5_simple_row_548,548,Balofloxacin 100mg,1,11,43.09090909090909,22159,openai,gpt-4o-mini,v5_simple
+v5_simple_row_549,549,Ciprofloxacin 경구제,1,13,41.92307692307692,25737,openai,gpt-4o-mini,v5_simple
+v5_simple_row_550,550,Darunavir ethanolate 433.64mg 경구제,1,14,32.0,20365,openai,gpt-4o-mini,v5_simple
+v5_simple_row_551,551,Darunavir ethanolate 650.46mg 경구제,1,14,44.92857142857143,21244,openai,gpt-4o-mini,v5_simple
+v5_simple_row_553,553,Elbasvir + Grazoprevir 경구제,1,8,35.375,10865,openai,gpt-4o-mini,v5_simple
+v5_simple_row_552,552,Darunavir ethanolate + Cobicistat silicon dioxide 복합제,1,14,27.928571428571427,18670,openai,gpt-4o-mini,v5_simple
+v5_simple_row_555,555,Famciclovir 250mg 경구제,1,11,42.36363636363637,13021,openai,gpt-4o-mini,v5_simple
+v5_simple_row_554,554,Etravirine 경구제,1,13,39.23076923076923,22510,openai,gpt-4o-mini,v5_simple
+v5_simple_row_556,556,Ganciclovir 주사제,1,10,39.5,18666,openai,gpt-4o-mini,v5_simple
+v5_simple_row_557,557,Gemifloxacin mesylate 경구제,1,10,46.8,17227,openai,gpt-4o-mini,v5_simple
+v5_simple_row_558,558,Glecaprevir + Pibrentasvir 경구제,1,6,39.833333333333336,21452,openai,gpt-4o-mini,v5_simple
+v5_simple_row_559,559,Ledipasvir + Sofosbuvir 경구제,1,8,40.875,19998,openai,gpt-4o-mini,v5_simple
+v5_simple_row_562,562,Levofloxacin 주사제,1,13,42.76923076923077,17374,openai,gpt-4o-mini,v5_simple
+v5_simple_row_561,561,Levofloxacin 경구제,1,13,43.38461538461539,22706,openai,gpt-4o-mini,v5_simple
+v5_simple_row_560,560,Letermovir 경구제,1,10,34.1,36789,openai,gpt-4o-mini,v5_simple
+v5_simple_row_563,563,Lomefloxacin 경구제,1,14,46.57142857142857,19426,openai,gpt-4o-mini,v5_simple
+v5_simple_row_564,564,Maribavir 경구제,1,13,37.46153846153846,17015,openai,gpt-4o-mini,v5_simple
+v5_simple_row_565,565,Moxifloxacin 경구제,1,12,43.916666666666664,22487,openai,gpt-4o-mini,v5_simple
+v5_simple_row_566,566,Nelfinavir mesylate 경구제,1,10,45.6,18957,openai,gpt-4o-mini,v5_simple
+v5_simple_row_567,567,Ofloxacin 제제,1,10,42.5,18995,openai,gpt-4o-mini,v5_simple
+v5_simple_row_568,568,Oseltamivir 경구제,1,12,34.0,19851,openai,gpt-4o-mini,v5_simple
+v5_simple_row_569,569,Palivizumab 주사제,1,12,42.916666666666664,20117,openai,gpt-4o-mini,v5_simple
+v5_simple_row_570,570,Raltegravir potassium 경구제,1,11,30.272727272727273,29224,openai,gpt-4o-mini,v5_simple
+v5_simple_row_571,571,Sofosbuvir 경구제,1,13,41.53846153846154,20787,openai,gpt-4o-mini,v5_simple
+v5_simple_row_574,574,Tenofovir disoproxil 경구제,1,10,47.4,10108,openai,gpt-4o-mini,v5_simple
+v5_simple_row_572,572,Sofosbuvir + Velpatasvir 경구제,1,13,31.307692307692307,40389,openai,gpt-4o-mini,v5_simple
+v5_simple_row_573,573,Sofosbuvir + Velpatasvir + Voxilaprevir 경구제,1,7,59.42857142857143,40969,openai,gpt-4o-mini,v5_simple
+v5_simple_row_576,576,Tosufloxacin 경구제,1,12,45.583333333333336,19789,openai,gpt-4o-mini,v5_simple
+v5_simple_row_575,575,Tenofovir disoproxil + Emtricitabine 경구제,1,16,28.0,38809,openai,gpt-4o-mini,v5_simple
+v5_simple_row_577,577,Valacyclovir HCl 경구제,1,10,37.5,18419,openai,gpt-4o-mini,v5_simple
+v5_simple_row_578,578,Valganciclovir 경구제,1,12,40.333333333333336,25487,openai,gpt-4o-mini,v5_simple
+v5_simple_row_579,579,Zabofloxacin 경구제,1,13,41.92307692307692,26828,openai,gpt-4o-mini,v5_simple
+v5_simple_row_580,580,Zanamivir 외용제,1,14,39.07142857142857,20535,openai,gpt-4o-mini,v5_simple
+v5_simple_row_581,581,"Free-dried rabies vaccine produced on VERO cell line, Inactivated and purified≥2.5I.U",1,11,33.72727272727273,21331,openai,gpt-4o-mini,v5_simple
+v5_simple_row_582,582,Clostridium botulinum A toxin haemagglutinin complex 주사제,1,13,29.846153846153847,19315,openai,gpt-4o-mini,v5_simple
+v5_simple_row_583,583,Clostridium botulinum A toxin 주사제,1,12,32.916666666666664,20911,openai,gpt-4o-mini,v5_simple
+v5_simple_row_584,584,Antivenin agkistrodon halys,1,9,33.44444444444444,21658,openai,gpt-4o-mini,v5_simple
+v5_simple_row_585,585,Albumin 주사제,0,14,37.142857142857146,22481,openai,gpt-4o-mini,v5_simple
+v5_simple_row_586,586,Anti-inhibitor coagulant complex 주사제,1,12,33.25,22208,openai,gpt-4o-mini,v5_simple
+v5_simple_row_587,587,"Antithrombin III, human 주사제",1,9,38.22222222222222,19971,openai,gpt-4o-mini,v5_simple
+v5_simple_row_588,588,Human anti-hepatitis B immunoglobulin 정주용 주사제,1,10,32.4,19008,openai,gpt-4o-mini,v5_simple
+v5_simple_row_590,590,"Human blood coagulation factor 250I.U, 500I.U, 1,000I.U",1,10,33.1,11695,openai,gpt-4o-mini,v5_simple
+v5_simple_row_591,591,Human blood coagulation factor VIII 주사제,1,16,66.8125,23672,openai,gpt-4o-mini,v5_simple
+v5_simple_row_589,589,"Human blood coagulation factor VIII 250I.U, 500I.U 주사제",1,13,35.53846153846154,47099,openai,gpt-4o-mini,v5_simple
+v5_simple_row_592,592,Human coagulation factor X 주사제,0,14,36.57142857142857,24163,openai,gpt-4o-mini,v5_simple
+v5_simple_row_593,593,Human immunoglobulin G 주사제,1,11,50.36363636363637,19008,openai,gpt-4o-mini,v5_simple
+v5_simple_row_594,594,Human plasma fraction with a factor XIII,1,8,29.25,26042,openai,gpt-4o-mini,v5_simple
+v5_simple_row_596,596,Immunoglobulin anti-D,1,14,38.07142857142857,13716,openai,gpt-4o-mini,v5_simple
+v5_simple_row_595,595,IgM 고함유 사람면역글로불린 주사제,1,14,47.214285714285715,33847,openai,gpt-4o-mini,v5_simple
+v5_simple_row_598,598,Protein C Concentrate Lyophilized Powder,1,13,32.76923076923077,19144,openai,gpt-4o-mini,v5_simple
+v5_simple_row_597,597,"Immunoglobulin G, Human cytomegalovirus 주사제",1,15,33.86666666666667,22860,openai,gpt-4o-mini,v5_simple
+v5_simple_row_599,599,Tuberculin purified protein derivative,2,13,34.0,26548,openai,gpt-4o-mini,v5_simple
+v5_simple_row_601,601,Eculizumab 주사제,1,13,41.0,20827,openai,gpt-4o-mini,v5_simple
+v5_simple_row_600,600,Rabies human immunoglobulin 300 I.U 주사제,1,15,48.333333333333336,24805,openai,gpt-4o-mini,v5_simple
+v5_simple_row_603,603,Interferon β-1b,1,13,33.61538461538461,17178,openai,gpt-4o-mini,v5_simple
+v5_simple_row_604,604,Interferon-r 주사제,1,9,35.44444444444444,16151,openai,gpt-4o-mini,v5_simple
+v5_simple_row_605,605,Natalizumab 주사제,1,13,33.69230769230769,27525,openai,gpt-4o-mini,v5_simple
+v5_simple_row_606,606,Peginterferon alfa-2a 주사제,1,11,57.0,31492,openai,gpt-4o-mini,v5_simple
+v5_simple_row_602,602,Interferon β-1a 주사제,1,10,33.6,59714,openai,gpt-4o-mini,v5_simple
+v5_simple_row_607,607,Ravulizumab 주사제,1,13,37.30769230769231,20826,openai,gpt-4o-mini,v5_simple
+v5_simple_row_608,608,"Atovaquone 250mg, Proguanil HCl 100mg 경구제",1,9,43.111111111111114,17378,openai,gpt-4o-mini,v5_simple
+v5_simple_row_611,611,Pyrimethamine + Sulfadoxine 복합경구제,1,10,33.6,12912,openai,gpt-4o-mini,v5_simple
+v5_simple_row_609,609,Metronidazole 주사제,1,12,48.666666666666664,26902,openai,gpt-4o-mini,v5_simple
+v5_simple_row_610,610,Pyrimethamine,1,15,28.866666666666667,19949,openai,gpt-4o-mini,v5_simple
+v5_simple_row_612,612,Pyronaridine + Artesunate 복합경구제,1,13,29.923076923076923,20949,openai,gpt-4o-mini,v5_simple
+v5_simple_row_615,615,PEG3350외,1,10,35.2,14897,openai,gpt-4o-mini,v5_simple
+v5_simple_row_613,613,Barium sulfate 제제,1,10,37.0,34103,openai,gpt-4o-mini,v5_simple
+v5_simple_row_614,614,Ethyl esters of the iodised fatty acids of poppyseed oil 주사제,1,8,29.875,36626,openai,gpt-4o-mini,v5_simple
+v5_simple_row_617,617,Perfluorobutane 주사제,1,10,50.1,14775,openai,gpt-4o-mini,v5_simple
+v5_simple_row_616,616,Corticorelin trifluoroacetate,1,10,56.5,17255,openai,gpt-4o-mini,v5_simple
+v5_simple_row_618,618,Somatorelin acetate,1,10,43.7,19018,openai,gpt-4o-mini,v5_simple
+v5_simple_row_620,620,Alfentanil HCl 주사제,1,11,46.72727272727273,29519,openai,gpt-4o-mini,v5_simple
+v5_simple_row_619,619,"Paracetamol 250mg, Ibuprofen 200mg, Codeine phosphate 10mg 복합 제제",1,11,27.09090909090909,55309,openai,gpt-4o-mini,v5_simple
+v5_simple_row_622,622,Oxycodone HCl 주사제,1,17,43.0,23439,openai,gpt-4o-mini,v5_simple
+v5_simple_row_621,621,Fentanyl citrate 주사제,1,13,41.07692307692308,57610,openai,gpt-4o-mini,v5_simple
+v5_simple_row_623,623,Remifentanil 주사제,1,15,47.8,22389,openai,gpt-4o-mini,v5_simple
+v5_simple_row_625,625,같은 날에 2가지 이상 기준처방 동시 투약시 인정여부,0,8,44.0,17597,openai,gpt-4o-mini,v5_simple
+v5_simple_row_624,624,Sufentanil citrate 주사제,1,18,47.77777777777778,35936,openai,gpt-4o-mini,v5_simple
+v5_simple_row_626,626,급여 한약제의 제형 변형에 따른 인정 범주,0,10,31.1,16461,openai,gpt-4o-mini,v5_simple
+v5_simple_row_629,629,갈근탕,0,13,29.615384615384617,11004,openai,gpt-4o-mini,v5_simple
+v5_simple_row_628,628,가미소요산,0,14,31.714285714285715,14737,openai,gpt-4o-mini,v5_simple
+v5_simple_row_627,627,처방별 적응증,0,9,24.555555555555557,22813,openai,gpt-4o-mini,v5_simple
+v5_simple_row_632,632,궁소산,0,11,37.09090909090909,13270,openai,gpt-4o-mini,v5_simple
+v5_simple_row_631,631,구미강활탕,0,13,33.53846153846154,17483,openai,gpt-4o-mini,v5_simple
+v5_simple_row_630,630,갈근해기탕,0,15,27.2,24483,openai,gpt-4o-mini,v5_simple
+v5_simple_row_634,634,내소산,0,12,29.75,17649,openai,gpt-4o-mini,v5_simple
+v5_simple_row_633,633,궁하탕,0,12,28.833333333333332,19075,openai,gpt-4o-mini,v5_simple
+v5_simple_row_635,635,당귀연교음,0,12,29.5,17843,openai,gpt-4o-mini,v5_simple
+v5_simple_row_636,636,당귀육황탕,0,13,31.846153846153847,15438,openai,gpt-4o-mini,v5_simple
+v5_simple_row_637,637,대시호탕,0,13,32.0,15190,openai,gpt-4o-mini,v5_simple
+v5_simple_row_638,638,대청룡탕,0,12,34.833333333333336,13725,openai,gpt-4o-mini,v5_simple
+v5_simple_row_639,639,대화중음,0,6,35.833333333333336,15014,openai,gpt-4o-mini,v5_simple
+v5_simple_row_641,641,도인승기탕,0,10,29.9,15745,openai,gpt-4o-mini,v5_simple
+v5_simple_row_640,640,대황목단 피탕,0,8,33.625,20779,openai,gpt-4o-mini,v5_simple
+v5_simple_row_642,642,반하백출 천마탕,0,12,35.75,13404,openai,gpt-4o-mini,v5_simple
+v5_simple_row_643,643,반하사심탕,0,7,27.714285714285715,9626,openai,gpt-4o-mini,v5_simple
+v5_simple_row_644,644,반하후박탕,0,10,34.8,14803,openai,gpt-4o-mini,v5_simple
+v5_simple_row_645,645,백출탕,0,12,28.833333333333332,14548,openai,gpt-4o-mini,v5_simple
+v5_simple_row_646,646,보중익기탕,0,13,36.69230769230769,16204,openai,gpt-4o-mini,v5_simple
+v5_simple_row_647,647,보허탕,0,13,31.307692307692307,22970,openai,gpt-4o-mini,v5_simple
+v5_simple_row_649,649,불환금 정기산,0,13,33.38461538461539,14964,openai,gpt-4o-mini,v5_simple
+v5_simple_row_648,648,복령보심탕,0,12,31.75,18589,openai,gpt-4o-mini,v5_simple
+v5_simple_row_650,650,삼소음,0,14,27.857142857142858,18726,openai,gpt-4o-mini,v5_simple
+v5_simple_row_651,651,삼출건비탕,0,14,34.714285714285715,19554,openai,gpt-4o-mini,v5_simple
+v5_simple_row_652,652,삼호작약탕,0,10,30.1,21009,openai,gpt-4o-mini,v5_simple
+v5_simple_row_653,653,삼황사심탕,0,10,27.9,14415,openai,gpt-4o-mini,v5_simple
+v5_simple_row_654,654,생맥산,0,14,28.428571428571427,17208,openai,gpt-4o-mini,v5_simple
+v5_simple_row_655,655,소시호탕,0,13,32.61538461538461,19385,openai,gpt-4o-mini,v5_simple
+v5_simple_row_656,656,소청룡탕,0,14,28.0,14534,openai,gpt-4o-mini,v5_simple
+v5_simple_row_657,657,승양보위탕,0,14,33.07142857142857,19800,openai,gpt-4o-mini,v5_simple
+v5_simple_row_659,659,시호계지탕,0,10,33.9,11624,openai,gpt-4o-mini,v5_simple
+v5_simple_row_658,658,시경반하탕,0,15,31.8,21382,openai,gpt-4o-mini,v5_simple
+v5_simple_row_660,660,시호소간탕,0,13,27.307692307692307,16974,openai,gpt-4o-mini,v5_simple
+v5_simple_row_662,662,안태음,0,10,30.1,12295,openai,gpt-4o-mini,v5_simple
+v5_simple_row_661,661,시호청간탕,0,11,35.27272727272727,26592,openai,gpt-4o-mini,v5_simple
+v5_simple_row_664,664,오림산,0,10,27.9,10848,openai,gpt-4o-mini,v5_simple
+v5_simple_row_663,663,연교패독산,0,10,31.8,14322,openai,gpt-4o-mini,v5_simple
+v5_simple_row_665,665,오적산,0,10,26.1,11771,openai,gpt-4o-mini,v5_simple
+v5_simple_row_666,666,이중탕,0,13,34.84615384615385,15273,openai,gpt-4o-mini,v5_simple
+v5_simple_row_667,667,이진탕,0,14,32.42857142857143,17399,openai,gpt-4o-mini,v5_simple
+v5_simple_row_668,668,익위승양탕,0,12,34.833333333333336,17682,openai,gpt-4o-mini,v5_simple
+v5_simple_row_669,669,인삼패독산,0,13,30.46153846153846,13069,openai,gpt-4o-mini,v5_simple
+v5_simple_row_670,670,인진호탕,0,10,32.0,12664,openai,gpt-4o-mini,v5_simple
+v5_simple_row_672,672,조위승기탕,0,14,31.5,13743,openai,gpt-4o-mini,v5_simple
+v5_simple_row_671,671,자음강화탕,0,12,27.75,15400,openai,gpt-4o-mini,v5_simple
+v5_simple_row_673,673,청상견통탕,0,13,29.923076923076923,16298,openai,gpt-4o-mini,v5_simple
+v5_simple_row_675,675,청위산,0,14,25.928571428571427,12559,openai,gpt-4o-mini,v5_simple
+v5_simple_row_676,676,팔물탕,0,13,33.69230769230769,12939,openai,gpt-4o-mini,v5_simple
+v5_simple_row_674,674,청서익기탕,0,16,34.625,23633,openai,gpt-4o-mini,v5_simple
+v5_simple_row_677,677,평위산,0,14,35.42857142857143,19903,openai,gpt-4o-mini,v5_simple
+v5_simple_row_678,678,행소탕,0,13,28.076923076923077,17487,openai,gpt-4o-mini,v5_simple
+v5_simple_row_679,679,향사평위산,0,14,29.642857142857142,19200,openai,gpt-4o-mini,v5_simple
+v5_simple_row_681,681,황련해독탕,0,9,27.77777777777778,13716,openai,gpt-4o-mini,v5_simple
+v5_simple_row_680,680,황금작약탕,0,13,38.61538461538461,19662,openai,gpt-4o-mini,v5_simple
+v5_simple_row_682,682,형개연교탕,0,13,30.46153846153846,12462,openai,gpt-4o-mini,v5_simple
+v5_simple_row_683,683,회춘양격산,0,12,27.583333333333332,13699,openai,gpt-4o-mini,v5_simple
+v5_simple_row_685,685,급성 심재성 정맥혈전증 상병에 투여하는 프라그민,0,13,33.30769230769231,19516,openai,gpt-4o-mini,v5_simple
+v5_simple_row_686,686,류마티스질환에서 TNF-α inhibitor 제제,1,8,29.625,21290,openai,gpt-4o-mini,v5_simple
+v5_simple_row_684,684,만성 호흡기 질환에 장기 투여된 macrolide 계열 제제 인정여부,0,15,47.13333333333333,42347,openai,gpt-4o-mini,v5_simple
+v5_simple_row_687,687,폐계면활성제,0,13,35.92307692307692,24271,openai,gpt-4o-mini,v5_simple

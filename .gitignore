@@ -1,1 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files
+*.xlsx
+*.csv
+*.json
+*.jsonl
+
+# Environment variables
 .env
+.env.local
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Output directories
+outputs/
+archive/logs/

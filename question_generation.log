@@ -1,2 +1,0 @@
-2025-09-02 18:12:31,207 - ERROR - 엑셀 파일 로드 실패: [Errno 2] No such file or directory: '../data/요양심사약제_후처리_v2.xlsx'
-2025-09-02 18:12:31,207 - ERROR - 실행 실패: [Errno 2] No such file or directory: '../data/요양심사약제_후처리_v2.xlsx'

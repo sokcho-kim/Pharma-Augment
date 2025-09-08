@@ -25,12 +25,13 @@ from enum import Enum
 # 환경 변수 로드
 load_dotenv()
 
-# 로깅 설정
+# 로깅 설정 (백업 포함)
+log_file = f'drug_generation_v7_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log'
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('drug_generation_v7.log', encoding='utf-8'),
+        logging.FileHandler(log_file, encoding='utf-8'),
         logging.StreamHandler()
     ]
 )
@@ -278,11 +279,18 @@ DOC
 
     def _get_mr_prompt(self, doc_slice: str) -> str:
         """MR 밴드 프롬프트"""  
-        return f"""Generate many Korean questions as lines based only on the document.
-Constraints: 80–160 characters; end with '?'; include at least one number/unit/policy term;
-strict pronoun ban; one issue per line; vary openings; no JSON.
+        return f"""문서를 기반으로 한국어 질문을 여러 개 생성하세요. 각 줄마다 하나씩 작성하세요.
 
-Document:
+요구사항:
+- 길이: 80-160자 (공백 포함)
+- 반드시 '?'로 끝나는 질문
+- 숫자/단위/정책 용어 1개 이상 포함  
+- 대명사(이것/그것/해당/본/동 등) 완전 금지
+- 한 줄당 하나의 주제만
+- 질문 시작 방식 다양화
+- JSON 형식 사용 금지
+
+참고 문서:
 <<<DOC
 {doc_slice}
 DOC
@@ -290,16 +298,25 @@ DOC
 
     def _get_lr_prompt(self, doc_slice: str) -> str:
         """LR 밴드 프롬프트 (멀티턴 시나리오→질문)"""
-        return f"""Create multiple Korean scenarios (2–4 sentences) followed by a final question line.
-Separate each case with a blank line. Use only the document content.
-Constraints: 200–600 characters per case; the last sentence must be a question ending with '?';
-include at least one policy term or number/unit; avoid pronouns in the question; no JSON.
+        return f"""한국어로 자세한 임상 시나리오를 작성하세요. 각 시나리오는 환자 상황을 구체적으로 기술한 후 마지막에 보험 급여 관련 질문으로 끝나야 합니다.
 
-Document:
+필수 요구사항:
+- 전체 길이: 최소 200자 이상 (300-500자 권장, 공백 포함)
+- 환자 정보: 나이, 성별, 기저질환, 치료경과 등 구체적으로 기술
+- 상황 전개: 현재 상황, 문제점, 고려사항 등을 상세히 서술  
+- 마지막 문장: 반드시 '?'로 끝나는 급여기준 관련 질문
+- 의료 용어/숫자/단위 포함 (용량, 기간, 기준 등)
+- 대명사(이것/그것/해당/본/동) 사용 금지
+- 각 시나리오는 빈 줄로 구분
+
+참고 문서:
 <<<DOC
 {doc_slice}
 DOC
->>>"""
+>>>
+
+예시 형식:
+65세 남성 환자가 [질환명]으로 진단받았다. [기존 치료 내용과 결과]. [현재 상황과 문제점]. [추가적인 임상 정보]. 이러한 상황에서 [약제명] 급여 인정 기준을 만족하는가?"""
 
     def _extract_lr_questions(self, content: str) -> List[str]:
         """LR 시나리오에서 질문 추출"""
@@ -307,18 +324,20 @@ DOC
         cases = content.strip().split('\n\n')
         
         for case in cases:
-            if not case.strip():
+            case = case.strip()
+            if not case:
                 continue
                 
-            sentences = [s.strip() for s in case.strip().split('.') if s.strip()]
-            
-            # 마지막 문장이 질문인지 확인
-            for sentence in reversed(sentences):
-                if sentence.endswith('?'):
-                    # 전체 시나리오 길이 체크
-                    full_case = case.strip()
-                    if 200 <= len(full_case) <= 600:
-                        questions.append(sentence)
+            # 전체 시나리오 길이 확인 (200-600자)
+            if not (200 <= len(case) <= 600):
+                continue
+                
+            # ? 기호로 끝나는 문장 찾기 (의료용어 고려)
+            lines = case.split('\n')
+            for line in reversed(lines):
+                line = line.strip()
+                if line.endswith('?'):
+                    questions.append(case)  # 전체 시나리오 반환
                     break
                     
         return questions
@@ -358,31 +377,110 @@ DOC
         return True
         
     def generate_hard_negatives(self, positive_questions: List[Question]) -> List[Question]:
-        """Hard Negative 생성 (앵커 기반 변형)"""
+        """Hard Negative 생성 (앵커 기반 변형) - 실패 방지 강화"""
         hard_negatives = []
         
+        if not positive_questions:
+            logger.warning("POS 질문이 없어 HN 생성 불가")
+            return hard_negatives
+            
         # 상위 POS 질문들을 앵커로 선택
         anchors = positive_questions[:min(5, len(positive_questions))]
+        max_attempts = 20  # 최대 시도 횟수
+        attempt = 0
         
-        for anchor in anchors:
-            # facet 변형 (1개만)
-            mutated_questions = self._mutate_facet(anchor)
-            
-            for mutated in mutated_questions:
-                # LLM으로 리라이트
-                rewritten = self._rewrite_question(mutated)
-                if rewritten and self.validate_question(rewritten, anchor.band):
-                    hn_question = Question(
-                        text=rewritten,
-                        label="HARD_NEGATIVE", 
-                        band=anchor.band,
-                        anchor_id=anchor.anchor_id,
-                        doc_slice_id=anchor.doc_slice_id,
-                        metadata={**anchor.metadata, 'mutation_type': mutated.get('mutation_type')}
-                    )
-                    hard_negatives.append(hn_question)
+        while len(hard_negatives) < len(positive_questions) // 2 and attempt < max_attempts:
+            for anchor in anchors:
+                if len(hard_negatives) >= len(positive_questions) // 2:
+                    break
                     
+                try:
+                    # facet 변형 (1개만)
+                    mutated_questions = self._mutate_facet(anchor)
+                    
+                    for mutated in mutated_questions:
+                        # LLM으로 리라이트
+                        rewritten = self._rewrite_question(mutated)
+                        if rewritten and self.validate_question(rewritten, anchor.band):
+                            hn_question = Question(
+                                text=rewritten,
+                                label="HARD_NEGATIVE", 
+                                band=anchor.band,
+                                anchor_id=anchor.anchor_id,
+                                doc_slice_id=anchor.doc_slice_id,
+                                metadata={**anchor.metadata, 'mutation_type': mutated.get('mutation_type')}
+                            )
+                            hard_negatives.append(hn_question)
+                            break  # 앵커당 1개씩만
+                except Exception as e:
+                    logger.warning(f"HN 생성 실패 (앵커: {anchor.text[:30]}): {e}")
+                    continue
+                    
+            attempt += 1
+            
+        # 최소한의 HN 보장 (fallback)
+        if len(hard_negatives) == 0:
+            logger.warning("HN 생성 완전 실패, 간단한 fallback HN 생성")
+            hard_negatives = self._create_fallback_hn(positive_questions)
+            
+        logger.info(f"HN 생성 완료: {len(hard_negatives)}개")
         return hard_negatives
+        
+    def _create_fallback_hn(self, positive_questions: List[Question]) -> List[Question]:
+        """간단한 fallback HN 생성 (확실한 보장)"""
+        fallback_hn = []
+        
+        for pos_q in positive_questions[:5]:  # 최대 5개까지 시도
+            try:
+                original_text = pos_q.text
+                modified_text = None
+                
+                # 방법 1: 숫자 변경
+                import re
+                numbers = re.findall(r'\d+', original_text)
+                if numbers:
+                    original_num = numbers[0]
+                    try:
+                        new_num = str(int(original_num) + 10) if int(original_num) < 90 else str(int(original_num) - 10)
+                        modified_text = original_text.replace(original_num, new_num, 1)
+                    except:
+                        pass
+                
+                # 방법 2: 키워드 변경 (숫자 실패시)
+                if not modified_text:
+                    if '급여' in original_text:
+                        modified_text = original_text.replace('급여', '비급여', 1)
+                    elif '인정' in original_text:
+                        modified_text = original_text.replace('인정', '제외', 1)
+                    elif '필요' in original_text:
+                        modified_text = original_text.replace('필요', '불필요', 1)
+                
+                # 방법 3: 단순 접미사 추가 (모두 실패시)
+                if not modified_text:
+                    modified_text = original_text.replace('?', ' (예외조건)?')
+                    
+                if modified_text and modified_text != original_text:
+                    hn_question = Question(
+                        text=modified_text,
+                        label="HARD_NEGATIVE",
+                        band=pos_q.band,
+                        anchor_id=pos_q.anchor_id,
+                        doc_slice_id=pos_q.doc_slice_id,
+                        metadata={**pos_q.metadata, 'mutation_type': 'fallback_simple'}
+                    )
+                    fallback_hn.append(hn_question)
+                    logger.info(f"Fallback HN 생성: '{modified_text[:30]}...'")
+                    
+                    # 목표 달성시 중단
+                    if len(fallback_hn) >= len(positive_questions) // 3:
+                        break
+                    
+            except Exception as e:
+                logger.warning(f"Fallback HN 생성 실패: {e}")
+                continue
+                
+        logger.info(f"Fallback HN 최종 생성: {len(fallback_hn)}개")
+        return fallback_hn
         
     def _mutate_facet(self, anchor: Question) -> List[Dict[str, Any]]:
         """단일 facet 변형"""
@@ -472,15 +570,33 @@ Original:
             band_config = self.config.bands[band]
             band_target = int(target_total * band_config.ratio)
             
-            # 밴드 내에서 라벨 비율 적용
-            pos_target = int(band_target * self.config.pos_ratio / 9)
-            hn_target = int(band_target * self.config.hn_ratio / 9)
-            en_target = int(band_target * self.config.en_ratio / 9)
+            # 밴드 내에서 라벨 비율 적용 (비율 무결성 보장)
+            total_ratio = self.config.pos_ratio + self.config.hn_ratio + self.config.en_ratio
+            pos_target = int(band_target * self.config.pos_ratio / total_ratio)
+            hn_target = int(band_target * self.config.hn_ratio / total_ratio)  
+            en_target = int(band_target * self.config.en_ratio / total_ratio)
             
             # 라벨별 분류
             pos_questions = [q for q in band_questions if q.label == "POSITIVE"]
             hn_questions = [q for q in band_questions if q.label == "HARD_NEGATIVE"]
             en_questions = [q for q in band_questions if q.label == "EASY_NEGATIVE"]
+            
+            logger.info(f"{band.value} 밴드 분류 전 질문: {len(band_questions)}개")
+            logger.info(f"  라벨 분포: POS={len(pos_questions)}, HN={len(hn_questions)}, EN={len(en_questions)}")
+            
+            # 부족분 경고 및 대응
+            if len(pos_questions) < pos_target:
+                logger.warning(f"{band.value} 밴드 POS 부족: {len(pos_questions)}/{pos_target}")
+            if len(hn_questions) < hn_target:
+                logger.warning(f"{band.value} 밴드 HN 부족: {len(hn_questions)}/{hn_target}")
+                # HN 부족시 POS로 일부 대체 (임시 조치)
+                if len(pos_questions) > pos_target:
+                    extra_pos = len(pos_questions) - pos_target
+                    hn_deficit = hn_target - len(hn_questions)
+                    compensation = min(extra_pos, hn_deficit)
+                    pos_target += compensation
+                    hn_target = len(hn_questions)  # 실제 가능한 수로 조정
+                    logger.info(f"{band.value} 밴드: HN 부족분을 POS로 {compensation}개 보상")
             
             # 샘플링
             selected_pos = random.sample(pos_questions, min(pos_target, len(pos_questions)))
@@ -489,27 +605,49 @@ Original:
             
             balanced_questions.extend(selected_pos + selected_hn + selected_en)
             
-            logger.info(f"{band.value} 밴드: POS {len(selected_pos)}, HN {len(selected_hn)}, EN {len(selected_en)}")
+            # 비율 검증 로그
+            actual_total = len(selected_pos) + len(selected_hn) + len(selected_en)
+            if actual_total > 0:
+                pos_ratio = len(selected_pos) / actual_total * 100
+                hn_ratio = len(selected_hn) / actual_total * 100
+                logger.info(f"{band.value} 밴드 최종: POS {len(selected_pos)}({pos_ratio:.1f}%), "
+                          f"HN {len(selected_hn)}({hn_ratio:.1f}%), EN {len(selected_en)}")
+                
+                # 치명적 불균형 감지
+                if len(selected_hn) == 0 and hn_target > 0:
+                    logger.error(f"⚠️ {band.value} 밴드에서 HN이 0개! 세트 무결성 위험!")
         
         return balanced_questions
         
     def remove_duplicates(self, questions: List[Question]) -> List[Question]:
-        """중복 제거 (RapidFuzz 기반)"""
+        """중복 제거 (라벨별 분리 처리)"""
         unique_questions = []
         
         for q in questions:
             is_duplicate = False
             for existing in unique_questions:
-                # 토큰셋 유사도 체크
-                similarity = fuzz.token_set_ratio(q.text, existing.text)
-                if similarity >= 82:
-                    is_duplicate = True
-                    break
+                # 같은 라벨끼리만 중복 비교 (POS, HN, EN 별도 처리)
+                if q.label == existing.label:
+                    # 토큰셋 유사도 체크
+                    similarity = fuzz.token_set_ratio(q.text, existing.text)
+                    if similarity >= 82:
+                        is_duplicate = True
+                        logger.debug(f"{q.label} 중복 제거: '{q.text[:20]}...' vs '{existing.text[:20]}...' ({similarity}%)")
+                        break
                     
             if not is_duplicate:
                 unique_questions.append(q)
                 
+        # 라벨별 제거 현황
+        label_before = {}
+        label_after = {}
+        for q in questions:
+            label_before[q.label] = label_before.get(q.label, 0) + 1
+        for q in unique_questions:
+            label_after[q.label] = label_after.get(q.label, 0) + 1
+            
         logger.info(f"중복 제거: {len(questions)} → {len(unique_questions)}")
+        logger.info(f"라벨별 변화: {label_before} → {label_after}")
         return unique_questions
         
     def check_opening_diversity(self, questions: List[Question]) -> bool:
@@ -530,6 +668,47 @@ Original:
                 return False
                 
         return True
+        
+    def validate_final_dataset(self, all_questions: List[Question]):
+        """전체 데이터셋 무결성 검증"""
+        if not all_questions:
+            logger.error("⚠️ 치명적 오류: 생성된 질문이 0개!")
+            return
+            
+        # 전체 라벨 분포
+        label_counts = {}
+        band_counts = {}
+        
+        for q in all_questions:
+            label_counts[q.label] = label_counts.get(q.label, 0) + 1
+            band_counts[q.band.value] = band_counts.get(q.band.value, 0) + 1
+        
+        total = len(all_questions)
+        pos_count = label_counts.get("POSITIVE", 0)
+        hn_count = label_counts.get("HARD_NEGATIVE", 0)
+        
+        logger.info("="*50)
+        logger.info("📊 최종 데이터셋 검증")
+        logger.info(f"전체 질문 수: {total}개")
+        logger.info(f"라벨 분포: {label_counts}")
+        logger.info(f"밴드 분포: {band_counts}")
+        
+        if total > 0:
+            pos_ratio = pos_count / total * 100
+            hn_ratio = hn_count / total * 100
+            logger.info(f"POS 비율: {pos_ratio:.1f}%")
+            logger.info(f"HN 비율: {hn_ratio:.1f}%")
+            
+            # 치명적 문제 감지
+            if hn_count == 0:
+                logger.error("🚨 치명적 오류: HARD_NEGATIVE가 0개! V5와 동일한 문제 발생!")
+                logger.error("세트 무결성이 깨졌습니다. 실행을 중단하거나 HN 생성 로직을 수정하세요.")
+            elif hn_ratio < 20:  # 전체의 20% 미만
+                logger.warning(f"⚠️ 경고: HN 비율이 {hn_ratio:.1f}%로 낮습니다. 목표: 33.3%")
+            else:
+                logger.info("✅ 라벨 비율 검증 통과")
+        
+        logger.info("="*50)
         
     def generate_questions_for_row(self, row: pd.Series, target_count: int) -> List[Question]:
         """한 행에 대한 전체 질문 생성 파이프라인"""
@@ -567,6 +746,9 @@ Original:
         pos_questions = [q for q in all_questions if q.label == "POSITIVE"]
         if pos_questions:
             hn_questions = self.generate_hard_negatives(pos_questions)
+            logger.info(f"생성된 HN 상세:")
+            for i, hn in enumerate(hn_questions):
+                logger.info(f"  HN {i+1}: band={hn.band.value}, label={hn.label}, text={hn.text[:30]}...")
             all_questions.extend(hn_questions)
         
         # 중복 제거
@@ -581,7 +763,16 @@ Original:
         
     def save_results(self, all_questions: List[Question], original_df: pd.DataFrame, 
                     output_file: str):
-        """결과 저장"""
+        """결과 저장 (백업 및 안전 저장 포함)"""
+        from pathlib import Path
+        import shutil
+        
+        # 기존 파일 백업
+        if Path(output_file).exists():
+            backup_file = output_file.replace('.xlsx', f'_backup_{datetime.now().strftime("%Y%m%d_%H%M%S")}.xlsx')
+            shutil.copy2(output_file, backup_file)
+            logger.info(f"기존 파일 백업: {backup_file}")
+        
         # 엑셀 형식으로 변환
         results = []
         
@@ -597,9 +788,20 @@ Original:
             results.append(row_data)
             
         result_df = pd.DataFrame(results)
-        result_df.to_excel(output_file, index=False, engine='openpyxl')
         
-        logger.info(f"결과 저장 완료: {output_file}")
+        # 임시 파일로 먼저 저장 (안전한 저장)
+        temp_file = output_file.replace('.xlsx', '_temp.xlsx')
+        try:
+            result_df.to_excel(temp_file, index=False, engine='openpyxl')
+            # 성공하면 원본 파일로 이동
+            shutil.move(temp_file, output_file)
+            logger.info(f"결과 저장 완료: {output_file}")
+        except Exception as e:
+            logger.error(f"저장 실패: {e}")
+            if Path(temp_file).exists():
+                Path(temp_file).unlink()  # 실패시 임시파일 삭제
+            raise e
+        
         logger.info(f"총 {len(results)}개 질문")
         
         # 통계 출력
@@ -640,6 +842,13 @@ def main():
     output_file = "C:/Jimin/Pharma-Augment/versions/v7/drug_questions_v7.xlsx"
     
     try:
+        logger.info("="*60)
+        logger.info("V7 질문 생성기 실행 시작")
+        logger.info(f"시작 시간: {datetime.now()}")
+        logger.info(f"로그 파일: {log_file}")
+        logger.info(f"출력 파일: {output_file}")
+        logger.info("="*60)
+        
         # 데이터 로드
         df = generator.load_and_preprocess_data(data_file)
         
@@ -652,12 +861,22 @@ def main():
             questions = generator.generate_questions_for_row(row, target_per_row)
             all_questions.extend(questions)
             
-            # 진행상황 체크
+            # 진행상황 체크 및 중간 저장
+            if (idx + 1) % 50 == 0:  # 50행마다 중간 저장
+                checkpoint_file = output_file.replace('.xlsx', f'_checkpoint_{idx+1}.xlsx')
+                temp_questions = generator.remove_duplicates(all_questions.copy())
+                generator.save_results(temp_questions, df, checkpoint_file)
+                logger.info(f"중간 저장 완료: {checkpoint_file} ({len(temp_questions)}개 질문)")
+                
             if (idx + 1) % 10 == 0:
                 logger.info(f"진행상황: {idx+1}/{len(df)} ({(idx+1)/len(df)*100:.1f}%)")
         
         # 최종 정리 및 저장
         all_questions = generator.remove_duplicates(all_questions)
+        
+        # 전체 데이터셋 무결성 검증
+        generator.validate_final_dataset(all_questions)
+        
         generator.save_results(all_questions, df, output_file)
         
         logger.info("V7 질문 생성 완료!")

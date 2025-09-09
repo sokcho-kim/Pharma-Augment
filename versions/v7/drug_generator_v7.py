@@ -735,8 +735,10 @@ Original:
                             anchor_id=anchor_id,
                             doc_slice_id=slice_id,
                             metadata={
-                                'code': row['code'],
-                                'code_name': row['code_name'],
+                                'code': row.get('code', ''),
+                                'code_name': row.get('code_name', ''),
+                                'title': row.get('title', ''),
+                                'text': row.get('text', ''),
                                 'drug_info': drug_info
                             }
                         )
@@ -778,8 +780,8 @@ Original:
         
         for q in all_questions:
             row_data = {
-                '약제분류번호': q.metadata['code'],
-                '약제 분류명': q.metadata['code_name'], 
+                '약제분류번호': q.metadata.get('code', ''),
+                '약제분류명': q.metadata.get('code_name', ''), 
                 '구분': q.metadata.get('title', ''),
                 '세부인정기준 및 방법': q.metadata.get('text', ''),
                 'question': q.text,
@@ -788,6 +790,26 @@ Original:
             results.append(row_data)
             
         result_df = pd.DataFrame(results)
+        
+        # 🔍 출력 데이터 검증
+        required_columns = ['약제분류번호', '약제분류명', '구분', '세부인정기준 및 방법', 'question', '라벨']
+        missing_columns = [col for col in required_columns if col not in result_df.columns]
+        if missing_columns:
+            raise ValueError(f"❌ 필수 컬럼 누락: {missing_columns}")
+        
+        # 데이터 무결성 체크
+        empty_critical_columns = []
+        for col in ['구분', '세부인정기준 및 방법']:
+            if result_df[col].isnull().all() or (result_df[col] == '').all():
+                empty_critical_columns.append(col)
+        
+        if empty_critical_columns:
+            logger.warning(f"⚠️ 빈 데이터 컬럼: {empty_critical_columns}")
+            # 샘플 확인
+            logger.info("첫 3행 샘플:")
+            logger.info(result_df[['구분', '세부인정기준 및 방법']].head(3).to_string())
+        
+        logger.info(f"✅ 출력 검증 완료 - 총 {len(result_df)}행, {len(result_df.columns)}개 컬럼")
         
         # 임시 파일로 먼저 저장 (안전한 저장)
         temp_file = output_file.replace('.xlsx', '_temp.xlsx')
@@ -830,6 +852,42 @@ Original:
                 f.write(json.dumps(anchor_data, ensure_ascii=False) + '\n')
                 
         logger.info(f"앵커팩 저장 완료: {jsonl_file}")
+
+    def generate_dataset(self, file_path: str, output_file: str, max_rows: int = None):
+        """전체 데이터셋 생성 함수 - 테스트용 max_rows 지원"""
+        try:
+            # 데이터 로드
+            df = self.load_and_preprocess_data(file_path)
+            
+            # 테스트용 행 제한
+            if max_rows:
+                df = df.head(max_rows)
+                logger.info(f"테스트 모드: {max_rows}행으로 제한")
+            
+            # 전체 질문 생성
+            all_questions = []
+            target_per_row = 15  # 행당 목표 질문 수
+            
+            for idx, row in df.iterrows():
+                logger.info(f"처리 중: {idx+1}/{len(df)} - {row.get('code', 'Unknown')}")
+                questions = self.generate_questions_for_row(row, target_per_row)
+                all_questions.extend(questions)
+                
+                # 진행상황 체크 및 중간 저장 (50행마다)
+                if (idx + 1) % 50 == 0 and not max_rows:  # 테스트 모드에서는 중간 저장 안함
+                    checkpoint_file = output_file.replace('.xlsx', f'_checkpoint_{idx+1}.xlsx')
+                    self.save_results(all_questions, df, checkpoint_file)
+                    logger.info(f"중간 저장 완료: {checkpoint_file}")
+            
+            # 최종 결과 저장
+            self.save_results(all_questions, df, output_file)
+            logger.info(f"🎉 최종 완료! 생성된 질문 수: {len(all_questions)}")
+            
+            return all_questions
+            
+        except Exception as e:
+            logger.error(f"❌ 데이터셋 생성 실패: {e}")
+            raise e
 
 def main():
     """메인 실행 함수"""
